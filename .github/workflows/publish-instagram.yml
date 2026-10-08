@@ -1,0 +1,39 @@
+name: Publish ANGSUMI Instagram carousel
+
+on:
+  schedule:
+    # 19:00 IST is 13:30 UTC. Later runs retry a delayed or failed attempt.
+    - cron: "30,40,50 13 * * *"
+    - cron: "0,10,20 14 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Connection check or today's due post"
+        type: choice
+        options:
+          - preflight
+          - publish_due
+        default: preflight
+
+permissions:
+  contents: write
+
+concurrency:
+  group: angsumi-instagram-daily
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check connection or publish due carousel
+        env:
+          COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_MODE: ${{ inputs.mode || 'publish_due' }}
+        run: python scripts/publish_due.py
