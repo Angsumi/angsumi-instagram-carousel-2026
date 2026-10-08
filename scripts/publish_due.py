@@ -16,6 +16,7 @@ REPO = "angsumi-instagram-carousel-2026"
 ACCOUNT = os.environ.get("COMPOSIO_INSTAGRAM_ACCOUNT_ID") or "instagram_feeder-marvel"
 IG_USER = "29453876600881732"
 COMPOSIO_VERSION = "20261006_00"
+COMPOSIO_USER_ID = None
 ZONE = ZoneInfo("Asia/Kolkata")
 FIRST_DAY = dt.date(2026, 10, 9)
 LAST_DAY = dt.date(2026, 11, 7)
@@ -38,14 +39,26 @@ def request_json(url, *, method="GET", headers=None, payload=None, allow_404=Fal
 
 
 def composio(slug, arguments):
+    global COMPOSIO_USER_ID
     key = os.environ.get("COMPOSIO_API_KEY")
     if not key:
         raise RuntimeError("Set COMPOSIO_API_KEY as a GitHub Actions repository secret.")
+    if COMPOSIO_USER_ID is None:
+        account = request_json(
+            f"https://backend.composio.dev/api/v3.1/connected_accounts/{ACCOUNT}",
+            headers={"x-api-key": key},
+        )
+        if account.get("id") != ACCOUNT or account.get("status") != "ACTIVE":
+            raise RuntimeError("The selected Composio Instagram connection is not active.")
+        COMPOSIO_USER_ID = account.get("user_id")
+        if not COMPOSIO_USER_ID:
+            raise RuntimeError("Composio did not return a user ID for the Instagram connection.")
     result = request_json(
         f"https://backend.composio.dev/api/v3.1/tools/execute/{slug}",
         method="POST",
         headers={"Content-Type": "application/json", "x-api-key": key},
-        payload={"connected_account_id": ACCOUNT, "version": COMPOSIO_VERSION,
+        payload={"connected_account_id": ACCOUNT, "user_id": COMPOSIO_USER_ID,
+                 "version": COMPOSIO_VERSION,
                  "arguments": arguments},
     )
     if not result.get("successful"):
