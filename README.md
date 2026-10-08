@@ -14,3 +14,7 @@ The workflow in `.github/workflows/publish-instagram.yml` runs on GitHub Actions
 To activate it, add a repository Actions secret named `COMPOSIO_API_KEY` containing a project API key **from the same Composio project that owns the connected `@angsumi.online` account** (`instagram_feeder-marvel`). If the connection in your own Composio project has a different ID, also add a secret named `COMPOSIO_INSTAGRAM_ACCOUNT_ID` with that ID. Do not put either secret in this public repository or in an issue. Then run the workflow manually with `mode: preflight` to check that the key can reach the account and the image URLs. The scheduled job needs no ChatGPT subscription or open computer.
 
 The queue only publishes between 9 October and 7 November 2026. Outside that range, scheduled runs exit without posting. To stop earlier, disable the workflow in the Actions tab.
+
+## 7:10 pm test post
+
+`test/test-post.json` defines a separate one-image brand post for 8 October 2026 at 19:10 IST. The `Publish 7:10 PM Instagram test post` workflow first runs at 13:40 UTC, with later retry slots. It checks for an existing post and uses `published/2026-10-08.json` to avoid publishing twice. The test image is a JPEG derivative of an existing ANGSUMI brand card and is separate from the 30-carousels queue. The Composio secret above must be set for this test to publish.
