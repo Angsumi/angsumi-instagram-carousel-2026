@@ -1,0 +1,2709 @@
+{
+  "status": "ready_to_schedule",
+  "timezone": "Asia/Kolkata",
+  "proposed_cadence": "one carousel per day",
+  "proposed_time": "19:00",
+  "start_date": "2026-10-09",
+  "provider_requested": "Composio",
+  "posts": [
+    {
+      "carousel": 1,
+      "topic": "Question before code",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Bioinformatics begins with a biological question.\n\nBefore choosing a tool, ask what you measured, what comparison matters, and what your study design can support.\n\nQuestion → Data → Quality checks → Analysis → Interpretation.\n\nCode helps you carry out the workflow. Understanding the biology gives the workflow its direction.\n\nSave this map before starting your next analysis.\n\n#Bioinformatics #ComputationalBiology #ResearchData #LifeScienceResearch #ANGSUMI",
+      "caption_characters": 459,
+      "hashtags": [
+        "#Bioinformatics",
+        "#ComputationalBiology",
+        "#ResearchData",
+        "#LifeScienceResearch",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "bioinformatics biological question; bioinformatics beginner workflow",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Ivory and maroon cover reading “Bioinformatics does not start with coding. It starts with a biological question.” An open botanical research notebook shows a circled question mark.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-01/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 395633
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A research notebook asks “Which genes change between conditions?” The card encourages defining the biological question before choosing a tool.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-01/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 391349
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Three illustrated data categories: gene expression, microbial communities, and DNA variants. Each requires suitable data and analysis choices.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-01/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 396941
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A biological question connects to measurements, study design, and comparison. These considerations guide method choice.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-01/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 384060
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Five stages connected vertically: Question, Data, Quality checks, Analysis, Interpretation. Code supports every step.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-01/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 383672
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "An open notebook recaps the same five stages and invites readers to save the map.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-01/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 399650
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-01-question-before-code/caption.md",
+      "planned_for_local": "2026-10-09T19:00:00+05:30"
+    },
+    {
+      "carousel": 2,
+      "topic": "FASTQ to results",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "FASTQ files mil gaye. Ab next kya?\n\nFor a bulk RNA-seq comparison, first inspect the reads, then use a suitable expression workflow with matching references and annotations. Pair the measurements with sample metadata and define the comparison your design can support.\n\nThe output still needs an explanation: how large is the change, how uncertain is it, and what does it mean biologically?\n\nSave this workflow before starting your next analysis.\n\n#Bioinformatics #RNAseq #Transcriptomics #ResearchData #ANGSUMI",
+      "caption_characters": 510,
+      "hashtags": [
+        "#Bioinformatics",
+        "#RNAseq",
+        "#Transcriptomics",
+        "#ResearchData",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "RNA seq workflow; FASTQ quality control",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Bold maroon cover asks what comes after FASTQ files, with sculptural sequencing file cards.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-02/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 278863
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "An illustrative four-line FASTQ record identifies the read identifier, sequence, separator, and quality scores.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-02/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 291051
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Three checklist tiles show read quality, adapter content, and library issues to review before preprocessing.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-02/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 299828
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Reads branch into alignment with counting or quantification with import, converging on gene-level measurements.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-02/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 275337
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Gene measurements and sample metadata feed into the study design and contrast for a condition comparison.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-02/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 275396
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Three cards highlight effect size, uncertainty, and biological context before explaining a gene list.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-02/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 319951
+        },
+        {
+          "order": 7,
+          "local_path": null,
+          "alt_text": "A saveable recap runs from FASTQ through quality checks, quantification, comparison, and interpretation.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-02/card-07.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 219743
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-02-fastq-workflow/caption.md",
+      "planned_for_local": "2026-10-10T19:00:00+05:30"
+    },
+    {
+      "carousel": 3,
+      "topic": "PCA interpretation",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "These dots are samples. Their positions summarize variation in the values you analyzed.\n\nBefore explaining a PCA, check the input transformation, the variation represented by the axes, and the sample metadata. Try coloring the same plot by condition and batch.\n\nIn this illustrative example, all controls belong to Batch 1 and all treated samples belong to Batch 2. The design cannot cleanly distinguish a condition effect from a batch effect.\n\nAn unusual sample deserves investigation. Check quality and records before deciding whether exclusion is justified.\n\nSave this checklist before your next data presentation.\n\n#Bioinformatics #PCA #RNAseq #ResearchData #ANGSUMI",
+      "caption_characters": 670,
+      "hashtags": [
+        "#Bioinformatics",
+        "#PCA",
+        "#RNAseq",
+        "#ResearchData",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "PCA RNA seq interpretation; PCA batch effects",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Maroon cover warns that a PCA may reveal sample problems, with an isolated amber dot circled on an illustrative chart.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-03/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 252489
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A schematic PCA explains that each dot represents a sample and connects one dot to its sample metadata.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-03/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 252178
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Six illustrative samples separate into control and treated groups. The card cautions that visual separation alone does not establish a treatment effect.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-03/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 214447
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "The same sample positions are colored by batch. Condition and batch coincide in this example, illustrating a confounded design.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-03/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 286328
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "An isolated sample is paired with quality, identity, and technical-history checks. The card discourages exclusion merely to improve a pattern.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-03/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 300904
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A four-point checklist covers input transformation, explained variation, metadata, and unusual samples.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-03/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 334046
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-03-pca-warning/caption.md",
+      "planned_for_local": "2026-10-11T19:00:00+05:30"
+    },
+    {
+      "carousel": 4,
+      "topic": "Volcano plot reading",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "A volcano plot is easier to read when you know the comparison, axes, and coloring rules.\n\nThe horizontal axis shows estimated log2 fold change for the chosen contrast. The vertical axis often shows minus log10 of a p-value or adjusted p-value. Check the label rather than assuming they are interchangeable.\n\nThe example uses adjusted p < 0.05 and |log2FC| > 1 to highlight genes. These are illustrative criteria, not a universal rule for every study.\n\nThen look beyond the colored dots: inspect sample-level expression, uncertainty, and biological context.\n\nSave this checklist before your next results presentation.\n\n#Bioinformatics #VolcanoPlot #RNAseq #GeneExpression #ANGSUMI",
+      "caption_characters": 679,
+      "hashtags": [
+        "#Bioinformatics",
+        "#VolcanoPlot",
+        "#RNAseq",
+        "#GeneExpression",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "volcano plot interpretation; differential expression plot",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Maroon editorial cover cautions that a beautiful volcano plot still needs interpretation, with one highlighted gene linked to a question.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-04/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 390256
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "The horizontal axis explains log2 fold change and direction for an example treated-versus-control comparison.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-04/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 328009
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "The vertical axis explains minus log10 of adjusted p-values and distinguishes this axis from effect size.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-04/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 353505
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Dashed cutoff lines and gene colors illustrate adjusted p < 0.05 and absolute log2 fold change greater than one.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-04/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 350022
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "One highlighted gene connects to sample-level expression, uncertainty, and biological context.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-04/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 397648
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Four checklist cards cover comparison, axes, thresholds, and sample evidence.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-04/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 382793
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-04-volcano-plot/caption.md",
+      "planned_for_local": "2026-10-12T19:00:00+05:30"
+    },
+    {
+      "carousel": 5,
+      "topic": "Heatmap interpretation",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Before interpreting a heatmap, check what its colors represent.\n\nNormalized expression and row z-scores answer different questions. Row scaling shows each gene relative to its own mean across samples; it does not show absolute expression differences between genes.\n\nAlso check the gene selection rule, sample annotations, and clustering settings. A visible cluster is a starting point for interpretation.\n\nSave the final card as your heatmap caption checklist.\n\n#Bioinformatics #Heatmap #RNAseq #DataVisualization #ANGSUMI",
+      "caption_characters": 522,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Heatmap",
+        "#RNAseq",
+        "#DataVisualization",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "heatmap interpretation; gene expression heatmap",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A mosaic heatmap with one magnified cell asks for a legend.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-05/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 320272
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Sequential expression and diverging row z-score color scales explain different meanings.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-05/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 254822
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "A gene list feeds a selected heatmap, with three possible selection rules.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-05/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 312003
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A dendrogram and illustrative heatmap highlight distance and clustering choices.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-05/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 281739
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "An annotated heatmap identifies sample groups, gene labels, and a row z-score key.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-05/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 244813
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Five-item caption checklist covers quantity, transformation, scaling, selection, and clustering.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-05/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 344392
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-05-heatmap/caption.md",
+      "planned_for_local": "2026-10-13T19:00:00+05:30"
+    },
+    {
+      "carousel": 6,
+      "topic": "Beginner roadmap",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Your first bioinformatics project can be small.\n\nUnderstand the assay, learn to reason about variation, and practice tables and plots in one language. Finish a documented analysis before collecting more tools.\n\nTry this route with a suitable public dataset: inspect the metadata, run appropriate quality checks, make one readable plot, and explain one limitation. Save the data source, code, settings, and decisions.\n\nSave this first-project route.\n\n#Bioinformatics #BioinformaticsForBeginners #CodingForResearchers #ComputationalBiology #ANGSUMI",
+      "caption_characters": 546,
+      "hashtags": [
+        "#Bioinformatics",
+        "#BioinformaticsForBeginners",
+        "#CodingForResearchers",
+        "#ComputationalBiology",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "bioinformatics roadmap beginners; wet lab to bioinformatics",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A folded field map traces four learning stations: biology, statistics, tables and plots, and a small project.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-06/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 391650
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Three document cards connect sample, assay, and biological question.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-06/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 339416
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Conceptual diagrams represent design, effect size, and uncertainty.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-06/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 345588
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "R and Python paths converge on a sample table and a readable plot.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-06/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 358300
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "A first-project notebook contains question, workflow, result, and limitations.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-06/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 412133
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Four checklist stops cover metadata, appropriate QC, one plot, and one limitation.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-06/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 415933
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-06-beginner-roadmap/caption.md",
+      "planned_for_local": "2026-10-14T19:00:00+05:30"
+    },
+    {
+      "carousel": 7,
+      "topic": "RNA-seq preparation",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Before your first RNA-seq command, check the inputs.\n\nWrite the comparison. Verify sample IDs, biological replicates, pairing, batch information, reference versions, and file integrity.\n\nPlan quality checks, sample exploration, model diagnostics, and interpretation. Keep a record of your decisions.\n\nSave this preflight checklist before your next analysis.\n\n#Bioinformatics #RNAseq #ExperimentalDesign #ResearchData #ANGSUMI",
+      "caption_characters": 425,
+      "hashtags": [
+        "#Bioinformatics",
+        "#RNAseq",
+        "#ExperimentalDesign",
+        "#ResearchData",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "RNA seq analysis checklist; RNA seq sample metadata",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Three ivory dossier cards labeled Sample sheet, Input files, and Design note sit under Before you press RUN.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-07/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 359630
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "An illustrative form defines treated versus control, control as reference, and a gene-expression question.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-07/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 345870
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Two groups of three independent biological sample symbols accompany reminders about pairing, batch, and covariates. The diagram does not recommend a universal replicate count.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-07/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 373588
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Matching S01, S02, and S03 IDs connect measurement columns with metadata entries.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-07/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 326833
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Four blank checklist items cover input QC, sample exploration, model diagnostics, and interpretation.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-07/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 349248
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A six-item blank preflight checklist covers IDs, replication and pairing, comparison, covariates, reference versions, and integrity.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-07/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 353020
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-07-rnaseq-preflight/caption.md",
+      "planned_for_local": "2026-10-15T19:00:00+05:30"
+    },
+    {
+      "carousel": 8,
+      "topic": "Batch effects",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Your PCA separates by preparation date. Now what?\n\nCompare condition and batch labels on the same plot. If the two are fully confounded, a correction cannot cleanly recover their separate effects.\n\nShare before experiment design.\n\n#Bioinformatics #BatchEffects #PCA #ExperimentalDesign #ANGSUMI",
+      "caption_characters": 294,
+      "hashtags": [
+        "#Bioinformatics",
+        "#BatchEffects",
+        "#PCA",
+        "#ExperimentalDesign",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "batch effect RNA seq; PCA batch correction",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Two three-dot clusters are annotated Day 1 and Day 2; the cover asks readers to check batch before interpreting biology.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-08/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 312978
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "An illustrative sample pattern is linked to recorded preparation dates, condition, and batch labels.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-08/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 403291
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Two matched six-point PCA sketches use identical positions, colored first by condition and then by batch.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-08/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 381680
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A confounded example places all controls in Batch 1 and all treated samples in Batch 2.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-08/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 385871
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Model-selection cards prompt readers to review metadata, QC, covariates, and whether the design supports separating effects.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-08/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 439726
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Five reminders cover sample identity, QC, color keys, confounding, and documenting the response.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-08/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 444083
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-08-batch-effects/caption.md",
+      "planned_for_local": "2026-10-16T19:00:00+05:30"
+    },
+    {
+      "carousel": 9,
+      "topic": "Count matrix basics",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Can every count-matrix column find its sample?\n\nExplain the gene identifiers and measurements, then match every sample column to its metadata. Check identity and order before modelling.\n\nSave the matrix check.\n\n#Bioinformatics #CountMatrix #RNAseq #ResearchData #ANGSUMI",
+      "caption_characters": 270,
+      "hashtags": [
+        "#Bioinformatics",
+        "#CountMatrix",
+        "#RNAseq",
+        "#ResearchData",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "RNA seq count matrix; sample metadata matching",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A gene-by-sample matrix connects to a sample sheet to ask whether every column has a matching sample.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-09/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 370484
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Gene B is highlighted across an illustrative three-row matrix to identify gene rows.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-09/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 262758
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "The S02 column connects to a matching metadata card for sample S02.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-09/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 314956
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A cell containing the illustrative count 42 is enlarged for Gene A and sample S01.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-09/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 329584
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "A count matrix and sample metadata join to define a comparison.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-09/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 327256
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A matrix and three checks summarize identifiers, sample identity, and input scale.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-09/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 371490
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-09-count-matrix/caption.md",
+      "planned_for_local": "2026-10-17T19:00:00+05:30"
+    },
+    {
+      "carousel": 10,
+      "topic": "DESeq2 workflow",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "DESeq2 needs a design as well as counts.\n\nFor the standard matrix route, use appropriate unnormalized counts and matching metadata. Define the design and contrast, then read estimates with uncertainty.\n\nSave the model input map.\n\n#Bioinformatics #DESeq2 #DifferentialExpression #RNAseq #ANGSUMI",
+      "caption_characters": 294,
+      "hashtags": [
+        "#Bioinformatics",
+        "#DESeq2",
+        "#DifferentialExpression",
+        "#RNAseq",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "DESeq2 beginners; DESeq2 design formula",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Count and metadata blocks point to a design frame, emphasizing that counts are only one input to DESeq2.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-10/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 271462
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Unnormalized count and metadata panels illustrate the standard matrix input; a note excludes TPM substitution.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-10/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 312666
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "A design example, batch plus condition, sits beside the treated-versus-control contrast.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-10/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 321746
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Three model stages show size-factor estimation, dispersion estimation, and model fitting.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-10/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 321048
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Four result fields explain effect estimate, standard error, p-value, and adjusted p-value.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-10/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 322273
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A portfolio holds sample QC, dispersion, gene-level pattern, and biological question cards.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-10/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 344786
+        },
+        {
+          "order": 7,
+          "local_path": null,
+          "alt_text": "Five checks cover expected inputs, design, contrast, diagnostics, and interpretation with uncertainty.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-10/card-07.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 323187
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-10-deseq2-design/caption.md",
+      "planned_for_local": "2026-10-18T19:00:00+05:30"
+    },
+    {
+      "carousel": 11,
+      "topic": "Log2 fold change",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Log2FC = 2. What does that mean?\n\nFor a defined numerator and reference, +2 corresponds to an estimated 4× ratio; −2 corresponds to one quarter. Read the contrast and uncertainty together.\n\nSave the fold-change decoder.\n\n#Bioinformatics #Log2FoldChange #GeneExpression #RNAseq #ANGSUMI",
+      "caption_characters": 285,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Log2FoldChange",
+        "#GeneExpression",
+        "#RNAseq",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "log2 fold change explained; RNA seq fold change",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Large numerals decode log2 fold change 2 as a fourfold numerator-to-reference ratio.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-11/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 286960
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A treated-over-control fraction shows that the order defines the sign.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-11/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 294622
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Two panels map ratios of 2 and 4 to log2 fold changes of plus 1 and plus 2.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-11/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 285084
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A table maps one half to minus 1, one quarter to minus 2, and a ratio of 1 to zero.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-11/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 293876
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "A conceptual point and interval emphasize estimate uncertainty and reviewing sample-level patterns.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-11/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 278809
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A five-row ratio decoder maps one quarter, one half, 1, 2, and 4 to log2 fold changes minus 2 through plus 2.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-11/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 300423
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-11-log2-fold-change/caption.md",
+      "planned_for_local": "2026-10-19T19:00:00+05:30"
+    },
+    {
+      "carousel": 12,
+      "topic": "Significance and relevance",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "A small p-value cannot explain the whole result.\n\nRead effect size, uncertainty, and biological context together. Statistical significance alone does not establish biological importance.\n\nSend to a gene-list colleague.\n\n#Bioinformatics #Biostatistics #EffectSize #ResearchMethods #ANGSUMI",
+      "caption_characters": 288,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Biostatistics",
+        "#EffectSize",
+        "#ResearchMethods",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "statistical significance biological relevance; effect size research",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A magnifying glass over a blank result page sits beside magnitude, precision, and biology tags.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-12/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 378289
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Different sized conceptual effect markers prompt reporting effect magnitude.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-12/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 311034
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Two illustrative intervals compare wider and narrower uncertainty around estimates.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-12/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 347065
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Three lenses labeled organism, assay, and question connect to biological relevance.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-12/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 394074
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Four context checks cover effect size, uncertainty, adjusted p-value, and biology, followed by a follow-up reminder.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-12/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 371448
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-12-significance-relevance/caption.md",
+      "planned_for_local": "2026-10-20T19:00:00+05:30"
+    },
+    {
+      "carousel": 13,
+      "topic": "PCA preparation",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Before interpreting PCA, check its inputs.\n\nReview transformation, feature selection, centering or scaling, and sample metadata. Name the displayed components and their explained variance.\n\nSave the PCA preflight.\n\n#Bioinformatics #PCA #Transcriptomics #DataAnalysis #ANGSUMI",
+      "caption_characters": 275,
+      "hashtags": [
+        "#Bioinformatics",
+        "#PCA",
+        "#Transcriptomics",
+        "#DataAnalysis",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "PCA preprocessing RNA seq; PCA explained variance",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Three gallery tickets introduce input values, PCA axes, and sample metadata.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-13/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 325932
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A count matrix leads through a suitable transformation to PCA, with a reminder to record selection and scaling.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-13/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 323137
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "An illustrative PCA labels PC1 as 40 percent and PC2 as 20 percent, totaling 60 percent of variation.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-13/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 295399
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Four schematic panels show condition, batch, pairing, and QC as investigation contexts.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-13/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 320128
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "A gallery ticket identifies PCA as exploration and warns against standalone differential-expression or causal claims.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-13/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 360828
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A three-item preflight checklist covers transformation and selection, axis variance and labels, and sample context.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-13/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 368019
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-13-pca-preflight/caption.md",
+      "planned_for_local": "2026-10-21T19:00:00+05:30"
+    },
+    {
+      "carousel": 14,
+      "topic": "RNA-seq summary",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "RNA-seq in one clear route.\n\nConnect the question and metadata to read QC, measurement, sample QC, modelling, and interpretation. Exact methods depend on the assay and design.\n\nSave the provenance route.\n\n#Bioinformatics #RNAseq #Transcriptomics #ComputationalBiology #ANGSUMI",
+      "caption_characters": 276,
+      "hashtags": [
+        "#Bioinformatics",
+        "#RNAseq",
+        "#Transcriptomics",
+        "#ComputationalBiology",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "bulk RNA seq explained; RNA seq analysis pipeline",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "FASTQ and result sleeves connect through intermediate analysis choices to ask how reads became a gene list.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-14/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 423595
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Three sleeves document question, independent biological samples, and design.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-14/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 486565
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "A read-QC folder connects to library and workflow information, with a reminder to record decisions.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-14/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 496269
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Two alternative routes, alignment plus counting and transcript quantification plus import, lead to gene-level measurements.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-14/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 451800
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Metadata, model, and interpretation cards connect while keeping the biological question visible.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-14/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 406184
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Six provenance steps record data origins, reference and annotation, measurement route, QC, contrast, and methods and thresholds.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-14/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 483790
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-14-rnaseq-provenance/caption.md",
+      "planned_for_local": "2026-10-22T19:00:00+05:30"
+    },
+    {
+      "carousel": 15,
+      "topic": "16S versus shotgun",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "16S or shotgun? Start with the research question.\n\nCompare what each assay measures and the constraints of your study. Broader sequencing still needs suitable controls, metadata, and interpretation.\n\nSave the method-choice map.\n\n#Bioinformatics #Microbiome #16S #ShotgunMetagenomics #ANGSUMI",
+      "caption_characters": 291,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Microbiome",
+        "#16S",
+        "#ShotgunMetagenomics",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "16S vs shotgun metagenomics; microbiome sequencing",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A bookmarked marker region is contrasted with broader DNA fragments for 16S versus shotgun assay choice.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-15/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 383945
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Composition and functional-potential cards branch from the research question.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-15/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 338409
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "A highlighted 16S marker region illustrates bacterial and archaeal profiling with a resolution caveat.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-15/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 358477
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "DNA fragments support taxonomy and functional-potential diagrams; a note distinguishes potential from activity.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-15/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 463608
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Five constraints cover depth, cost, host DNA, reference coverage, and analysis capacity.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-15/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 442752
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Two assay summaries compare targeted marker sequencing with broader DNA sampling and prompt question-led selection.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-15/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 386326
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-15-16s-vs-shotgun/caption.md",
+      "planned_for_local": "2026-10-23T19:00:00+05:30"
+    },
+    {
+      "carousel": 16,
+      "topic": "Relative abundance",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "A higher percentage does not always mean more cells.\n\nIllustration: A stays at 10 units while B falls from 90 to 40. A's share rises from 10% to 20% even though its amount stays constant.\n\nShare the 10-to-20% example.\n\n#Bioinformatics #Microbiome #RelativeAbundance #CompositionalData #ANGSUMI",
+      "caption_characters": 293,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Microbiome",
+        "#RelativeAbundance",
+        "#CompositionalData",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "microbiome relative abundance; compositional data microbiome",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Two paper pie segments and large percentages ask whether a change from 10 to 20 percent proves growth.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-16/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 391741
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A part-over-total fraction and an illustrative pie show relative abundance as a share.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-16/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 338210
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Before-and-after quantities keep A at 10 units while B falls from 90 to 40 and the total falls from 100 to 50.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-16/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 323058
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Fractions 10 over 100 and 10 over 50 yield 10 percent and 20 percent despite unchanged A.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-16/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 362638
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Relative fractions are contrasted with absolute amounts per defined sample unit.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-16/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 348984
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A before-and-after table summarizes unchanged A, decreased B, changed totals, and the doubled relative share.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-16/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 366719
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-16-relative-abundance/caption.md",
+      "planned_for_local": "2026-10-24T19:00:00+05:30"
+    },
+    {
+      "carousel": 17,
+      "topic": "QIIME 2 overview",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "What does each QIIME 2 step produce?\n\nFollow the inputs and outputs through an appropriate amplicon workflow. Track preprocessing, feature tables, taxonomy, and provenance.\n\nSave the artifact checklist.\n\n#Bioinformatics #QIIME2 #Microbiome #AmpliconSequencing #ANGSUMI",
+      "caption_characters": 268,
+      "hashtags": [
+        "#Bioinformatics",
+        "#QIIME2",
+        "#Microbiome",
+        "#AmpliconSequencing",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "QIIME 2 workflow beginners; amplicon analysis",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Three archive boxes labeled data, parameters, and provenance introduce the QIIME 2 processing trail.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-17/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 401682
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Marker-gene data connect to an appropriate amplicon workflow.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-17/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 391056
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Sequence data pass through quality filtering and denoising to feature sequences and a feature table.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-17/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 432376
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A feature table connects to taxonomy and diversity with sample metadata as context.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-17/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 396244
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "An artifact marked .qza carries inputs, actions, parameters, and versions as its provenance.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-17/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 398445
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Five archive boxes organize sample metadata, artifact files, parameters, installed software versions, and provenance.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-17/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 441946
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-17-qiime2-provenance/caption.md",
+      "planned_for_local": "2026-10-25T19:00:00+05:30"
+    },
+    {
+      "carousel": 18,
+      "topic": "Alpha versus beta diversity",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Alpha and beta diversity ask different questions.\n\nOne describes diversity within samples; the other compares community differences between samples. Name the metric and what it captures.\n\nSave the diversity decoder.\n\n#Bioinformatics #Microbiome #AlphaDiversity #BetaDiversity #ANGSUMI",
+      "caption_characters": 284,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Microbiome",
+        "#AlphaDiversity",
+        "#BetaDiversity",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "alpha beta diversity explained; microbiome diversity metrics",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Two community windows distinguish alpha diversity within a sample from beta diversity between samples.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-18/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 319868
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "One sample of colored taxa illustrates richness, evenness, and metric choice.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-18/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 268612
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Two communities have four taxa each, with balanced versus dominant abundances.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-18/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 313819
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Three colored sample discs illustrate comparing communities using a chosen distance metric.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-18/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 280246
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Alpha means within-sample diversity; beta means between-sample differences.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-18/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 323914
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Diversity checklist: metric, within or between, processing choices, and sampling context.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-18/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 355030
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-18-alpha-beta-diversity/caption.md",
+      "planned_for_local": "2026-10-26T19:00:00+05:30"
+    },
+    {
+      "carousel": 19,
+      "topic": "Rarefaction interpretation",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "A rarefaction plateau needs context.\n\nInspect depth sensitivity for the selected metric and dataset. Check retained samples and the chosen depth before interpreting the curve.\n\nSave the depth check.\n\n#Bioinformatics #Rarefaction #Microbiome #Sequencing #ANGSUMI",
+      "caption_characters": 261,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Rarefaction",
+        "#Microbiome",
+        "#Sequencing",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "rarefaction curve interpretation; sequencing depth microbiome",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "An illustrative rarefaction curve rises and flattens; a plateau is not a universal quality stamp.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-19/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 220664
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Axes identify sampling depth horizontally and the chosen diversity metric vertically.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-19/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 188760
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Points along a rising curve illustrate subsampling reads at increasing depths.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-19/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 178848
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A bracket marks a plateau, which suggests stability without proving every taxon was found.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-19/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 233562
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Three sample-depth bars show one sample falling below an illustrative threshold.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-19/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 221240
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Rarefaction checklist: metric, curve, retained samples, and analysis goal.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-19/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 272441
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-19-rarefaction-curves/caption.md",
+      "planned_for_local": "2026-10-27T19:00:00+05:30"
+    },
+    {
+      "carousel": 20,
+      "topic": "PCoA interpretation",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "PCoA dots apart. What can you conclude?\n\nName the distance metric, inspect metadata and dispersion, and use a group comparison suited to the design. Visible separation alone is not a mechanism.\n\nShare before a PCoA slide.\n\n#Bioinformatics #PCoA #BetaDiversity #Microbiome #ANGSUMI",
+      "caption_characters": 280,
+      "hashtags": [
+        "#Bioinformatics",
+        "#PCoA",
+        "#BetaDiversity",
+        "#Microbiome",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "PCoA interpretation; microbiome beta diversity plot",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A conceptual ordination asks what visible separation can establish.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-20/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 226752
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A symmetric distance matrix connects to a conceptual representation of sample relationships.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-20/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 229534
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Three labeled sample points show nearby and more distant positions in displayed coordinates.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-20/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 227266
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A visible pattern leads to investigation, with study design and statistics required.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-20/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 250312
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Context labels highlight study design, covariates, and within-group dispersion.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-20/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 228160
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "PCoA checklist: distance metric, represented variation, metadata, statistics, and dispersion.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-20/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 246648
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-20-pcoa-reading/caption.md",
+      "planned_for_local": "2026-10-28T19:00:00+05:30"
+    },
+    {
+      "carousel": 21,
+      "topic": "Microbiome workflow",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Microbiome plots begin with the sample records.\n\nKeep sampling units, controls, and metadata connected to sequence QC, measurements, analysis, and the final claim.\n\nSave the microbiome route.\n\n#Bioinformatics #Microbiome #ResearchDesign #ResearchLife #ANGSUMI",
+      "caption_characters": 259,
+      "hashtags": [
+        "#Bioinformatics",
+        "#Microbiome",
+        "#ResearchDesign",
+        "#ResearchLife",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "microbiome workflow; microbiome sample metadata",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A sample metadata sheet anchors a microbiome workflow.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-21/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 245829
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Design checklist names the question, sampling units, metadata, and controls.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-21/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 289315
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Amplicon and shotgun assay choices lead to assay-appropriate quality control.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-21/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 246986
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Amplicon output cards identify feature sequences, feature table, and taxonomy.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-21/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 287222
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "The study question connects to analysis, uncertainty, and limitations.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-21/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 251052
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Six steps connect the question and metadata to quality control, measurements, analysis, and interpretation.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-21/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 297357
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-21-microbiome-workflow/caption.md",
+      "planned_for_local": "2026-10-29T19:00:00+05:30"
+    },
+    {
+      "carousel": 22,
+      "topic": "Scientific figure design",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Can someone read your figure in ten seconds?\n\nMake the comparison, measurement, units, groups, and uncertainty clear at the final viewing size. Preserve the underlying evidence while improving the layout.\n\nUse the 10-second figure check.\n\n#Bioinformatics #ScientificFigures #DataVisualization #ScienceCommunication #ANGSUMI",
+      "caption_characters": 323,
+      "hashtags": [
+        "#Bioinformatics",
+        "#ScientificFigures",
+        "#DataVisualization",
+        "#ScienceCommunication",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "scientific figure design; research data visualization",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A ten-second figure check asks whether the comparison, measurement, and evidence are understandable.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-22/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 241382
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "An illustrative title names Gene A expression in treated versus control samples.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-22/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 210264
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Figure labels should show units, sample groups, and scale or transformation.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-22/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 238146
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Clear color keys, useful annotations, and visible evidence reduce competition.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-22/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 226249
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Matching conceptual data panels emphasize retaining values and samples during redesign.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-22/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 220415
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Figure checklist includes comparison, units, sample counts, uncertainty, and final-size readability.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-22/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 253210
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-22-scientific-figure-design/caption.md",
+      "planned_for_local": "2026-10-30T19:00:00+05:30"
+    },
+    {
+      "carousel": 23,
+      "topic": "Misleading plots",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Spot the plot problem before sharing it.\n\nInspect axes, sample information, legends, and uncertainty. A polished chart still needs a claim that matches its evidence.\n\nSend the checklist to your lab.\n\n#Bioinformatics #DataVisualization #ScientificFigures #ResearchIntegrity #ANGSUMI",
+      "caption_characters": 281,
+      "hashtags": [
+        "#Bioinformatics",
+        "#DataVisualization",
+        "#ScientificFigures",
+        "#ResearchIntegrity",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "misleading scientific graphs; plot design mistakes",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A plot audit highlights axes, samples, and legends.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-23/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 245576
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Illustrative bars with values 50 and 55 appear on full and truncated axes to show visual exaggeration.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-23/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 211645
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Four observations and their mean illustrate information lost in a summary alone.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-23/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 215458
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Sequential and diverging color keys show their distinct meanings.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-23/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 214143
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "An audit asks whether scale, samples, legend, and uncertainty support the claim.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-23/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 257620
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Plot checklist covers axes, sample counts, colors, uncertainty, and matching claims.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-23/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 231863
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-23-misleading-plots/caption.md",
+      "planned_for_local": "2026-10-31T19:00:00+05:30"
+    },
+    {
+      "carousel": 24,
+      "topic": "P-value interpretation",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "p = 0.03. What can you actually say?\n\nUnder the specified null model, the p-value describes how unusual the observed result or something more extreme is. It is not the probability that the null is true.\n\nSave the p-value wording.\n\n#Bioinformatics #PValues #Biostatistics #ResearchMethods #ANGSUMI",
+      "caption_characters": 296,
+      "hashtags": [
+        "#Bioinformatics",
+        "#PValues",
+        "#Biostatistics",
+        "#ResearchMethods",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "p value interpretation; p value misconceptions",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A large illustrative p-value of 0.03 sits beside effect, uncertainty, design, assumptions, and testing context.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-24/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 236947
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Cards link the specified null model, observed statistic, and results at least as extreme.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-24/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 274560
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "The incorrect claim that the null has a three percent chance of being true is crossed out.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-24/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 252610
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Separate p-value and effect-estimate cards emphasize different information.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-24/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 289872
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Five context labels identify effect size, uncertainty, design, assumptions, and multiple testing.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-24/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 269996
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Interpretation checklist asks for model assumptions, effect uncertainty, testing context, and careful probability wording.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-24/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 321289
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-24-pvalue-interpretation/caption.md",
+      "planned_for_local": "2026-11-01T19:00:00+05:30"
+    },
+    {
+      "carousel": 25,
+      "topic": "Multiple testing",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Testing 20,000 genes changes the context.\n\nMany tests create opportunities for false positives. Report the multiple-testing procedure and adjusted results; FDR control does not assign a truth probability to each gene.\n\nSave the testing reminder.\n\n#Bioinformatics #MultipleTesting #FalseDiscoveryRate #RNAseq #ANGSUMI",
+      "caption_characters": 316,
+      "hashtags": [
+        "#Bioinformatics",
+        "#MultipleTesting",
+        "#FalseDiscoveryRate",
+        "#RNAseq",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "multiple testing genes; false discovery rate explained",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "A field of test tiles surrounds the number 20,000, illustrating multiple-testing context.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-25/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 324391
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Many hypothesis tiles belong to one analysis.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-25/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 256443
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "A thought experiment calculates 20,000 times 0.05 equals 1,000 expected false rejections.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-25/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 314104
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A conceptual discovery set illustrates false discovery rate under procedure assumptions.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-25/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 304964
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Adjustment criteria and biological follow-up remain separate considerations.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-25/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 287832
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Testing checklist names the family, correction method, adjusted values, and biological context.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-25/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 284732
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-25-multiple-testing/caption.md",
+      "planned_for_local": "2026-11-02T19:00:00+05:30"
+    },
+    {
+      "carousel": 26,
+      "topic": "Causal claims",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Make the sentence as careful as the analysis.\n\nName the comparison, estimate, and uncertainty. Let the study design and supporting evidence determine whether causal language is justified.\n\nShare before writing Discussion.\n\n#Bioinformatics #ScientificWriting #ResearchMethods #CausalInference #ANGSUMI",
+      "caption_characters": 300,
+      "hashtags": [
+        "#Bioinformatics",
+        "#ScientificWriting",
+        "#ResearchMethods",
+        "#CausalInference",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "correlation causation research; scientific writing claims",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "The word causes is struck out and replaced by differs in this comparison.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-26/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 299605
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "An estimated expression difference is distinguished from evidence needed for causation.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-26/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 290732
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Confounding, indirect response, and downstream effects connect to observed association.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-26/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 279238
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "An illustrative manuscript sentence reports an expression difference and asks for comparison and uncertainty.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-26/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 270168
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Claim checklist asks what was measured, the comparison, alternatives, and evidence needed for a mechanism.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-26/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 326641
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-26-causal-claims/caption.md",
+      "planned_for_local": "2026-11-03T19:00:00+05:30"
+    },
+    {
+      "carousel": 27,
+      "topic": "Reproducible analysis",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Could a lab mate rerun your figure?\n\nKeep input origins, metadata, reference versions, code, parameters, and the environment record. Add a README that links the question to the outputs.\n\nSave the handoff checklist.\n\n#Bioinformatics #ReproducibleResearch #ResearchData #ComputationalBiology #ANGSUMI",
+      "caption_characters": 298,
+      "hashtags": [
+        "#Bioinformatics",
+        "#ReproducibleResearch",
+        "#ResearchData",
+        "#ComputationalBiology",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "reproducible bioinformatics; research project README",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Inputs, code, environment, and README connect to a figure handoff.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-27/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 301874
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Input records identify data origins, sample metadata, and references.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-27/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 323523
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Code and parameter files connect to outputs.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-27/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 269881
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Software, plugins, and dependencies form an environment record.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-27/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 245747
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "A README links the question, inputs, run steps, and outputs with limitations.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-27/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 262693
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Handoff checklist covers raw inputs, code, references, environment, README, and rerun check.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-27/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 300095
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-27-reproducible-analysis/caption.md",
+      "planned_for_local": "2026-11-04T19:00:00+05:30"
+    },
+    {
+      "carousel": 28,
+      "topic": "Beginner mistakes",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Five beginner habits that prevent avoidable confusion.\n\nWrite the question, verify metadata, inspect QC, read plots in context, and save the analysis record. Work through one issue at a time.\n\nSave the five checks.\n\n#Bioinformatics #BioinformaticsForBeginners #ResearchWorkflow #ResearchData #ANGSUMI",
+      "caption_characters": 300,
+      "hashtags": [
+        "#Bioinformatics",
+        "#BioinformaticsForBeginners",
+        "#ResearchWorkflow",
+        "#ResearchData",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "bioinformatics beginner mistakes; RNA seq analysis mistakes",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Five paper tabs identify question, metadata, quality control, interpretation, and the analysis record.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-28/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 447829
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A biological question guides the choice of data, method, and output.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-28/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 373445
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "A blank metadata folio lists sample IDs, groups, batches, and pairing.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-28/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 416472
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A workflow puts quality control between inputs and analysis.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-28/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 406198
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Four labels emphasize scales, assumptions, effect size, and samples when interpreting plots.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-28/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 369769
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A project folder preserves code, versions, references, and parameters.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-28/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 343658
+        },
+        {
+          "order": 7,
+          "local_path": null,
+          "alt_text": "Five checks summarize question-first analysis, matched metadata, QC, interpretation, and records.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-28/card-07.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 392945
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-28-beginner-mistakes/caption.md",
+      "planned_for_local": "2026-11-05T19:00:00+05:30"
+    },
+    {
+      "carousel": 29,
+      "topic": "One dataset, several questions",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "One dataset. Several useful questions.\n\nA matrix, PCA, sample-level gene plot, and model result each offer a different view. Choose the view for the question and state its limits.\n\nSave the plot-to-question map.\n\n#Bioinformatics #GeneExpression #DataVisualization #RNAseq #ANGSUMI",
+      "caption_characters": 280,
+      "hashtags": [
+        "#Bioinformatics",
+        "#GeneExpression",
+        "#DataVisualization",
+        "#RNAseq",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "RNA seq plots explained; PCA volcano heatmap",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "One dataset folder branches into matrix, PCA, gene plot, and model views.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-29/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 428937
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "A conceptual matrix keeps sample labels A1 through B3 and gene identifiers visible.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-29/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 411177
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "A conceptual PCA view represents six labeled samples in two displayed components; it is not a computed result.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-29/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 320931
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "A conceptual gene plot shows the same six sample labels across two groups; it is not a computed result.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-29/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 329712
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "Model cards name design, contrast, effect estimate, and uncertainty.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-29/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 364706
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "A question map connects matrix, PCA, gene plot, and model to their distinct purposes.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-29/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 302737
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-29-one-dataset-many-questions/caption.md",
+      "planned_for_local": "2026-11-06T19:00:00+05:30"
+    },
+    {
+      "carousel": 30,
+      "topic": "Question-first framework",
+      "status": "ready_to_schedule",
+      "scheduled_at": null,
+      "platforms": [
+        "instagram"
+      ],
+      "instagram_caption": "Before any plot, ask four questions.\n\nWhat was measured? Which samples are compared? What could bias the result? What conclusion does the evidence support? Keep these beside your next figure.\n\nComment with your next data question.\n\n#Bioinformatics #ResearchMethods #ScienceCommunication #ResearchLife #ANGSUMI",
+      "caption_characters": 309,
+      "hashtags": [
+        "#Bioinformatics",
+        "#ResearchMethods",
+        "#ScienceCommunication",
+        "#ResearchLife",
+        "#ANGSUMI"
+      ],
+      "search_phrases": "bioinformatics analysis questions; scientific data interpretation",
+      "cards": [
+        {
+          "order": 1,
+          "local_path": null,
+          "alt_text": "Four folded-paper questions ask what was measured, compared, potentially biased, and concluded.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-30/card-01.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 344775
+        },
+        {
+          "order": 2,
+          "local_path": null,
+          "alt_text": "Measurement cards identify organism, assay, sample units, and data type.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-30/card-02.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 449242
+        },
+        {
+          "order": 3,
+          "local_path": null,
+          "alt_text": "Two group cards ask whether the design supports the biological comparison.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-30/card-03.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 326074
+        },
+        {
+          "order": 4,
+          "local_path": null,
+          "alt_text": "Five checkpoints name quality, batches, metadata, uncertainty, and assumptions.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-30/card-04.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 424079
+        },
+        {
+          "order": 5,
+          "local_path": null,
+          "alt_text": "A supported conclusion leads to the evidence needed next.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-30/card-05.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 363684
+        },
+        {
+          "order": 6,
+          "local_path": null,
+          "alt_text": "Four final questions recap the series and invite the viewer's next data question.",
+          "width": 1080,
+          "height": 1350,
+          "hosted_media_url": "https://raw.githubusercontent.com/Angsumi/angsumi-instagram-carousel-2026/main/cards/carousel-30/card-06.jpg",
+          "original_local_path": null,
+          "format": "JPEG",
+          "file_bytes": 392032
+        }
+      ],
+      "source_caption_file": "/home/angsuman/Desktop/Insta_Angsumi/outputs/carousel-30-question-first-framework/caption.md",
+      "planned_for_local": "2026-11-07T19:00:00+05:30"
+    }
+  ],
+  "validation_notes": [
+    "30 carousels and 181 local PNG cards are present.",
+    "Captions are below Instagram’s 2,200-character limit.",
+    "Card dimensions vary; platform crop and carousel consistency require publisher-side validation.",
+    "No posts have been uploaded or scheduled."
+  ],
+  "media_note": "Native PNG dimensions vary. Validate destination format and crop before upload. No files uploaded and no posts scheduled.",
+  "platforms_requested": [
+    "instagram",
+    "linked_facebook_page"
+  ],
+  "account_selection": "Verify Instagram account and linked Facebook Page before submission",
+  "platforms": [
+    "instagram"
+  ],
+  "image_preparation": "Each original was proportionally resized and centered on an ivory 1080x1350 canvas, then saved as JPEG; no content cropped.",
+  "repository": "https://github.com/Angsumi/angsumi-instagram-carousel-2026",
+  "storage_note": "Public JPEG assets in this repository. Raw GitHub URLs are used for Instagram media ingestion."
+}
