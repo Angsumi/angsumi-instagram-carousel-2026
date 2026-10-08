@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 
 OWNER = "Angsumi"
 REPO = "angsumi-instagram-carousel-2026"
-ACCOUNT = "instagram_feeder-marvel"
+ACCOUNT = os.environ.get("COMPOSIO_INSTAGRAM_ACCOUNT_ID") or "instagram_feeder-marvel"
 IG_USER = "29453876600881732"
 COMPOSIO_VERSION = "20261006_00"
 ZONE = ZoneInfo("Asia/Kolkata")
