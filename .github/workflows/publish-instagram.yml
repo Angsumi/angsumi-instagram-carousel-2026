@@ -35,6 +35,12 @@ jobs:
         env:
           COMPOSIO_API_KEY: ${{ secrets.COMPOSIO_API_KEY }}
           COMPOSIO_INSTAGRAM_ACCOUNT_ID: ${{ secrets.COMPOSIO_INSTAGRAM_ACCOUNT_ID }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RUN_MODE: ${{ inputs.mode || 'publish_due' }}
-        run: python scripts/publish_due.py
+        run: |
+          if [ -n "$INSTAGRAM_ACCESS_TOKEN" ]; then
+            python scripts/publish_graph.py
+          else
+            python scripts/publish_due.py
+          fi
