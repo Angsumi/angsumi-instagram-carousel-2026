@@ -39,7 +39,7 @@ def request_json(url, *, method="GET", headers=None, payload=None, allow_404=Fal
 
 
 def composio(slug, arguments):
-    global COMPOSIO_USER_ID
+    global ACCOUNT, COMPOSIO_USER_ID
     key = os.environ.get("COMPOSIO_API_KEY")
     if not key:
         raise RuntimeError("Set COMPOSIO_API_KEY as a GitHub Actions repository secret.")
@@ -47,7 +47,24 @@ def composio(slug, arguments):
         account = request_json(
             f"https://backend.composio.dev/api/v3.1/connected_accounts/{ACCOUNT}",
             headers={"x-api-key": key},
+            allow_404=True,
         )
+        if account is None:
+            connections = request_json(
+                "https://backend.composio.dev/api/v3.1/connected_accounts?limit=100",
+                headers={"x-api-key": key},
+            )
+            candidates = [item for item in connections.get("items", [])
+                          if item.get("toolkit", {}).get("slug") == "instagram"
+                          and item.get("status") == "ACTIVE"]
+            if len(candidates) != 1:
+                raise RuntimeError(
+                    f"Composio API key cannot access {ACCOUNT}; found "
+                    f"{len(candidates)} active Instagram accounts in its project."
+                )
+            account = candidates[0]
+            print(f"Using Instagram connection {account['id']} from API key project.")
+            ACCOUNT = account["id"]
         if account.get("id") != ACCOUNT or account.get("status") != "ACTIVE":
             raise RuntimeError("The selected Composio Instagram connection is not active.")
         COMPOSIO_USER_ID = account.get("user_id")
