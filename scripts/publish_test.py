@@ -11,7 +11,7 @@ from publish_due import (
 )
 
 TEST_DAY = dt.date(2026, 10, 8)
-TEST_TIME = dt.time(19, 10)
+TEST_TIME = dt.time(19, 15)
 
 
 def main():
@@ -40,7 +40,7 @@ def main():
         "max_wait_seconds": 120,
     })
     media_id = find_id(published)
-    write_marker(TEST_DAY, marker, media_id, "7:10 PM test run")
+    write_marker(TEST_DAY, marker, media_id, "7:15 PM test run")
     print(f"Published test post as Instagram media {media_id}.")
 
 
