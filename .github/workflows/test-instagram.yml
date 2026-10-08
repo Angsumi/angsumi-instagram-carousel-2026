@@ -1,9 +1,9 @@
-name: Publish 7:10 PM Instagram test post
+name: Publish 7:15 PM Instagram test post
 
 on:
   schedule:
-    # 19:10 IST on 8 October 2026 is 13:40 UTC. Later slots are retries.
-    - cron: "40,50 13 * * *"
+    # 19:15 IST on 8 October 2026 is 13:45 UTC. Later slots are retries.
+    - cron: "45,50 13 * * *"
     - cron: "10 14 * * *"
   workflow_dispatch:
 
