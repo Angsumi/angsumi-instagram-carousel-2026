@@ -1,0 +1,2 @@
+outputs/nov-dec-next-ten-square/ANGSUMI_Days_04_to_13_Square_Carousels.zip filter=lfs diff=lfs merge=lfs -text
+outputs/nov-dec-connected-days-14-23/ANGSUMI_Connected_Days_14_to_23_Square_Carousels.zip filter=lfs diff=lfs merge=lfs -text
