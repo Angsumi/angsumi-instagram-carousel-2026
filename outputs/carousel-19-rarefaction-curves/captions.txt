@@ -1,0 +1,7 @@
+A rarefaction plateau needs context.
+
+Inspect depth sensitivity for the selected metric and dataset. Check retained samples and the chosen depth before interpreting the curve.
+
+Save the depth check.
+
+#Bioinformatics #Rarefaction #Microbiome #Sequencing #ANGSUMI

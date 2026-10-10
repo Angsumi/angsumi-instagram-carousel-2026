@@ -1,0 +1,322 @@
+[
+  {
+    "id": "MB01",
+    "title": "Which bioinformatics team does your question need?",
+    "hero": "Nick Fury recruits the analysis team",
+    "goal": "Match a research question to a subdomain and its data.",
+    "description": "A recruitment board turns unfamiliar subdomain names into six question-driven roles. Character props help recall; the data type decides the method.",
+    "takeaway": "Question → data type → subdomain → method",
+    "hook": "Bioinformatics has more than one job. Which team does YOUR question need?",
+    "cta": "Save this map before choosing your next tool.",
+    "search": "bioinformatics subdomains for beginners; genomics vs transcriptomics; proteomics metabolomics metagenomics",
+    "tags": "#Bioinformatics #ComputationalBiology #LifeScienceStudents #ResearchSkills #ANGSUMI",
+    "caption": "Bioinformatics has more than one job. Start with the biological question, then identify the data you need. Genomics, transcriptomics, proteomics, metabolomics, metagenomics and structural bioinformatics answer different kinds of questions, and often work together. The Avengers recruitment board is a memory aid; these are overlapping fields, not six sealed boxes. Save this map before choosing your next tool.",
+    "cards": [
+      [
+        "Your question needs a team.",
+        "Bioinformatics has many specialities. Start with the biological question, then recruit the method.",
+        "Nick Fury at an ivory recruitment board with six empty dossier slots; one oversized question card in the foreground.",
+        "Hook; do not imply an exhaustive taxonomy.",
+        "ebi"
+      ],
+      [
+        "Genomics: what is in the DNA?",
+        "Study genome sequence, genes and variation. Example question: which DNA variants differ between samples?",
+        "Captain America holds a shield beside a long DNA blueprint; highlight a single abstract changed segment without assigning a real variant.",
+        "Variants alone do not establish phenotype or causation.",
+        "ebi"
+      ],
+      [
+        "Transcriptomics: which RNAs change?",
+        "Study RNA abundance and transcript patterns. Example question: which genes show different RNA levels between conditions? RNA levels do not directly measure protein activity.",
+        "Iron Man examines incoming message ribbons beside an RNA icon; use no invented expression plot.",
+        "Do not equate RNA abundance with transcription rate or protein abundance.",
+        "counts"
+      ],
+      [
+        "Proteomics: which proteins are there?",
+        "Study proteins, their abundance and modifications. Example question: which proteins differ between conditions? More protein does not automatically mean more activity.",
+        "Thor inspects a workbench of molecular tools; a folded protein replaces the hammer as the teaching focus.",
+        "Protein identity, abundance and activity are distinct.",
+        "ebi"
+      ],
+      [
+        "Metabolomics: what small molecules change?",
+        "Study metabolites such as sugars and amino acids. Example question: which measured metabolites differ after treatment? A change alone does not prove its cause.",
+        "Bruce Banner examines three simple metabolite containers at a calm laboratory bench; no transformation or green chemical claim.",
+        "Not all metabolites are captured by one assay.",
+        "metabolomics"
+      ],
+      [
+        "Two more teams to know",
+        "Metagenomics: study DNA from a community of organisms.\nStructural bioinformatics: study molecular 3D structure and its relationship to function.",
+        "Two clearly separated dossiers: Guardians of the Galaxy beside mixed microbe icons; Doctor Strange beside a folded protein model in a portal.",
+        "DNA indicates genetic potential; structure does not by itself prove function.",
+        "metagenomics,structure"
+      ],
+      [
+        "Pick the question first.",
+        "DNA → genomics\nRNA → transcriptomics\nProteins → proteomics\nMetabolites → metabolomics\nCommunity DNA → metagenomics\n3D molecules → structural bioinformatics\nSave this map.",
+        "Nick Fury closes the recruitment board with six clean text rows and small recurring character props.",
+        "Simplified beginner map; fields overlap. Keep all six rows legible.",
+        "ebi,metabolomics,metagenomics,structure"
+      ]
+    ]
+  },
+  {
+    "id": "MB02",
+    "title": "CLI vs GUI: two ways to run the mission",
+    "hero": "Iron Man cockpit and Tony Stark terminal",
+    "goal": "Choose an interface by task and preserve a repeatable analysis.",
+    "description": "A split cockpit compares clicking with typed instructions, using FastQC as the same underlying task. Ends with a practical record-keeping checklist.",
+    "takeaway": "Same tool and settings can be used through different interfaces.",
+    "hook": "Do you need to code before you can analyse biological data?",
+    "cta": "Save the checklist for your first analysis.",
+    "search": "CLI vs GUI bioinformatics; Galaxy beginner; FastQC command line graphical interface",
+    "tags": "#Bioinformatics #CLI #GalaxyProject #CodingForResearchers #ANGSUMI",
+    "caption": "Do you need to code before you can analyse biological data? A GUI gives you visual controls. A CLI accepts typed commands. Both can support serious work. GUI workflows such as Galaxy can preserve analysis history; a terminal command still needs inputs, settings and versions recorded. Choose the interface that fits the task and your current skills. Save the checklist for your first analysis.",
+    "cards": [
+      [
+        "Tony has two control panels.",
+        "One uses buttons. One uses typed commands. Both can launch an analysis. Which fits your task?",
+        "Split image: Iron Man cockpit controls on one side, Tony Stark typing on a laptop on the other.",
+        "No implication that interfaces alone determine accuracy.",
+        "fastqc"
+      ],
+      [
+        "GUI: point, click, choose.",
+        "Graphical User Interface. Select files and options through visible controls. Useful when you are learning a workflow or exploring a small task.",
+        "Iron Man points at a simplified file chooser and settings card, clearly an illustration rather than a real screenshot.",
+        "A GUI may be desktop or web-based; GUI does not mean cloud.",
+        "galaxy"
+      ],
+      [
+        "CLI: type the instructions.",
+        "Command-Line Interface. Run a tool using text commands. Useful for repeat tasks, scripts and remote computers. You still need to understand the options.",
+        "Tony Stark types at a large uncluttered terminal; show no unapproved commands in background.",
+        "CLI is an interface, not a programming language.",
+        "fastqc"
+      ],
+      [
+        "Same task. Different controls.",
+        "FastQC checks sequencing-read quality.\nGUI: open a FASTQ file.\nCLI: fastqc reads.fastq.gz\nExample command; requires FastQC and the input file.",
+        "Balanced two-lane FastQC schematic leading to one report icon. Print the command exactly, in monospace.",
+        "Illustrative installed-tool command; do not claim it was run. FastQC reports, not automatic repair.",
+        "fastqc"
+      ],
+      [
+        "A terminal is not an accuracy badge.",
+        "Results depend on the tool, version, input and settings. A GUI can record workflows. A command without context can still be hard to reproduce.",
+        "Captain America places a shield between an analysis report and a decorative accuracy badge crossed out; no correct scientific text crossed out.",
+        "Defaults can differ across wrappers and versions.",
+        "galaxy"
+      ],
+      [
+        "Choose for the job.",
+        "Learning a workflow? A GUI can help.\nRepeating many tasks? A CLI script can help.\nGalaxy offers a browser interface with saved histories and reusable workflows.",
+        "Tony places two equipment cards on a desk; a small Shuri figure connects Galaxy history cards.",
+        "Galaxy GUI also supports batch workflows; avoid claiming GUI cannot scale.",
+        "galaxy"
+      ],
+      [
+        "Keep a mission log.",
+        "Record the input, tool version, settings and output. Keep the command or saved workflow.\nSave the checklist for your first analysis.",
+        "A clean four-field mission log on ivory paper with an arc-reactor paperweight in one corner.",
+        "Reproducibility also depends on references, environment and complete provenance; mention in production notes.",
+        "galaxy"
+      ]
+    ]
+  },
+  {
+    "id": "MB03",
+    "title": "Reference alignment vs de novo assembly",
+    "hero": "Spider-Man uses a city map; Shuri rebuilds a broken blueprint",
+    "goal": "Distinguish placing reads on a reference from reconstructing sequence.",
+    "description": "A city map and broken blueprint make two commonly confused operations visible. The learner compares outputs, failure modes and use cases.",
+    "takeaway": "Alignment places reads; assembly reconstructs sequence.",
+    "hook": "You have sequencing reads. Do you place them on a map or build the map?",
+    "cta": "Save the two-route guide.",
+    "search": "reference alignment vs de novo assembly; read mapping explained; contigs beginner bioinformatics",
+    "tags": "#GenomeAssembly #Bioinformatics #Sequencing #Genomics #ANGSUMI",
+    "caption": "Reads can be used in different ways. Reference alignment estimates where reads fit against an existing sequence. De novo assembly reconstructs longer sequences from relationships among reads without using a reference as the primary template. These approaches can be combined: reads can be aligned back to an assembly for evaluation. The right route depends on your question, reference suitability and data quality. Save the two-route guide.",
+    "cards": [
+      [
+        "Use the map. Or build it?",
+        "You have sequencing reads: short or long pieces of sequence. Reference alignment and de novo assembly do different jobs.",
+        "Spider-Man holds a city map on the left; Shuri studies scattered blueprint strips on the right.",
+        "Map is an analogy, not a literal genome.",
+        "assembly"
+      ],
+      [
+        "Reference alignment places reads.",
+        "Compare reads with an existing reference sequence and estimate where they fit. Some reads may match several places or fail to align.",
+        "Spider-Man places three sage strips over a maroon reference track; a fourth strip stays visibly unplaced.",
+        "Schematic only; no exact sequence or mapped percentage.",
+        "assembly"
+      ],
+      [
+        "De novo assembly reconstructs sequence.",
+        "Use sequence relationships among reads to build longer sequences called contigs. A reference is not the primary template.",
+        "Shuri connects overlapping paper strips into two separate contigs; clearly retain a gap between them.",
+        "Do not promise one complete chromosome or perfect reconstruction.",
+        "assembly"
+      ],
+      [
+        "The outputs are different.",
+        "Alignment: read placements, often stored in SAM/BAM.\nAssembly: reconstructed sequences, often stored in FASTA.\nA mapped read is not a new contig.",
+        "Two large folders: Spider-Man with SAM/BAM and Shuri with FASTA; distinct diagram inside each.",
+        "SAM/BAM may contain unmapped records too.",
+        "hts,fasta"
+      ],
+      [
+        "Every route has blind spots.",
+        "Alignment can miss sequence absent from the reference.\nAssembly can break or misjoin at repeats.\nRead quality and coverage affect both.",
+        "A faded city-map district on the left; repeating identical blueprint tiles confuse Shuri on the right.",
+        "Avoid implying all unmapped reads are novel biology.",
+        "assembly"
+      ],
+      [
+        "Choose the question, then the route.",
+        "Study variants against a suitable reference? Alignment is often part of the workflow.\nReconstruct a genome without a suitable reference? Consider de novo assembly.",
+        "A two-branch decision card with Spider-Man and Shuri guiding separate routes; no route marked universally superior.",
+        "Mapping is not variant calling; further steps and validation are required.",
+        "assembly"
+      ],
+      [
+        "They can work together.",
+        "Build an assembly, then align reads back to check support.\nAlignment places reads. Assembly builds sequence.\nSave the two-route guide.",
+        "The two routes meet at an inspection desk; reads return to two contigs for a support check, not to a finished result badge.",
+        "Read-back support is one evaluation step, not proof of correctness.",
+        "assembly"
+      ]
+    ]
+  },
+  {
+    "id": "MB04",
+    "title": "Small bioinformatics tasks from your phone browser",
+    "hero": "Doctor Strange opens portals to real web tools",
+    "goal": "Match a small input to a browser tool and understand mobile limits.",
+    "description": "Four useful websites become portals: sequence search, translation, multiple alignment and gene-list enrichment. A final card puts larger Galaxy workflows in context.",
+    "takeaway": "Use short public examples; save inputs, settings and outputs.",
+    "hook": "Your phone can open a bioinformatics toolbox. Start small.",
+    "cta": "Save this browser toolbox.",
+    "search": "bioinformatics web tools beginners; BLAST phone browser; ExPASy Translate; Clustal Omega; GO enrichment PANTHER",
+    "tags": "#BioinformaticsTools #BLAST #LifeScienceStudents #ResearchSkills #ANGSUMI",
+    "caption": "Your phone browser can be a starting point for small bioinformatics tasks: BLAST sequence searches, ExPASy translation, Clustal Omega alignments and GO/PANTHER gene-list enrichment. These tools have web interfaces; mobile uploads, controls and result tables may be awkward and have not been device-tested for this plan. Start with a short public example. Galaxy can run server-side workflows, but a laptop is more practical for managing large files. Save this browser toolbox.",
+    "cards": [
+      [
+        "A bioinformatics toolbox in your browser",
+        "Start with short sequences or small gene lists. Web tools do the analysis on their servers. Phone controls and downloads may be awkward.",
+        "Doctor Strange holds a phone with four open portals containing sequence, translation, alignment and gene-list icons.",
+        "Candidate phone workflows; official web availability checked, mobile execution not tested.",
+        "blast,clustal,go,translate"
+      ],
+      [
+        "BLAST: what resembles this sequence?",
+        "Input: DNA or protein sequence.\nOutput: similar database sequences.\nRead coverage, identity and E-value together. Similarity alone does not prove function.",
+        "A portal takes a sequence card into a database shelf; no fabricated hit table or accession.",
+        "Choose the matching BLAST program and database.",
+        "blast"
+      ],
+      [
+        "ExPASy Translate: possible protein sequence",
+        "Input: a DNA or RNA sequence.\nOutput: translations in reading frames.\nThe right frame and genetic code matter. Translation does not prove a protein is expressed.",
+        "Doctor Strange rotates a nucleotide ribbon through a portal into a protein ribbon; abstract symbols only.",
+        "Genomic introns and incorrect frames can mislead.",
+        "translate"
+      ],
+      [
+        "Clustal Omega: line up related sequences",
+        "Input: related sequences in FASTA format.\nOutput: a multiple sequence alignment.\nUse unique sequence names and compare like sequence types.",
+        "Three colored sequence ribbons pass through a portal and align in parallel; gaps are visibly allowed.",
+        "A multiple alignment is not read mapping; do not treat guide tree as a validated phylogeny.",
+        "clustal"
+      ],
+      [
+        "GO / PANTHER: explore a gene list",
+        "Input: gene IDs, species and an appropriate background list.\nOutput: overrepresented GO terms.\nEnrichment does not prove a pathway is activated.",
+        "Small gene-list cards enter a portal and emerge as labeled term groups, without invented significance numbers.",
+        "Check ID mapping and multiple-testing correction. Background should reflect genes eligible for selection.",
+        "go"
+      ],
+      [
+        "Galaxy: a bigger browser workspace",
+        "Run tools and save analysis histories on a server. A laptop is more practical for large uploads and complex workflows. A phone may help with small tasks or checking progress.",
+        "A larger portal reveals a simplified Galaxy history stack beside a laptop; a phone displays only a small progress panel.",
+        "Actual phone compatibility not tested. Server quotas and availability vary.",
+        "galaxy"
+      ],
+      [
+        "Before you tap Run",
+        "Match the tool to your question. Use public practice data first. Record settings and export results. Test uploads and downloads on your phone.\nSave this browser toolbox.",
+        "Doctor Strange closes the portals around a clean four-line checklist, leaving the phone and a saved-file icon.",
+        "Do not upload sensitive or restricted data to public services without appropriate authorization.",
+        "galaxy"
+      ]
+    ]
+  },
+  {
+    "id": "MB05",
+    "title": "FASTA, FASTQ, BAM, VCF: open the right file",
+    "hero": "Ant-Man explores a research data vault",
+    "goal": "Recognize common files and choose a sensible next step.",
+    "description": "Ant-Man walks through oversized file containers. Each file has a job, a next action and a limit; a count matrix adds a familiar spreadsheet bridge.",
+    "takeaway": "Identify what each file stores before choosing a tool.",
+    "hook": "Your sequencing folder has five file types. Which one do you actually need?",
+    "cta": "Save this file cheat sheet.",
+    "search": "FASTA FASTQ BAM VCF explained; bioinformatics file formats beginner; RNA seq count matrix",
+    "tags": "#Bioinformatics #FASTQ #Genomics #RNAseq #ANGSUMI",
+    "caption": "A file extension is a clue to what you can do next. FASTA holds sequences; FASTQ adds per-base quality information. SAM/BAM stores read records and alignments, while VCF stores variant records relative to a reference. A gene-count matrix is a different object again: a table for suitable expression-analysis workflows. Check the contents, metadata and reference version before choosing a tool. Save this file cheat sheet.",
+    "cards": [
+      [
+        "Tiny researcher. Giant data folder.",
+        "FASTA, FASTQ, BAM, VCF… Which file answers your question? First learn what is inside.",
+        "Ant-Man stands among giant ivory file drawers bearing only the four approved extensions.",
+        "Hook; files are not interchangeable.",
+        "fasta,fastq,hts"
+      ],
+      [
+        "FASTA stores sequences.",
+        "A header starts with >, followed by sequence. DNA, RNA or protein may be stored.\nNext: inspect the sequence type before searching or aligning.",
+        "Ant-Man opens one drawer to reveal a large header strip and abstract sequence ribbon.",
+        "No per-base quality scores in standard FASTA; do not show real-looking invented accessions.",
+        "fasta"
+      ],
+      [
+        "FASTQ adds base-quality information.",
+        "Sequencing reads plus per-base quality scores.\nNext: inspect read quality with a tool such as FastQC. A filename alone cannot tell you the data are good.",
+        "Ant-Man checks a sequence ribbon paired with a distinct quality ribbon; no numeric score invented.",
+        "Quality scores are not expression counts.",
+        "fastq,fastqc"
+      ],
+      [
+        "SAM / BAM stores read records.",
+        "Often used for alignments to a reference. BAM is the binary form of SAM. Unmapped reads can be stored too.\nNext: check the reference and alignment summary.",
+        "Ant-Man climbs a read-placement rack; keep an unmapped record in a separate tray.",
+        "BAM is not a spreadsheet; use suitable viewers and tools.",
+        "hts"
+      ],
+      [
+        "VCF stores variant records.",
+        "Positions and alleles relative to a reference, with annotations and sometimes sample genotypes.\nNext: check filters and the reference build before interpretation.",
+        "Ant-Man reads a variant dossier pinned to an abstract reference track; no medical outcome or real variant.",
+        "A variant record does not establish disease causation.",
+        "hts"
+      ],
+      [
+        "Count matrix: genes by samples",
+        "For a typical gene-count table, rows are genes and columns are samples. Keep sample metadata alongside it.\nRaw counts, TPM and log values are not interchangeable.",
+        "Ant-Man walks on an empty schematic matrix with Gene A/Gene B rows and Sample A/Sample B columns; no invented values.",
+        "DESeq2 standard count input needs appropriate unnormalized counts, with supported import routes for estimated counts.",
+        "counts"
+      ],
+      [
+        "Choose the next step.",
+        "FASTA → sequence inspection\nFASTQ → read-quality checks\nSAM/BAM → alignment review\nVCF → variant filtering and annotation\nCounts → design and count-model checks\nSave this file cheat sheet.",
+        "Ant-Man exits the vault beside five clean rows, with recurring tiny file props for orientation.",
+        "Example next steps, not a universal complete pipeline.",
+        "fasta,fastq,hts,counts"
+      ]
+    ]
+  }
+]

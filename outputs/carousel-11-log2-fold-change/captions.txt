@@ -1,0 +1,7 @@
+Log2FC = 2. What does that mean?
+
+For a defined numerator and reference, +2 corresponds to an estimated 4× ratio; −2 corresponds to one quarter. Read the contrast and uncertainty together.
+
+Save the fold-change decoder.
+
+#Bioinformatics #Log2FoldChange #GeneExpression #RNAseq #ANGSUMI

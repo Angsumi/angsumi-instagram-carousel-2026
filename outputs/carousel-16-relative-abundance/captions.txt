@@ -1,0 +1,7 @@
+A higher percentage does not always mean more cells.
+
+Illustration: A stays at 10 units while B falls from 90 to 40. A's share rises from 10% to 20% even though its amount stays constant.
+
+Share the 10-to-20% example.
+
+#Bioinformatics #Microbiome #RelativeAbundance #CompositionalData #ANGSUMI

@@ -1,0 +1,20 @@
+card-01.png
+Card 1 of 7. CLI vs GUI: Two ways to run the mission. Two laptops sit on a research desk, one displaying visual controls and the other a terminal cursor. Text: One uses buttons. One uses typed commands. Both can launch an analysis. Which fits your task? Ivory paper, maroon headline, green accents, ANGSUMI branding.
+
+card-02.png
+Card 2 of 7. GUI: point, click, choose. A hand uses a mouse beside a monitor showing folders and settings controls. Text defines Graphical User Interface, explains selecting files and options through visible controls, and suggests it for learning a workflow or exploring a small task.
+
+card-03.png
+Card 3 of 7. CLI: type the instructions. Hands type on a laptop displaying a terminal cursor. Blank task cards stand nearby. Text defines Command-Line Interface, describes running tools through text commands, and mentions repeat tasks, scripts and remote computers. It reminds readers to understand the options.
+
+card-04.png
+Card 4 of 7. Same task. Different controls. Two computer illustrations show opening reads.fastq.gz through a graphical file chooser and running fastqc reads.fastq.gz in a terminal. Arrows converge on a report icon. Text says FastQC checks sequencing-read quality and notes that the command requires FastQC and the input file. The dollar symbol on the terminal represents the shell prompt, not part of the command.
+
+card-05.png
+Card 5 of 7. A terminal is not an accuracy badge. File, tool, settings and report icons connect above a research laptop and notebook. Text explains that results depend on the tool, version, input and settings, that a GUI can record workflows, and that a command without context can be hard to reproduce.
+
+card-06.png
+Card 6 of 7. Choose for the job. Two illustrated cards compare learning a workflow with a GUI and repeating tasks with a CLI script. Both point toward a browser history illustration. Text says Galaxy offers a browser interface with saved histories and reusable workflows.
+
+card-07.png
+Card 7 of 7. Keep a mission log. An open notebook has four blank checkboxes beside a pen and glowing circular paperweight. Text asks readers to record the input, tool version, settings and output and keep the command or saved workflow. Call to action: Save the checklist for your first analysis.

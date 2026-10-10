@@ -1,0 +1,7 @@
+One dataset. Several useful questions.
+
+A matrix, PCA, sample-level gene plot, and model result each offer a different view. Choose the view for the question and state its limits.
+
+Save the plot-to-question map.
+
+#Bioinformatics #GeneExpression #DataVisualization #RNAseq #ANGSUMI

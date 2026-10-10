@@ -1,0 +1,7 @@
+Before any plot, ask four questions.
+
+What was measured? Which samples are compared? What could bias the result? What conclusion does the evidence support? Keep these beside your next figure.
+
+Comment with your next data question.
+
+#Bioinformatics #ResearchMethods #ScienceCommunication #ResearchLife #ANGSUMI

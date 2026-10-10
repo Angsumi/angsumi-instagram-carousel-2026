@@ -1,0 +1,7 @@
+Five beginner habits that prevent avoidable confusion.
+
+Write the question, verify metadata, inspect QC, read plots in context, and save the analysis record. Work through one issue at a time.
+
+Save the five checks.
+
+#Bioinformatics #BioinformaticsForBeginners #ResearchWorkflow #ResearchData #ANGSUMI

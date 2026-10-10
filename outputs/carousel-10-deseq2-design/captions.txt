@@ -1,0 +1,7 @@
+DESeq2 needs a design as well as counts.
+
+For the standard matrix route, use appropriate unnormalized counts and matching metadata. Define the design and contrast, then read estimates with uncertainty.
+
+Save the model input map.
+
+#Bioinformatics #DESeq2 #DifferentialExpression #RNAseq #ANGSUMI

@@ -1,0 +1,19 @@
+Scientific references checked during planning on 8 October 2026
+
+General fields, genome variation and proteomics:
+https://www.ebi.ac.uk/training/online/courses/methods-in-bioinformatics/introduction/
+
+RNA abundance and expression analysis:
+https://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
+
+Metabolomics:
+https://www.ebi.ac.uk/training/online/courses/metabolomics-introduction/what-is-metabolomics/
+
+Metagenomics:
+https://www.ebi.ac.uk/training/materials/genome-resolved-metagenomics-bioinformatics-materials/intro/
+
+Structural bioinformatics:
+https://www.ebi.ac.uk/training/events/structural-bioinformatics-2026/
+
+Brand source: brand-and-strategy/ANGSUMI_Content_Persona_Brand_Plan.docx and AGENTS.md.
+All artwork is conceptual. No dataset was analysed. Character appearances are fictional teaching devices.

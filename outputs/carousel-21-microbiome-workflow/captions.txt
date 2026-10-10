@@ -1,0 +1,7 @@
+Microbiome plots begin with the sample records.
+
+Keep sampling units, controls, and metadata connected to sequence QC, measurements, analysis, and the final claim.
+
+Save the microbiome route.
+
+#Bioinformatics #Microbiome #ResearchDesign #ResearchLife #ANGSUMI

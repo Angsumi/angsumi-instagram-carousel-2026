@@ -1,0 +1,20 @@
+card-01.png
+Card 1 of 7. Your question needs a team. Bioinformatics has many specialities. Start with the biological question, then recruit the method. Nick Fury holds a question-mark dossier beside a board with six recruit portraits. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online.
+
+card-02.png
+Card 2 of 7. Genomics: what is in the DNA? Study genome sequence, genes and variation. Example question: which DNA variants differ between samples? An illustrated notebook shows a DNA double helix and two illustrative sequence strips with one differing base highlighted. A note states that variants alone do not establish phenotype or causation. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online.
+
+card-03.png
+Card 3 of 7. Transcriptomics: which RNAs change? Study RNA abundance and transcript patterns. Example question: which genes show different RNA levels between conditions? RNA levels do not directly measure protein activity. An illustrated research desk holds an RNA ribbon model and message slips. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online.
+
+card-04.png
+Card 4 of 7. Proteomics: which proteins are there? Study proteins, their abundance and modifications. Example question: which proteins differ between conditions? More protein does not automatically mean more activity. A sculptural folded protein with small spherical modification markers stands on a research workbench. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online.
+
+card-05.png
+Card 5 of 7. Metabolomics: what small molecules change? Study metabolites such as sugars and amino acids. Example question: which measured metabolites differ after treatment? A change alone does not prove its cause. Bruce Banner studies three small containers at a laboratory bench, with conceptual metabolite icons below. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online.
+
+card-06.png
+Card 6 of 7. Two more teams to know Metagenomics: study DNA from a community of organisms. Structural bioinformatics: study molecular 3D structure and its relationship to function. Two panels show a diverse microbial community and a folded protein ribbon model. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online.
+
+card-07.png
+Card 7 of 7. Pick the question first. DNA → genomics RNA → transcriptomics Proteins → proteomics Metabolites → metabolomics Community DNA → metagenomics 3D molecules → structural bioinformatics Save this map. Nick Fury stands beside a six-row reference board matching DNA to genomics, RNA to transcriptomics, proteins to proteomics, metabolites to metabolomics, community DNA to metagenomics, and 3D molecules to structural bioinformatics. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online.

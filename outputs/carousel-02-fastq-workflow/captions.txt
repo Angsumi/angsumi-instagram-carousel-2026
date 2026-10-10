@@ -1,0 +1,9 @@
+FASTQ files mil gaye. Ab next kya?
+
+For a bulk RNA-seq comparison, first inspect the reads, then use a suitable expression workflow with matching references and annotations. Pair the measurements with sample metadata and define the comparison your design can support.
+
+The output still needs an explanation: how large is the change, how uncertain is it, and what does it mean biologically?
+
+Save this workflow before starting your next analysis.
+
+#Bioinformatics #RNAseq #Transcriptomics #ResearchData #ANGSUMI

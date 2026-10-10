@@ -1,0 +1,11 @@
+These dots are samples. Their positions summarize variation in the values you analyzed.
+
+Before explaining a PCA, check the input transformation, the variation represented by the axes, and the sample metadata. Try coloring the same plot by condition and batch.
+
+In this illustrative example, all controls belong to Batch 1 and all treated samples belong to Batch 2. The design cannot cleanly distinguish a condition effect from a batch effect.
+
+An unusual sample deserves investigation. Check quality and records before deciding whether exclusion is justified.
+
+Save this checklist before your next data presentation.
+
+#Bioinformatics #PCA #RNAseq #ResearchData #ANGSUMI

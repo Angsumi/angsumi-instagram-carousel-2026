@@ -1,0 +1,9 @@
+Before interpreting a heatmap, check what its colors represent.
+
+Normalized expression and row z-scores answer different questions. Row scaling shows each gene relative to its own mean across samples; it does not show absolute expression differences between genes.
+
+Also check the gene selection rule, sample annotations, and clustering settings. A visible cluster is a starting point for interpretation.
+
+Save the final card as your heatmap caption checklist.
+
+#Bioinformatics #Heatmap #RNAseq #DataVisualization #ANGSUMI

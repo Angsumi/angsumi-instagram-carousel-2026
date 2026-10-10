@@ -1,0 +1,7 @@
+Before interpreting PCA, check its inputs.
+
+Review transformation, feature selection, centering or scaling, and sample metadata. Name the displayed components and their explained variance.
+
+Save the PCA preflight.
+
+#Bioinformatics #PCA #Transcriptomics #DataAnalysis #ANGSUMI

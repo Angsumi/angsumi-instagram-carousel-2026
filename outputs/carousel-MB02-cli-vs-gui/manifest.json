@@ -1,0 +1,95 @@
+{
+  "id": "MB02",
+  "title": "CLI vs GUI: two ways to run the mission",
+  "status": "Created, not published or scheduled",
+  "generation": "All seven artworks created with native image_gen. Shell utilities only copied, resized and packaged finished images.",
+  "creative_change": "Marvel character prompts were rejected by the image service. The completed alternative uses original research-workstation illustrations.",
+  "dimensions_note": "Native cards 1–6 are 1122x1402; card 7 is 1092x1440. Publishing copies are uniformly 1080x1350 with proportional resize and ivory padding, no cropped content.",
+  "cards": [
+    {
+      "file": "card-01.png",
+      "publishing_file": "publishing-1080x1350/card-01.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "card-02.png",
+      "publishing_file": "publishing-1080x1350/card-02.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "card-03.png",
+      "publishing_file": "publishing-1080x1350/card-03.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "card-04.png",
+      "publishing_file": "publishing-1080x1350/card-04.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "card-05.png",
+      "publishing_file": "publishing-1080x1350/card-05.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "card-06.png",
+      "publishing_file": "publishing-1080x1350/card-06.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ]
+    },
+    {
+      "file": "card-07.png",
+      "publishing_file": "publishing-1080x1350/card-07.png",
+      "native_dimensions": [
+        1092,
+        1440
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ]
+    }
+  ],
+  "review": "All seven cards visually inspected for spelling, command accuracy, legibility and order. FastQC command is illustrative, not executed."
+}

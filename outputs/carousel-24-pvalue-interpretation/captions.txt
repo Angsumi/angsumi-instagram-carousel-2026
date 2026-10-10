@@ -1,0 +1,7 @@
+p = 0.03. What can you actually say?
+
+Under the specified null model, the p-value describes how unusual the observed result or something more extreme is. It is not the probability that the null is true.
+
+Save the p-value wording.
+
+#Bioinformatics #PValues #Biostatistics #ResearchMethods #ANGSUMI

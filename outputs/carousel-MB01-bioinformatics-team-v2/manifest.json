@@ -1,0 +1,108 @@
+{
+  "id": "MB01",
+  "title": "Which bioinformatics team does your question need?",
+  "status": "Partial revision. Requested Ant-Man and Vision edits blocked by image service; not published.",
+  "generation": "Built-in image_gen",
+  "creative_change": "Card 2 now features Shuri. Card 3 draft features Loki. Cards 1, 4, 5, 6 and 7 preserved from version 1. Ant-Man on card 6 and Vision on card 4 could not be generated.",
+  "cards": [
+    {
+      "file": "card-01.png",
+      "original": "originals/card-01.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ],
+      "resize": "Proportional fit with at most 1px ivory padding, no crop",
+      "alt_text": "Card 1 of 7. Your question needs a team. Bioinformatics has many specialities. Start with the biological question, then recruit the method. Nick Fury holds a question-mark dossier beside a board with six recruit portraits. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online."
+    },
+    {
+      "file": "card-02.png",
+      "original": "originals/card-02.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ],
+      "resize": "Proportional fit with at most 1px ivory padding, no crop",
+      "alt_text": "Card 2 of 7. Genomics: what is in the DNA? Shuri studies an illustrated DNA notebook at a research desk. Text explains that genomics studies genome sequence, genes and variation, and asks which DNA variants differ between samples. A note states that variants alone do not establish phenotype or causation. ANGSUMI branding and ivory, maroon and green colors."
+    },
+    {
+      "file": "card-03.png",
+      "original": "originals/card-03.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ],
+      "resize": "Proportional fit with at most 1px ivory padding, no crop",
+      "alt_text": "Draft card 3 of 7. Transcriptomics: which RNAs change? Loki conjures illustrated message slips over a wavy molecular ribbon model. Text explains RNA abundance and transcript patterns, asks which genes show different RNA levels between conditions, and states that RNA levels do not directly measure protein activity. The small drawings on message slips require scientific correction."
+    },
+    {
+      "file": "card-04.png",
+      "original": "originals/card-04.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ],
+      "resize": "Proportional fit with at most 1px ivory padding, no crop",
+      "alt_text": "Card 4 of 7. Proteomics: which proteins are there? Study proteins, their abundance and modifications. Example question: which proteins differ between conditions? More protein does not automatically mean more activity. A sculptural folded protein with small spherical modification markers stands on a research workbench. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online."
+    },
+    {
+      "file": "card-05.png",
+      "original": "originals/card-05.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ],
+      "resize": "Proportional fit with at most 1px ivory padding, no crop",
+      "alt_text": "Card 5 of 7. Metabolomics: what small molecules change? Study metabolites such as sugars and amino acids. Example question: which measured metabolites differ after treatment? A change alone does not prove its cause. Bruce Banner studies three small containers at a laboratory bench, with conceptual metabolite icons below. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online."
+    },
+    {
+      "file": "card-06.png",
+      "original": "originals/card-06.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ],
+      "resize": "Proportional fit with at most 1px ivory padding, no crop",
+      "alt_text": "Card 6 of 7. Two more teams to know Metagenomics: study DNA from a community of organisms. Structural bioinformatics: study molecular 3D structure and its relationship to function. Two panels show a diverse microbial community and a folded protein ribbon model. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online."
+    },
+    {
+      "file": "card-07.png",
+      "original": "originals/card-07.png",
+      "native_dimensions": [
+        1122,
+        1402
+      ],
+      "publishing_dimensions": [
+        1080,
+        1350
+      ],
+      "resize": "Proportional fit with at most 1px ivory padding, no crop",
+      "alt_text": "Card 7 of 7. Pick the question first. DNA \u2192 genomics RNA \u2192 transcriptomics Proteins \u2192 proteomics Metabolites \u2192 metabolomics Community DNA \u2192 metagenomics 3D molecules \u2192 structural bioinformatics Save this map. Nick Fury stands beside a six-row reference board matching DNA to genomics, RNA to transcriptomics, proteins to proteomics, metabolites to metabolomics, community DNA to metagenomics, and 3D molecules to structural bioinformatics. Ivory, maroon and muted-green editorial design, branded ANGSUMI and @angsumi.online."
+    }
+  ],
+  "review_note": "Card 3 central model is single-stranded, but small paper symbols resemble double helices. The requested correction was blocked. Treat card 3 as a draft pending correction."
+}

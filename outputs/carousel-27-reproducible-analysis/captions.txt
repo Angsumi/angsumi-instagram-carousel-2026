@@ -1,0 +1,7 @@
+Could a lab mate rerun your figure?
+
+Keep input origins, metadata, reference versions, code, parameters, and the environment record. Add a README that links the question to the outputs.
+
+Save the handoff checklist.
+
+#Bioinformatics #ReproducibleResearch #ResearchData #ComputationalBiology #ANGSUMI

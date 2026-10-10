@@ -1,0 +1,11 @@
+Do you need to code before you can analyse biological data?
+
+A GUI gives you visual controls. A CLI accepts typed commands. Both can support serious work.
+
+FastQC is one example of a tool with graphical and command-line interfaces. Galaxy offers a browser workspace with histories and reusable workflows, including options for repeated analyses. Your results depend on the tool, version, inputs and settings—not how impressive the screen looks.
+
+Keep your command or workflow, input files, reference versions, settings and outputs together. The interfaces shown here are illustrations; no analysis was run for these cards.
+
+Save the checklist for your first analysis.
+
+#Bioinformatics #CLI #GalaxyProject #CodingForResearchers #ANGSUMI

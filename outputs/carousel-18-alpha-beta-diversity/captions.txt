@@ -1,0 +1,7 @@
+Alpha and beta diversity ask different questions.
+
+One describes diversity within samples; the other compares community differences between samples. Name the metric and what it captures.
+
+Save the diversity decoder.
+
+#Bioinformatics #Microbiome #AlphaDiversity #BetaDiversity #ANGSUMI

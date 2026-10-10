@@ -1,0 +1,11 @@
+Bioinformatics begins with a biological question.
+
+Before choosing a tool, ask what you measured, what comparison matters, and what your study design can support.
+
+Question → Data → Quality checks → Analysis → Interpretation.
+
+Code helps you carry out the workflow. Understanding the biology gives the workflow its direction.
+
+Save this map before starting your next analysis.
+
+#Bioinformatics #ComputationalBiology #ResearchData #LifeScienceResearch #ANGSUMI

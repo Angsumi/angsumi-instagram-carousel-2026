@@ -1,0 +1,7 @@
+16S or shotgun? Start with the research question.
+
+Compare what each assay measures and the constraints of your study. Broader sequencing still needs suitable controls, metadata, and interpretation.
+
+Save the method-choice map.
+
+#Bioinformatics #Microbiome #16S #ShotgunMetagenomics #ANGSUMI

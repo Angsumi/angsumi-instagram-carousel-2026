@@ -1,0 +1,13 @@
+Bioinformatics starts with a biological question.
+
+Before opening a tool, ask: What was measured? Which samples are being compared? What does the study design allow me to conclude?
+
+This first case file follows a simple route: question → biological sample → measured data → quality checks → analysis → interpretation. A clean-looking plot is evidence to examine; it does not prove a biological explanation on its own.
+
+Save the map for your next dataset. Which step would you like me to open up next?
+
+All diagrams and file names are illustrative.
+
+#Bioinformatics #ResearchData #LifeScienceResearch #ComputationalBiology #ANGSUMI
+
+Source for the introductory framing: EMBL-EBI, Bioinformatics for the Terrified — https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/

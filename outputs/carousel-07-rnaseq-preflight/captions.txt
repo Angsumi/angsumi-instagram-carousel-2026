@@ -1,0 +1,9 @@
+Before your first RNA-seq command, check the inputs.
+
+Write the comparison. Verify sample IDs, biological replicates, pairing, batch information, reference versions, and file integrity.
+
+Plan quality checks, sample exploration, model diagnostics, and interpretation. Keep a record of your decisions.
+
+Save this preflight checklist before your next analysis.
+
+#Bioinformatics #RNAseq #ExperimentalDesign #ResearchData #ANGSUMI

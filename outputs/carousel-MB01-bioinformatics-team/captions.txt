@@ -1,0 +1,3 @@
+Bioinformatics has more than one job. Start with the biological question, then identify the data you need. Genomics, transcriptomics, proteomics, metabolomics, metagenomics and structural bioinformatics answer different kinds of questions, and often work together. The recruitment board is a memory aid. These fields overlap, and this is a starter map rather than an exhaustive list. All molecular drawings and sequence snippets are illustrative, not experimental results. Save this map before choosing your next tool.
+
+#Bioinformatics #ComputationalBiology #LifeScienceStudents #ResearchSkills #ANGSUMI

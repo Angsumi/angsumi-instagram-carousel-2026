@@ -1,0 +1,7 @@
+What does each QIIME 2 step produce?
+
+Follow the inputs and outputs through an appropriate amplicon workflow. Track preprocessing, feature tables, taxonomy, and provenance.
+
+Save the artifact checklist.
+
+#Bioinformatics #QIIME2 #Microbiome #AmpliconSequencing #ANGSUMI

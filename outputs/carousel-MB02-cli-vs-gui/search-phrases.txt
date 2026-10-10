@@ -1,0 +1,5 @@
+CLI vs GUI bioinformatics
+Galaxy beginner workflow
+FastQC command line graphical interface
+Bioinformatics without coding
+Reproducible analysis checklist

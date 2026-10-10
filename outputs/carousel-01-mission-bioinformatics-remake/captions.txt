@@ -1,0 +1,9 @@
+Your experiment ends. The data investigation begins. 🔬
+
+Bioinformatics starts with a biological question. Then ask what was measured, how samples were labeled, whether the data pass quality checks, and what the analysis can actually support.
+
+This treated-versus-control example and every diagram or plot here are illustrative. A clean-looking pattern cannot establish a biological cause on its own; study design, bias, and uncertainty matter.
+
+Save this question → data → checks → analysis → interpretation map for your next dataset.
+
+#Bioinformatics #ResearchData #LifeScienceResearch #RNAseq #ANGSUMI

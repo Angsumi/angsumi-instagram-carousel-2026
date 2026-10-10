@@ -1,0 +1,11 @@
+A volcano plot is easier to read when you know the comparison, axes, and coloring rules.
+
+The horizontal axis shows estimated log2 fold change for the chosen contrast. The vertical axis often shows minus log10 of a p-value or adjusted p-value. Check the label rather than assuming they are interchangeable.
+
+The example uses adjusted p < 0.05 and |log2FC| > 1 to highlight genes. These are illustrative criteria, not a universal rule for every study.
+
+Then look beyond the colored dots: inspect sample-level expression, uncertainty, and biological context.
+
+Save this checklist before your next results presentation.
+
+#Bioinformatics #VolcanoPlot #RNAseq #GeneExpression #ANGSUMI

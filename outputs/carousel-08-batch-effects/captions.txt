@@ -1,0 +1,7 @@
+Your PCA separates by preparation date. Now what?
+
+Compare condition and batch labels on the same plot. If the two are fully confounded, a correction cannot cleanly recover their separate effects.
+
+Share before experiment design.
+
+#Bioinformatics #BatchEffects #PCA #ExperimentalDesign #ANGSUMI

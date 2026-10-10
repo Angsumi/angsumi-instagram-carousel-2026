@@ -1,0 +1,7 @@
+Testing 20,000 genes changes the context.
+
+Many tests create opportunities for false positives. Report the multiple-testing procedure and adjusted results; FDR control does not assign a truth probability to each gene.
+
+Save the testing reminder.
+
+#Bioinformatics #MultipleTesting #FalseDiscoveryRate #RNAseq #ANGSUMI

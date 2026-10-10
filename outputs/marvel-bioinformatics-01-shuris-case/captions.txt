@@ -1,0 +1,13 @@
+Shuri opens the case. The first clue is a biological question. 🔬
+
+Before opening a tool, ask: What was measured? Which samples are being compared? What does the study design allow me to conclude?
+
+Follow the evidence: question → biological sample → measured data → quality checks → analysis → interpretation. A clean-looking plot is evidence to examine; it cannot prove a biological explanation by itself.
+
+Save this case map for your next dataset. Which checkpoint should we investigate next?
+
+Shuri is a fictional story guide. All diagrams, files and plots are illustrative. Independent educational fan content; no Marvel affiliation or endorsement.
+
+#Bioinformatics #ResearchData #LifeScienceResearch #ComputationalBiology #MarvelScience #ANGSUMI
+
+Source for the introductory framing: EMBL-EBI, Bioinformatics for the Terrified — https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/

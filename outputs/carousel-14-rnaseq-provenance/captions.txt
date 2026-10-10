@@ -1,0 +1,7 @@
+RNA-seq in one clear route.
+
+Connect the question and metadata to read QC, measurement, sample QC, modelling, and interpretation. Exact methods depend on the assay and design.
+
+Save the provenance route.
+
+#Bioinformatics #RNAseq #Transcriptomics #ComputationalBiology #ANGSUMI

@@ -1,0 +1,7 @@
+A small p-value cannot explain the whole result.
+
+Read effect size, uncertainty, and biological context together. Statistical significance alone does not establish biological importance.
+
+Send to a gene-list colleague.
+
+#Bioinformatics #Biostatistics #EffectSize #ResearchMethods #ANGSUMI

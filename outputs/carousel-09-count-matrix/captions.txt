@@ -1,0 +1,7 @@
+Can every count-matrix column find its sample?
+
+Explain the gene identifiers and measurements, then match every sample column to its metadata. Check identity and order before modelling.
+
+Save the matrix check.
+
+#Bioinformatics #CountMatrix #RNAseq #ResearchData #ANGSUMI

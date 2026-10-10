@@ -1,0 +1,5 @@
+Card 2 now features Shuri. Card 3 draft features Loki. Cards 1, 4, 5, 6 and 7 preserved from version 1. Ant-Man on card 6 and Vision on card 4 could not be generated.
+
+Card 3 central model is single-stranded, but small paper symbols resemble double helices. The requested correction was blocked. Treat card 3 as a draft pending correction.
+
+Built-in image_gen used. Originals retained. Native images 1122x1402; publishing copies 1080x1350 with proportional resizing and no crop.

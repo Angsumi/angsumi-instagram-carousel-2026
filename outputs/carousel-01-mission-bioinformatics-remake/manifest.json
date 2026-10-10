@@ -1,0 +1,98 @@
+{
+  "series": "Marvel Bioinformatics",
+  "episode": "01",
+  "title": "Mission Bioinformatics",
+  "status": "created; not published",
+  "card_count": 7,
+  "delivery_dimensions_px": [
+    1080,
+    1350
+  ],
+  "cards": [
+    {
+      "file": "card-01.png",
+      "original_file": "generated-original-01.png",
+      "original_dimensions_px": [
+        1092,
+        1440
+      ],
+      "alt_text": "Fictional researcher in a lab with the headline Your experiment ends. The data investigation begins."
+    },
+    {
+      "file": "card-02.png",
+      "original_file": "generated-original-02.png",
+      "original_dimensions_px": [
+        1122,
+        1402
+      ],
+      "alt_text": "Researcher compares illustrative treated and control sample groups while asking which genes change in expression."
+    },
+    {
+      "file": "card-03.png",
+      "original_file": "generated-original-03.png",
+      "original_dimensions_px": [
+        1122,
+        1402
+      ],
+      "alt_text": "Three-panel schematic connects a biological sample to RNA sequencing and FASTQ files."
+    },
+    {
+      "file": "card-04.png",
+      "original_file": "generated-original-04.png",
+      "original_dimensions_px": [
+        1092,
+        1440
+      ],
+      "alt_text": "Researcher examines a FASTQ read file alongside sample metadata and study-design context."
+    },
+    {
+      "file": "card-05.png",
+      "original_file": "generated-original-05.png",
+      "original_dimensions_px": [
+        1122,
+        1402
+      ],
+      "alt_text": "Three numbered checkpoints: quality checks, analysis, and interpretation, with a simple workflow diagram."
+    },
+    {
+      "file": "card-06.png",
+      "original_file": "generated-original-06.png",
+      "original_dimensions_px": [
+        1122,
+        1402
+      ],
+      "alt_text": "Researcher questions an illustrative scatter plot using notes about study design, batch or bias, and uncertainty."
+    },
+    {
+      "file": "card-07.png",
+      "original_file": "generated-original-07.png",
+      "original_dimensions_px": [
+        1122,
+        1402
+      ],
+      "alt_text": "Five-step map from question to data, checks, analysis, and interpretation, with a save prompt."
+    }
+  ],
+  "sources": [
+    {
+      "title": "EMBL-EBI Bioinformatics for the Terrified",
+      "url": "https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/"
+    },
+    {
+      "title": "FastQC official project page",
+      "url": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/"
+    }
+  ],
+  "search_phrases": [
+    "bioinformatics workflow for beginners",
+    "RNA sequencing sample metadata explained",
+    "how to interpret a bioinformatics plot",
+    "bioinformatics quality checks and analysis"
+  ],
+  "notes": [
+    "All sample groups, diagrams, and plots are illustrative.",
+    "Fictional researcher is a story guide; no verified biography or original study is implied.",
+    "No Marvel affiliation or endorsement is implied.",
+    "Cards 01 and 04 needed side padding to preserve the full generated artwork and footer in 4:5 format."
+  ]
+}

@@ -1,0 +1,7 @@
+PCoA dots apart. What can you conclude?
+
+Name the distance metric, inspect metadata and dispersion, and use a group comparison suited to the design. Visible separation alone is not a mechanism.
+
+Share before a PCoA slide.
+
+#Bioinformatics #PCoA #BetaDiversity #Microbiome #ANGSUMI

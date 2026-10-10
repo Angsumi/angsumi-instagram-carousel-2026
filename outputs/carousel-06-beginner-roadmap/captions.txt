@@ -1,0 +1,9 @@
+Your first bioinformatics project can be small.
+
+Understand the assay, learn to reason about variation, and practice tables and plots in one language. Finish a documented analysis before collecting more tools.
+
+Try this route with a suitable public dataset: inspect the metadata, run appropriate quality checks, make one readable plot, and explain one limitation. Save the data source, code, settings, and decisions.
+
+Save this first-project route.
+
+#Bioinformatics #BioinformaticsForBeginners #CodingForResearchers #ComputationalBiology #ANGSUMI

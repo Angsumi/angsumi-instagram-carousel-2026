@@ -1,0 +1,11 @@
+Primary sources checked during planning on 8 October 2026:
+
+FastQC: graphical and command-line use, sequencing quality reports.
+https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
+Galaxy basics: browser interface, histories and reproducible workflows.
+https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html
+
+Brand guidance: AGENTS.md and brand-and-strategy/ANGSUMI_Content_Persona_Brand_Plan.docx.
+
+The screens are conceptual illustrations, not product screenshots or analysis results. No data analysis was performed. GUI and CLI describe interfaces, not scientific quality or compute location. Galaxy also supports repeated and batch analyses. Tool defaults may vary between versions and interfaces.

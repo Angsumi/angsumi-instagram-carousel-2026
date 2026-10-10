@@ -1,0 +1,69 @@
+{
+  "title": "Mission Bioinformatics",
+  "episode": "01",
+  "status": "created; not published",
+  "size_px": [
+    1080,
+    1350
+  ],
+  "cards": [
+    {
+      "file": "card-01.png",
+      "role": "hook",
+      "alt_text": "Illustrated Shuri in a dark research lab beside the hook: Your experiment ends. The data investigation begins."
+    },
+    {
+      "file": "card-02.png",
+      "role": "question",
+      "alt_text": "Ivory case board with an illustrative question about gene expression in treated and control cells."
+    },
+    {
+      "file": "card-03.png",
+      "role": "concept",
+      "alt_text": "Three-stage diagram: biological sample, RNA sequencing measurement, and data files. The example is illustrative."
+    },
+    {
+      "file": "card-04.png",
+      "role": "demo",
+      "alt_text": "Two evidence cards pair a sequence file with sample metadata, including IDs, condition, and batch or design."
+    },
+    {
+      "file": "card-05.png",
+      "role": "workflow",
+      "alt_text": "Three checkpoints show quality checks, analysis, and interpretation as distinct parts of a bioinformatics workflow."
+    },
+    {
+      "file": "card-06.png",
+      "role": "limit",
+      "alt_text": "Illustrative dot plot beside prompts to check comparison, design, bias, and uncertainty before drawing a conclusion."
+    },
+    {
+      "file": "card-07.png",
+      "role": "CTA",
+      "alt_text": "Five-stop summary from research question through data, checks, analysis, and supported interpretation, with a save prompt."
+    }
+  ],
+  "science_sources": [
+    {
+      "title": "EMBL-EBI Bioinformatics for the Terrified",
+      "url": "https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/",
+      "supports": "introductory bioinformatics scope, biological problems and data description"
+    },
+    {
+      "title": "FastQC official project page",
+      "url": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+      "supports": "quality checks of raw sequence data"
+    }
+  ],
+  "search_phrases": [
+    "what is bioinformatics for beginners",
+    "bioinformatics workflow sample data analysis interpretation",
+    "RNA sequencing metadata sample sheet",
+    "how to interpret bioinformatics plots"
+  ],
+  "notes": [
+    "All case examples and plot marks are illustrative.",
+    "Shuri is a fictional visual story guide; no Marvel affiliation or endorsement.",
+    "Original descriptive filenames are preserved."
+  ]
+}
