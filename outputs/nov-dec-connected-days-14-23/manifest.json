@@ -1,0 +1,132 @@
+[
+  {
+    "day": 14,
+    "date": "2026-11-21",
+    "topic": "Choose your subdomain quiz",
+    "folder": "day-14-subdomain-quiz",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 15,
+    "date": "2026-11-22",
+    "topic": "Interface versus method",
+    "folder": "day-15-interface-versus-method",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 16,
+    "date": "2026-11-23",
+    "topic": "CLI versus GUI decision",
+    "folder": "day-16-cli-gui-decision",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 17,
+    "date": "2026-11-24",
+    "topic": "Your first terminal vocabulary",
+    "folder": "day-17-terminal-vocabulary",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 18,
+    "date": "2026-11-25",
+    "topic": "Working directory and paths",
+    "folder": "day-18-working-directory-paths",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 19,
+    "date": "2026-11-26",
+    "topic": "Safe file inspection",
+    "folder": "day-19-safe-file-inspection",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 20,
+    "date": "2026-11-27",
+    "topic": "Command anatomy",
+    "folder": "day-20-command-anatomy",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 21,
+    "date": "2026-11-28",
+    "topic": "Pipes and redirection",
+    "folder": "day-21-pipes-redirection",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 22,
+    "date": "2026-11-29",
+    "topic": "File extension versus format",
+    "folder": "day-22-extension-versus-format",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  },
+  {
+    "day": 23,
+    "date": "2026-11-30",
+    "topic": "Command line logs",
+    "folder": "day-23-command-line-logs",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published",
+    "continuity": "Recurring world, object, maroon path and sequential story; generated artwork referenced within each series."
+  }
+]

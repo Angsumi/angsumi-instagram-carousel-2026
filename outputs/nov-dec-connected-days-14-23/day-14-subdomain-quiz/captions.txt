@@ -1,0 +1,7 @@
+Three questions. Three different workflows.
+
+A: Which sequence changes differ? B: Which RNAs change? C: Which proteins were detected? Sequence and variation questions start with genomic data. RNA-expression questions need RNA measurements and study context. Protein-detection questions need protein evidence.
+
+Question → suitable data → method. Combining layers needs compatible samples and study design.  Comment A, B or C—and why.
+
+#Bioinformatics #ANGSUMI #BioinformaticsBasics #ResearchData #LifeScience

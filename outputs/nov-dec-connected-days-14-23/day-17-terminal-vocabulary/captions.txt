@@ -1,0 +1,7 @@
+Terminal. Shell. Command. They are not synonyms.
+
+The interface where you enter and view text. It interprets commands and can execute scripts. It names a program or a shell operation. Options change behaviour. Arguments supply inputs or targets.
+
+Terminal → shell → command. Options and arguments describe the task.  Save this vocabulary map.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

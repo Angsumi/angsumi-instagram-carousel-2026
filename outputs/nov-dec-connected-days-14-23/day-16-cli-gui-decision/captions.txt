@@ -1,0 +1,7 @@
+Should you click or type?
+
+A GUI can help you discover options and inspect outputs. A CLI can make commands easier to script and record. Galaxy histories and saved workflows can preserve analysis provenance. Repetition. Access. Documentation. Your current skills.
+
+Choose an interface you can use and document reliably.  Comment your task and your choice.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

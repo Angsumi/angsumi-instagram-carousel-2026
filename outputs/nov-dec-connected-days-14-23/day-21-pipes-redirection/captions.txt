@@ -1,0 +1,7 @@
+That tiny symbol changes where your data goes.
+
+head -n 4 sample.txt | wc -l  Pass head’s standard output to wc’s standard input. head -n 4 sample.txt > preview.txt  Writes the preview; can overwrite an existing preview.txt. head -n 4 sample.txt >> preview.txt  Adds output to the end instead of replacing existing content. Standard error is distinct from standard output. 2> errors.txt redirects standard error.
+
+| → send to another program > → write or replace a file >> → append to a file  Save this output-routing guide.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

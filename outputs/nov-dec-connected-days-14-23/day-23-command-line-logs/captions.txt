@@ -1,0 +1,7 @@
+Your result needs a memory.
+
+Record what ran and which software version ran it. Keep input identifiers and parameter values with the output. Inspect exit status and logs. An output filename alone is not enough. A completed run can still need scientific or technical review.
+
+Command + version + inputs + settings + logs + interpretation.  Save this run-record checklist.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

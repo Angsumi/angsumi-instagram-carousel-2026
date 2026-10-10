@@ -1,0 +1,7 @@
+Renaming .txt to .fastq does not convert your file.
+
+The extension suggests a format. It does not prove the structure inside. FASTA: sequence records. FASTQ: sequence and per-base quality. CSV commonly uses commas. TSV uses tabs. Check delimiters and quoting. Inspect a small example. Choose a tool that supports its actual format.
+
+Check the inside before uploading.  Save: rename ≠ convert.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

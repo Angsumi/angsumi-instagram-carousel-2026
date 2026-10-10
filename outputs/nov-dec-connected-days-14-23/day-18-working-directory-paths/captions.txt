@@ -1,0 +1,7 @@
+Your file exists. Why can’t the command find it?
+
+pwd shows the working directory. Here: /project/study ls lists nearby entries. It does not search every folder. ../data/sample.txt  From /project/study, go up once, then into data. /project/data/sample.txt  This Unix-style path starts at root. Quote paths containing spaces.
+
+Check location → path → filename.  Save this path-debugging sequence.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

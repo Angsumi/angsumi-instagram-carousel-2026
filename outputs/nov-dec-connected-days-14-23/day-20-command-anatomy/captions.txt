@@ -1,0 +1,7 @@
+Stop copying commands you cannot explain.
+
+head  Prints the beginning of a text file. -n 4  Request four lines. sample.txt  The file supplied to head. By default, head writes to standard output—usually the terminal.
+
+Program → option/value → input. Check your tool’s help and version; flags are not universal.  Save this command-reading guide.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

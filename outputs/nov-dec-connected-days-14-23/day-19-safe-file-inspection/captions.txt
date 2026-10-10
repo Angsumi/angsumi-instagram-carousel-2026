@@ -1,0 +1,7 @@
+Five commands for looking before analysing.
+
+pwd → show your location. ls → list nearby entries. head sample.txt  Shows the first lines of a text file. wc -l sample.txt  Counts newline characters; not necessarily biological records. less sample.txt  Read through the text. Press q to quit.
+
+Location → listing → preview → line check → browse.  Save this inspection route.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience

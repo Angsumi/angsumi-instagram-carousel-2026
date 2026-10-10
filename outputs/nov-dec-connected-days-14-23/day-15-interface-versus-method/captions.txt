@@ -1,0 +1,7 @@
+Clicking and typing can run the same analysis.
+
+A graphical interface uses visual controls and forms. A command-line interface accepts text commands and options. Both interfaces can invoke the same underlying method. Check inputs, settings and interpretation in either route.
+
+Record the method and parameters. Explain what the output means.  Save: interface ≠ algorithm.
+
+#Bioinformatics #ANGSUMI #CodingForResearchers #ResearchData #LifeScience
