@@ -1,0 +1,7 @@
+RNA counts are a snapshot, not a permanent identity.
+
+Transcriptomics measures RNA in a defined context. Tissue, treatment and time matter. A count matrix and biological replication help us investigate expression, but interpretation still depends on the study design and comparison.
+
+Save this preflight: which condition, compared with what, and which independent samples?
+
+#Transcriptomics #RNAseq #Bioinformatics #ANGSUMI #PhDLife

@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-10",
+  "topic": "Transcriptomics",
+  "searchPhrase": "transcriptomics bioinformatics beginner",
+  "sources": [
+    "https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/rna-sequencing/performing-a-rna-seq-experiment/design-considerations/number-of-replicates/"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "RNA counts are a snapshot, not a permanent identity. TRANSCRIPTOMICS Expression depends on context. A sculptural paper camera-frame around abstract RNA ribbons, maroon focal shape and delicate time-context notebook annotation.",
+      "prompt": "Use case: scientific-educational. Create ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio, exactly 1080\u00d71080 requested. Full bleed, 80px safe margins. Professional creative attractive scroll-stopper editorial design with dimensional tactile scientific objects. Readable on phone: very large expressive serif headline and clear sans-serif body, generous spacing. Top small brand ANGSUMI, bottom @angsumi.online and card number. Render ONLY supplied exact text and necessary labels; no added slogans, equations, numbers, fake data, citations, logos or watermark. Conceptual illustrations must not look like computed experimental results. Never combine multiple cards in one image. Series Transcriptomics. Style: Warm ivory field notebook editorial with maroon serif headlines, charcoal body, sage notes. Metaphor: RNA expression as a time-stamped snapshot, translucent specimen frames and paper RNA ribbons. No actual numerical data. Card 1/6. Exact headline: \"RNA counts are a snapshot,\nnot a permanent identity.\". Exact body: \"TRANSCRIPTOMICS\nExpression depends on context.\". Visual direction: A sculptural paper camera-frame around abstract RNA ribbons, maroon focal shape and delicate time-context notebook annotation.. Footer numbering \"1/6\"."
+    },
+    {
+      "altText": "What are we measuring? RNA under specific conditions.  Tissue, treatment and time help define the snapshot. Three large labelled contextual tiles tissue treatment time surrounding an abstract RNA specimen frame.",
+      "prompt": "Use case: scientific-educational. Create ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio, exactly 1080\u00d71080 requested. Full bleed, 80px safe margins. Professional creative attractive scroll-stopper editorial design with dimensional tactile scientific objects. Readable on phone: very large expressive serif headline and clear sans-serif body, generous spacing. Top small brand ANGSUMI, bottom @angsumi.online and card number. Render ONLY supplied exact text and necessary labels; no added slogans, equations, numbers, fake data, citations, logos or watermark. Conceptual illustrations must not look like computed experimental results. Never combine multiple cards in one image. Series Transcriptomics. Style: Warm ivory field notebook editorial with maroon serif headlines, charcoal body, sage notes. Metaphor: RNA expression as a time-stamped snapshot, translucent specimen frames and paper RNA ribbons. No actual numerical data. Card 2/6. Exact headline: \"What are we measuring?\". Exact body: \"RNA under specific conditions.\n\nTissue, treatment and time\nhelp define the snapshot.\". Visual direction: Three large labelled contextual tiles tissue treatment time surrounding an abstract RNA specimen frame.. Footer numbering \"2/6\"."
+    },
+    {
+      "altText": "Meet the count matrix. Rows: measured features. Columns: samples.  Counts depend on the processing workflow. A conceptual empty matrix labelled features and samples; no invented values; tag 'Conceptual layout'.",
+      "prompt": "Use case: scientific-educational. Create ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio, exactly 1080\u00d71080 requested. Full bleed, 80px safe margins. Professional creative attractive scroll-stopper editorial design with dimensional tactile scientific objects. Readable on phone: very large expressive serif headline and clear sans-serif body, generous spacing. Top small brand ANGSUMI, bottom @angsumi.online and card number. Render ONLY supplied exact text and necessary labels; no added slogans, equations, numbers, fake data, citations, logos or watermark. Conceptual illustrations must not look like computed experimental results. Never combine multiple cards in one image. Series Transcriptomics. Style: Warm ivory field notebook editorial with maroon serif headlines, charcoal body, sage notes. Metaphor: RNA expression as a time-stamped snapshot, translucent specimen frames and paper RNA ribbons. No actual numerical data. Card 3/6. Exact headline: \"Meet the\ncount matrix.\". Exact body: \"Rows: measured features.\nColumns: samples.\n\nCounts depend on the\nprocessing workflow.\". Visual direction: A conceptual empty matrix labelled features and samples; no invented values; tag 'Conceptual layout'.. Footer numbering \"3/6\"."
+    },
+    {
+      "altText": "Replication captures biological variability. Biological replicates help estimate variation between independent samples. Several independent specimen envelopes with slightly different abstract RNA ribbon arrangements. Clearly conceptual, no plotted result.",
+      "prompt": "Use case: scientific-educational. Create ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio, exactly 1080\u00d71080 requested. Full bleed, 80px safe margins. Professional creative attractive scroll-stopper editorial design with dimensional tactile scientific objects. Readable on phone: very large expressive serif headline and clear sans-serif body, generous spacing. Top small brand ANGSUMI, bottom @angsumi.online and card number. Render ONLY supplied exact text and necessary labels; no added slogans, equations, numbers, fake data, citations, logos or watermark. Conceptual illustrations must not look like computed experimental results. Never combine multiple cards in one image. Series Transcriptomics. Style: Warm ivory field notebook editorial with maroon serif headlines, charcoal body, sage notes. Metaphor: RNA expression as a time-stamped snapshot, translucent specimen frames and paper RNA ribbons. No actual numerical data. Card 4/6. Exact headline: \"Replication captures\nbiological variability.\". Exact body: \"Biological replicates help estimate\nvariation between independent samples.\". Visual direction: Several independent specimen envelopes with slightly different abstract RNA ribbon arrangements. Clearly conceptual, no plotted result.. Footer numbering \"4/6\"."
+    },
+    {
+      "altText": "Different expression needs an explanation. Check the comparison and study design. Interpret changes in biological context. Two labelled abstract frames condition A and condition B plus a notebook asking comparison design context; no causal arrow.",
+      "prompt": "Use case: scientific-educational. Create ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio, exactly 1080\u00d71080 requested. Full bleed, 80px safe margins. Professional creative attractive scroll-stopper editorial design with dimensional tactile scientific objects. Readable on phone: very large expressive serif headline and clear sans-serif body, generous spacing. Top small brand ANGSUMI, bottom @angsumi.online and card number. Render ONLY supplied exact text and necessary labels; no added slogans, equations, numbers, fake data, citations, logos or watermark. Conceptual illustrations must not look like computed experimental results. Never combine multiple cards in one image. Series Transcriptomics. Style: Warm ivory field notebook editorial with maroon serif headlines, charcoal body, sage notes. Metaphor: RNA expression as a time-stamped snapshot, translucent specimen frames and paper RNA ribbons. No actual numerical data. Card 5/6. Exact headline: \"Different expression\nneeds an explanation.\". Exact body: \"Check the comparison and study design.\nInterpret changes in biological context.\". Visual direction: Two labelled abstract frames condition A and condition B plus a notebook asking comparison design context; no causal arrow.. Footer numbering \"5/6\"."
+    },
+    {
+      "altText": "Define the comparison before the analysis. Which condition? Compared with what? Which independent samples?  Save your RNA-seq preflight. Three clean numbered paper questions, maroon rule, generous whitespace.",
+      "prompt": "Use case: scientific-educational. Create ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio, exactly 1080\u00d71080 requested. Full bleed, 80px safe margins. Professional creative attractive scroll-stopper editorial design with dimensional tactile scientific objects. Readable on phone: very large expressive serif headline and clear sans-serif body, generous spacing. Top small brand ANGSUMI, bottom @angsumi.online and card number. Render ONLY supplied exact text and necessary labels; no added slogans, equations, numbers, fake data, citations, logos or watermark. Conceptual illustrations must not look like computed experimental results. Never combine multiple cards in one image. Series Transcriptomics. Style: Warm ivory field notebook editorial with maroon serif headlines, charcoal body, sage notes. Metaphor: RNA expression as a time-stamped snapshot, translucent specimen frames and paper RNA ribbons. No actual numerical data. Card 6/6. Exact headline: \"Define the comparison\nbefore the analysis.\". Exact body: \"Which condition?\nCompared with what?\nWhich independent samples?\n\nSave your RNA-seq preflight.\". Visual direction: Three clean numbered paper questions, maroon rule, generous whitespace.. Footer numbering \"6/6\"."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Which bioinformatics door should you open?
+
+Start with the biological question, then match your input and intended output. Genomics, transcriptomics, proteomics, metabolomics and metagenomics examine different layers of biology. Some research questions need more than one layer.
+
+Comment your research question; let’s choose a starting route.
+
+#Bioinformatics #ANGSUMI #LifeScience #ResearchData #PhDLife

@@ -1,0 +1,35 @@
+[
+  {
+    "day": 1,
+    "date": "2026-11-08",
+    "folder": "day-01-bioinformatics-doors",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 2,
+    "date": "2026-11-09",
+    "folder": "day-02-genomics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 3,
+    "date": "2026-11-10",
+    "folder": "day-03-transcriptomics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  }
+]

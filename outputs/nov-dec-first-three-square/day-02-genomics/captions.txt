@@ -1,0 +1,7 @@
+Your DNA file cannot answer every biology question.
+
+Genomics investigates genome sequence, variation, organization and comparison. Reads are sequencing observations; a reference provides a coordinate map. Variant analysis and assembly answer different questions, and a sequence difference alone does not establish its biological effect.
+
+Save the question → input → intended output checklist.
+
+#Genomics #Bioinformatics #ANGSUMI #ResearchData #LifeScience
