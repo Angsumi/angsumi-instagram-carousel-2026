@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1920, initial-scale=1.0">
+  <title>How Does DNA Store Information?</title>
+  <style>
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('../../fonts/SpaceGrotesk.ttf') format('truetype');
+      font-weight: 400 700;
+    }
+    @font-face {
+      font-family: 'Inter';
+      src: url('../../fonts/Inter.ttf') format('truetype');
+      font-weight: 400 600 800;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #090d14;
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: #f5f0e8;
+      position: relative;
+    }
+
+    /* Background Bio-Tech Grid & Glow */
+    .bg-overlay {
+      position: absolute;
+      inset: 0;
+      background: 
+        radial-gradient(circle at 50% 40%, rgba(0, 240, 255, 0.08) 0%, transparent 60%),
+        radial-gradient(circle at 80% 80%, rgba(255, 42, 109, 0.06) 0%, transparent 50%),
+        linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 60px 60px, 60px 60px;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    #webgl-canvas {
+      position: absolute;
+      inset: 0;
+      width: 1080px;
+      height: 1920px;
+      z-index: 2;
+    }
+
+    /* UI Safe-Zone Overlays */
+    .ui-container {
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 120px 80px 180px 80px;
+      pointer-events: none;
+    }
+
+    /* Top Brand & Category Header */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      opacity: 0.9;
+    }
+
+    .series-badge {
+      font-family: 'Space Grotesk', monospace;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #00f0ff;
+      background: rgba(0, 240, 255, 0.1);
+      padding: 10px 24px;
+      border-radius: 999px;
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    .channel-tag {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      letter-spacing: 0.1em;
+      color: #a0aec0;
+      font-weight: 600;
+    }
+
+    /* Main Hook Title */
+    .hook-title-box {
+      margin-top: 40px;
+      text-align: center;
+      transition: opacity 0.3s ease;
+    }
+
+    .hook-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      text-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+    }
+
+    .hook-title span {
+      background: linear-gradient(135deg, #00f0ff 0%, #10b981 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Dynamic Base Callout Badges */
+    .base-badges {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      gap: 20px;
+      z-index: 15;
+      transition: opacity 0.4s ease, transform 0.4s ease;
+    }
+
+    .base-badge {
+      width: 140px;
+      height: 180px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .base-badge .letter {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 72px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .base-badge .name {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-top: 10px;
+    }
+
+    .badge-a { background: rgba(16, 185, 129, 0.15); border: 2px solid #10b981; color: #10b981; }
+    .badge-t { background: rgba(255, 42, 109, 0.15); border: 2px solid #ff2a6d; color: #ff2a6d; }
+    .badge-g { background: rgba(0, 240, 255, 0.15); border: 2px solid #00f0ff; color: #00f0ff; }
+    .badge-c { background: rgba(245, 158, 11, 0.15); border: 2px solid #f59e0b; color: #f59e0b; }
+
+    /* Kinetic Subtitles (Lower Third Safe Zone) */
+    .caption-box {
+      margin-bottom: 80px;
+      text-align: center;
+      min-height: 140px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .caption-pill {
+      display: inline-block;
+      background: rgba(13, 17, 23, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      padding: 16px 36px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(20px);
+    }
+
+    .caption-text {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 44px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: #f5f0e8;
+    }
+
+    .caption-text .hl {
+      color: #00f0ff;
+      text-shadow: 0 0 20px rgba(0, 240, 255, 0.6);
+    }
+
+    .caption-text .hl-green {
+      color: #10b981;
+      text-shadow: 0 0 20px rgba(16, 185, 129, 0.6);
+    }
+  </style>
+
+  <!-- Import Three.js module -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "../../node_modules/three/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="bg-overlay"></div>
+  <canvas id="webgl-canvas"></canvas>
+
+  <div class="ui-container">
+    <div class="top-bar">
+      <div class="series-badge">GENOMIC DATA // 01</div>
+      <div class="channel-tag">@angsumi_bio</div>
+    </div>
+
+    <div class="hook-title-box" id="hook-title-box">
+      <h1 class="hook-title">HOW DOES <br><span>DNA STORE CODE?</span></h1>
+    </div>
+
+    <!-- Base Badges revealed in Stage 2 -->
+    <div class="base-badges" id="base-badges" style="opacity: 0; transform: translate(-50%, -40%) scale(0.8);">
+      <div class="base-badge badge-a">
+        <div class="letter">A</div>
+        <div class="name">Adenine</div>
+      </div>
+      <div class="base-badge badge-t">
+        <div class="letter">T</div>
+        <div class="name">Thymine</div>
+      </div>
+      <div class="base-badge badge-g">
+        <div class="letter">G</div>
+        <div class="name">Guanine</div>
+      </div>
+      <div class="base-badge badge-c">
+        <div class="letter">C</div>
+        <div class="name">Cytosine</div>
+      </div>
+    </div>
+
+    <!-- Kinetic Subtitles -->
+    <div class="caption-box">
+      <div class="caption-pill">
+        <div class="caption-text" id="caption-text">
+          Your cells carry <span class="hl">3 billion</span> letters.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import * as THREE from 'three';
+
+    const canvas = document.getElementById('webgl-canvas');
+    const width = 1080;
+    const height = 1920;
+
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+    renderer.setSize(width, height);
+    renderer.setPixelRatio(1);
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+    camera.position.set(0, 0, 24);
+
+    // Ambient & Directional Lighting
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+    scene.add(ambientLight);
+
+    const pointLight1 = new THREE.PointLight(0x00f0ff, 2.5, 50);
+    pointLight1.position.set(10, 15, 10);
+    scene.add(pointLight1);
+
+    const pointLight2 = new THREE.PointLight(0xff2a6d, 2.0, 50);
+    pointLight2.position.set(-10, -15, 10);
+    scene.add(pointLight2);
+
+    // Create Procedural DNA Double Helix
+    const dnaGroup = new THREE.Group();
+    scene.add(dnaGroup);
+
+    const numBasePairs = 50;
+    const helixRadius = 3.5;
+    const verticalSpread = 0.7;
+    const twistFactor = 0.22;
+
+    const sphereGeom = new THREE.SphereGeometry(0.35, 16, 16);
+    const cylinderGeom = new THREE.CylinderGeometry(0.12, 0.12, helixRadius * 2, 16);
+
+    const matStrandA = new THREE.MeshStandardMaterial({ color: 0x00f0ff, emissive: 0x003344, roughness: 0.3 });
+    const matStrandB = new THREE.MeshStandardMaterial({ color: 0xff2a6d, emissive: 0x440011, roughness: 0.3 });
+    const matRung = new THREE.MeshStandardMaterial({ color: 0xf5f0e8, roughness: 0.4 });
+
+    const basePairs = [];
+
+    for (let i = 0; i < numBasePairs; i++) {
+      const y = (i - numBasePairs / 2) * verticalSpread;
+      const angle = i * twistFactor;
+
+      const x1 = Math.cos(angle) * helixRadius;
+      const z1 = Math.sin(angle) * helixRadius;
+      const x2 = -x1;
+      const z2 = -z1;
+
+      const nodeA = new THREE.Mesh(sphereGeom, matStrandA);
+      nodeA.position.set(x1, y, z1);
+      dnaGroup.add(nodeA);
+
+      const nodeB = new THREE.Mesh(sphereGeom, matStrandB);
+      nodeB.position.set(x2, y, z2);
+      dnaGroup.add(nodeB);
+
+      const rung = new THREE.Mesh(cylinderGeom, matRung);
+      rung.position.set(0, y, 0);
+      rung.rotation.z = Math.PI / 2;
+      rung.rotation.y = -angle;
+      dnaGroup.add(rung);
+
+      basePairs.push({ nodeA, nodeB, rung, baseAngle: angle, baseY: y });
+    }
+
+    // Create Protein Folding Ribbon Structure (Hidden initially, active in stage 4)
+    const proteinGroup = new THREE.Group();
+    scene.add(proteinGroup);
+    proteinGroup.position.set(0, 0, 0);
+    proteinGroup.visible = false;
+
+    const curvePoints = [];
+    for (let i = 0; i < 60; i++) {
+      const t = i / 60;
+      curvePoints.push(new THREE.Vector3(
+        Math.sin(t * Math.PI * 4) * (2 + Math.cos(t * 10) * 1.5),
+        (t - 0.5) * 14 + Math.sin(t * 8) * 2,
+        Math.cos(t * Math.PI * 4) * (2 + Math.sin(t * 10) * 1.5)
+      ));
+    }
+    const curve = new THREE.CatmullRomCurve3(curvePoints);
+    const tubeGeom = new THREE.TubeGeometry(curve, 100, 0.4, 12, false);
+    const tubeMat = new THREE.MeshStandardMaterial({ color: 0x10b981, emissive: 0x053320, roughness: 0.2 });
+    const proteinMesh = new THREE.Mesh(tubeGeom, tubeMat);
+    proteinGroup.add(proteinMesh);
+
+    // UI Elements
+    const hookTitleBox = document.getElementById('hook-title-box');
+    const baseBadges = document.getElementById('base-badges');
+    const captionText = document.getElementById('caption-text');
+
+    // Deterministic seekFrame runner
+    window.seekFrame = (frame, totalFrames, timeSec) => {
+      const progress = frame / totalFrames; // 0.0 to 1.0
+
+      // Stage 1: Hook (0s - 2.5s) -> progress 0.0 to 0.10
+      // Stage 2: Base Pairs Zoom (2.5s - 7s) -> progress 0.10 to 0.28
+      // Stage 3: Unzipping & Codons (7s - 16s) -> progress 0.28 to 0.64
+      // Stage 4: Protein Folding (16s - 22s) -> progress 0.64 to 0.88
+      // Stage 5: Seamless Loop Return (22s - 25s) -> progress 0.88 to 1.0
+
+      // Continuous rotation
+      dnaGroup.rotation.y = progress * Math.PI * 6;
+
+      if (progress < 0.10) {
+        // Stage 1
+        hookTitleBox.style.opacity = '1';
+        baseBadges.style.opacity = '0';
+        proteinGroup.visible = false;
+        dnaGroup.visible = true;
+        camera.position.z = 24 - (progress / 0.10) * 5;
+        captionText.innerHTML = 'Your cells carry <span class="hl">3 billion</span> letters of code.';
+      } else if (progress < 0.28) {
+        // Stage 2
+        hookTitleBox.style.opacity = '0.3';
+        baseBadges.style.opacity = '1';
+        baseBadges.style.transform = 'translate(-50%, -50%) scale(1)';
+        proteinGroup.visible = false;
+        dnaGroup.visible = true;
+        camera.position.z = 19;
+        captionText.innerHTML = 'Just <span class="hl">4 chemical bases</span> build all life: A, T, G, C.';
+      } else if (progress < 0.64) {
+        // Stage 3
+        hookTitleBox.style.opacity = '0';
+        baseBadges.style.opacity = '0';
+        proteinGroup.visible = false;
+        dnaGroup.visible = true;
+
+        // Unzipping animation: separate strand A and B
+        const unzipProgress = Math.min(1, (progress - 0.28) / 0.2);
+        basePairs.forEach(bp => {
+          bp.nodeA.position.x = (Math.cos(bp.baseAngle) * helixRadius) * (1 + unzipProgress * 0.8);
+          bp.nodeB.position.x = (-Math.cos(bp.baseAngle) * helixRadius) * (1 + unzipProgress * 0.8);
+          bp.rung.scale.x = Math.max(0.01, 1 - unzipProgress);
+        });
+
+        captionText.innerHTML = 'Ribosomes decode them in <span class="hl-green">3-letter words</span> (codons).';
+      } else if (progress < 0.88) {
+        // Stage 4
+        hookTitleBox.style.opacity = '0';
+        baseBadges.style.opacity = '0';
+        dnaGroup.visible = false;
+        proteinGroup.visible = true;
+
+        const foldT = (progress - 0.64) / 0.24;
+        proteinGroup.rotation.y = foldT * Math.PI * 3;
+        proteinGroup.rotation.x = Math.sin(foldT * Math.PI) * 0.4;
+        proteinMesh.scale.setScalar(0.7 + foldT * 0.5);
+
+        captionText.innerHTML = 'Each sequence folds into a <span class="hl-green">living nanomachine</span>.';
+      } else {
+        // Stage 5: Loop back
+        const loopT = (progress - 0.88) / 0.12; // 0.0 to 1.0
+        proteinGroup.visible = loopT < 0.5;
+        dnaGroup.visible = true;
+
+        // Reset DNA geometry to initial pristine state
+        basePairs.forEach(bp => {
+          bp.nodeA.position.x = Math.cos(bp.baseAngle) * helixRadius;
+          bp.nodeB.position.x = -Math.cos(bp.baseAngle) * helixRadius;
+          bp.rung.scale.x = 1;
+        });
+
+        camera.position.z = 19 + loopT * 5;
+        hookTitleBox.style.opacity = String(loopT);
+        captionText.innerHTML = 'And the code copies again... <span class="hl">endlessly</span>.';
+      }
+
+      renderer.render(scene, camera);
+    };
+
+    // Initialize frame 0 immediately for browser preview
+    window.seekFrame(0, 750, 0);
+  </script>
+</body>
+</html>

@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/TextPlugin.min.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Plus+Jakarta+Sans:wght@500;700;800;900&display=swap');
+
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        margin: 0; width: 1080px; height: 1920px;
+        overflow: hidden; background: #07090e;
+        font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        color: #f8fafc;
+      }
+
+      /* Multi-layer Cinematic Background */
+      #bg-container {
+        position: absolute; inset: -40px;
+        width: 1160px; height: 2000px;
+        overflow: hidden;
+      }
+      #bg-photo {
+        position: absolute; inset: 0;
+        background-image: url('./bg.jpg');
+        background-size: cover; background-position: center 30%;
+        filter: blur(5px) brightness(0.82) saturate(1.15);
+        transform: scale(1.05);
+      }
+      .bg-vignette {
+        position: absolute; inset: 0;
+        background: radial-gradient(circle at 50% 45%, rgba(0, 0, 0, 0.1) 0%, rgba(7, 9, 14, 0.5) 75%, rgba(7, 9, 14, 0.8) 100%);
+      }
+      .ambient-glow-1 {
+        position: absolute; top: 15%; left: 20%; width: 500px; height: 500px;
+        background: radial-gradient(circle, rgba(0, 242, 254, 0.15) 0%, transparent 70%);
+        pointer-events: none; filter: blur(50px);
+      }
+      .ambient-glow-2 {
+        position: absolute; bottom: 25%; right: 10%; width: 550px; height: 550px;
+        background: radial-gradient(circle, rgba(255, 107, 107, 0.12) 0%, transparent 70%);
+        pointer-events: none; filter: blur(60px);
+      }
+
+      /* Viewport strictly aligned with Safe Zones (x: 60..1020, y: 140..1760) */
+      #root {
+        position: relative; width: 1080px; height: 1920px;
+        z-index: 10; display: flex; flex-direction: column;
+        justify-content: space-between;
+        padding: 130px 60px 160px 60px;
+      }
+
+      /* Top Header HUD */
+      .top-hud {
+        display: flex; flex-direction: column; gap: 14px;
+      }
+      .hud-meta {
+        display: flex; justify-content: space-between; align-items: center;
+      }
+      .creator-badge {
+        display: inline-flex; align-items: center; gap: 10px;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(20px);
+        padding: 8px 22px; border-radius: 999px;
+        font-size: 19px; font-weight: 800; letter-spacing: 0.08em;
+        text-transform: uppercase; color: #f1f5f9;
+      }
+      .badge-dot {
+        width: 10px; height: 10px; border-radius: 50%;
+        background: #00f2fe; box-shadow: 0 0 12px #00f2fe;
+      }
+      .hud-episode {
+        font-family: 'Fira Code', monospace;
+        font-size: 17px; font-weight: 600;
+        color: #94a3b8; letter-spacing: 0.1em;
+      }
+
+      /* Hook Title Area */
+      .hook-section {
+        margin-top: 10px; text-align: center;
+      }
+      .status-pill {
+        display: inline-flex; align-items: center; gap: 10px;
+        font-family: 'Fira Code', monospace;
+        font-size: 19px; font-weight: 700; letter-spacing: 0.06em;
+        padding: 8px 26px; border-radius: 999px;
+        margin-bottom: 16px;
+        background: rgba(239, 68, 68, 0.18);
+        border: 1px solid rgba(239, 68, 68, 0.5);
+        color: #fca5a5;
+        box-shadow: 0 0 25px rgba(239, 68, 68, 0.25);
+      }
+      .hook-title {
+        font-size: 64px; font-weight: 900; line-height: 1.12;
+        letter-spacing: -0.03em; color: #ffffff;
+        text-shadow: 0 4px 40px rgba(0, 0, 0, 0.9);
+      }
+      .hook-title .glow-cyan {
+        color: #38bdf8;
+        text-shadow: 0 0 35px rgba(56, 189, 248, 0.6);
+      }
+      .hook-title .glow-amber {
+        color: #fde047;
+        text-shadow: 0 0 35px rgba(253, 224, 71, 0.6);
+      }
+
+      /* Beautified Glassmorphism Terminal Window */
+      .terminal-frame {
+        position: relative;
+        background: rgba(13, 17, 23, 0.92);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 24px;
+        box-shadow: 
+          0 40px 100px -20px rgba(0, 0, 0, 0.95),
+          0 0 60px rgba(0, 242, 254, 0.08),
+          inset 0 1px 0 rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(35px);
+        overflow: hidden;
+        margin-top: 12px;
+      }
+      .terminal-header {
+        background: rgba(22, 27, 34, 0.95);
+        padding: 16px 24px;
+        display: flex; justify-content: space-between; align-items: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .traffic-lights {
+        display: flex; gap: 9px; align-items: center;
+      }
+      .tl-dot { width: 14px; height: 14px; border-radius: 50%; }
+      .tl-red { background: #ff5f56; box-shadow: 0 0 8px rgba(255, 95, 86, 0.4); }
+      .tl-yel { background: #ffbd2e; box-shadow: 0 0 8px rgba(255, 189, 46, 0.4); }
+      .tl-grn { background: #27c93f; box-shadow: 0 0 8px rgba(39, 201, 63, 0.4); }
+
+      .terminal-tab {
+        display: flex; align-items: center; gap: 8px;
+        font-family: 'Fira Code', monospace;
+        font-size: 16px; font-weight: 600; color: #94a3b8;
+      }
+      .terminal-branch {
+        font-family: 'Fira Code', monospace;
+        font-size: 14px; color: #38bdf8;
+        background: rgba(56, 189, 248, 0.12);
+        padding: 4px 12px; border-radius: 6px;
+        border: 1px solid rgba(56, 189, 248, 0.25);
+      }
+
+      /* Terminal Body & FASTQ Rows */
+      .terminal-body {
+        padding: 28px 24px;
+        display: flex; flex-direction: column; gap: 14px;
+        font-family: 'Fira Code', monospace;
+      }
+      .cmd-line {
+        font-size: 24px; color: #e2e8f0;
+        display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
+        margin-bottom: 6px;
+      }
+      .prompt-sign { color: #38bdf8; font-weight: 700; }
+      .cmd-text { color: #fde047; font-weight: 600; }
+      .cursor-blink {
+        display: inline-block; width: 11px; height: 26px;
+        background: #38bdf8; vertical-align: middle;
+      }
+
+      /* 4 FASTQ Line Cards */
+      .line-card {
+        padding: 16px 20px;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        display: flex; flex-direction: column; gap: 8px;
+        transition: all 0.3s ease;
+        opacity: 0.35;
+      }
+      .line-card.active {
+        opacity: 1;
+        background: rgba(255, 255, 255, 0.06);
+        transform: scale(1.015);
+      }
+      .card-meta {
+        display: flex; justify-content: space-between; align-items: center;
+        font-size: 15px; font-weight: 700; letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .card-content {
+        font-size: 25px; font-weight: 600;
+        word-break: break-all; letter-spacing: 0.03em; line-height: 1.35;
+      }
+
+      /* Specific Card Styling */
+      .card-1.active {
+        border-color: rgba(56, 189, 248, 0.6);
+        box-shadow: 0 0 35px rgba(56, 189, 248, 0.2), inset 0 0 15px rgba(56, 189, 248, 0.08);
+      }
+      .card-1 .card-meta { color: #38bdf8; }
+      .card-1 .card-content { color: #e0f2fe; }
+
+      .card-2.active {
+        border-color: rgba(52, 211, 153, 0.6);
+        box-shadow: 0 0 35px rgba(52, 211, 153, 0.2), inset 0 0 15px rgba(52, 211, 153, 0.08);
+      }
+      .card-2 .card-meta { color: #34d399; }
+      .card-2 .card-content { color: #d1fae5; }
+
+      .card-3.active {
+        border-color: rgba(241, 245, 249, 0.5);
+        box-shadow: 0 0 25px rgba(241, 245, 249, 0.15);
+      }
+      .card-3 .card-meta { color: #cbd5e1; }
+      .card-3 .card-content { color: #ffffff; font-size: 32px; font-weight: 800; }
+
+      .card-4.active {
+        border-color: rgba(251, 113, 133, 0.6);
+        box-shadow: 0 0 35px rgba(251, 113, 133, 0.2), inset 0 0 15px rgba(251, 113, 133, 0.08);
+      }
+      .card-4 .card-meta { color: #fb7185; }
+      .card-4 .card-content { color: #ffe4e6; }
+
+      .phred-badge-row {
+        display: flex; gap: 12px; margin-top: 4px;
+      }
+      .p-badge {
+        font-size: 14px; font-weight: 700; padding: 4px 12px; border-radius: 6px;
+      }
+      .p-high { background: rgba(52, 211, 153, 0.18); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.4); }
+      .p-low { background: rgba(239, 68, 68, 0.18); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.4); }
+
+      /* CTA High-Converting Card */
+      .cta-overlay {
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%) scale(0.9);
+        width: 950px;
+        background: linear-gradient(145deg, rgba(15, 23, 42, 0.98), rgba(2, 6, 23, 0.98));
+        border: 2px solid #38bdf8;
+        border-radius: 36px;
+        padding: 60px 48px;
+        text-align: center;
+        opacity: 0; pointer-events: none;
+        box-shadow: 0 40px 120px rgba(0, 0, 0, 0.9), 0 0 80px rgba(56, 189, 248, 0.35);
+        backdrop-filter: blur(40px);
+        z-index: 50;
+      }
+      .cta-pill {
+        display: inline-block;
+        font-family: 'Fira Code', monospace;
+        font-size: 20px; font-weight: 700; letter-spacing: 0.15em;
+        color: #000; background: #38bdf8;
+        padding: 9px 28px; border-radius: 999px; margin-bottom: 24px;
+      }
+      .cta-heading {
+        font-size: 64px; font-weight: 900; line-height: 1.15;
+        color: #ffffff; margin-bottom: 18px;
+      }
+      .cta-heading span { color: #fde047; }
+      .cta-desc {
+        font-size: 28px; color: #cbd5e1; line-height: 1.45;
+        margin-bottom: 30px;
+      }
+      .cta-author {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 22px; font-weight: 700; color: #94a3b8;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        padding-top: 22px; letter-spacing: 0.05em;
+      }
+
+      /* Kinetic Hinglish Captions (CapCut High-Retention Style) */
+      .caption-container {
+        margin-bottom: 75px; text-align: center; min-height: 160px;
+        display: flex; flex-direction: column; align-items: center; justify-content: center;
+      }
+      .caption-pill-box {
+        display: inline-block;
+        background: rgba(13, 17, 23, 0.94);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 28px;
+        padding: 22px 42px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.85);
+        backdrop-filter: blur(30px);
+        max-width: 960px;
+      }
+      .caption-text {
+        font-size: 46px; font-weight: 900; color: #ffffff;
+        line-height: 1.3; text-transform: uppercase;
+        letter-spacing: -0.01em;
+      }
+      .caption-text .kw-yellow {
+        background: #fde047; color: #000;
+        padding: 2px 14px; border-radius: 8px;
+        display: inline-block; transform: rotate(-1.5deg);
+      }
+      .caption-text .kw-cyan {
+        background: #38bdf8; color: #000;
+        padding: 2px 14px; border-radius: 8px;
+        display: inline-block; transform: rotate(1.5deg);
+      }
+      .caption-text .kw-red {
+        background: #f87171; color: #000;
+        padding: 2px 14px; border-radius: 8px;
+        display: inline-block; transform: rotate(-1.5deg);
+      }
+      .caption-text .kw-green {
+        background: #34d399; color: #000;
+        padding: 2px 14px; border-radius: 8px;
+        display: inline-block; transform: rotate(1deg);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Multi-layer Background -->
+    <div id="bg-container">
+      <div id="bg-photo"></div>
+      <div class="bg-vignette"></div>
+      <div class="ambient-glow-1"></div>
+      <div class="ambient-glow-2"></div>
+    </div>
+
+    <!-- Audio Clip declaration for HyperFrames native audio (1.5x Speed) -->
+    <audio src="./audio_1_5x.mp3" class="clip" data-start="0" data-duration="31.5" data-volume="1"></audio>
+
+    <div id="root" data-composition-id="main" data-start="0" data-duration="31.5" data-width="1080" data-height="1920">
+      
+      <!-- Top HUD -->
+      <div class="top-hud">
+        <div class="hud-meta">
+          <div class="creator-badge">
+            <span class="badge-dot"></span>
+            <span>ANGSUMI // BIOINFORMATICS</span>
+          </div>
+          <div class="hud-episode">EP. 01 // NGS BASICS</div>
+        </div>
+      </div>
+
+      <!-- Hook Heading -->
+      <div class="hook-section">
+        <div class="status-pill" id="status-pill">⚠️ 15.4 GB FILE LOADED</div>
+        <h1 class="hook-title" id="hook-title">
+          WHAT IS A <br><span class="glow-cyan">FASTQ FILE?</span>
+        </h1>
+      </div>
+
+      <!-- Glassmorphic Terminal -->
+      <div class="terminal-frame" id="terminal-frame">
+        <div class="terminal-header">
+          <div class="traffic-lights">
+            <div class="tl-dot tl-red"></div>
+            <div class="tl-dot tl-yel"></div>
+            <div class="tl-dot tl-grn"></div>
+          </div>
+          <div class="terminal-tab">
+            <span>zsh — sample_R1.fastq</span>
+          </div>
+          <div class="terminal-branch">HEAD -N 4</div>
+        </div>
+
+        <div class="terminal-body">
+          <div class="cmd-line">
+            <span class="prompt-sign">angsumi@macbook ~ %</span>
+            <span class="cmd-text" id="cmd-display"></span>
+            <span class="cursor-blink" id="cmd-cursor"></span>
+          </div>
+
+          <!-- Line 1 -->
+          <div class="line-card card-1" id="card-1">
+            <div class="card-meta">
+              <span>Line 1: Header ID</span>
+              <span>@Sequencer Coordinates</span>
+            </div>
+            <div class="card-content" id="txt-1">@A00123:45:H3WVGDSX2:1:1101:1420:1000 1:N:0:ATCACG</div>
+          </div>
+
+          <!-- Line 2 -->
+          <div class="line-card card-2" id="card-2">
+            <div class="card-meta">
+              <span>Line 2: Raw Sequence</span>
+              <span>Biological Bases (ATGC)</span>
+            </div>
+            <div class="card-content" id="txt-2">GATCGATTCGATCGATAGCTAGCTAGCATCGTAGCTAGCTA</div>
+          </div>
+
+          <!-- Line 3 -->
+          <div class="line-card card-3" id="card-3">
+            <div class="card-meta">
+              <span>Line 3: Separator</span>
+              <span>Plus Delimiter</span>
+            </div>
+            <div class="card-content" id="txt-3">+</div>
+          </div>
+
+          <!-- Line 4 -->
+          <div class="line-card card-4" id="card-4">
+            <div class="card-meta">
+              <span>Line 4: Quality Scores</span>
+              <span>Phred ASCII (Error Probability)</span>
+            </div>
+            <div class="card-content" id="txt-4">FFFFFFFFFFFFFFFFFF:FFFFFFFFF,FFFFF#FFF!!</div>
+            <div class="phred-badge-row">
+              <span class="p-badge p-high">"F" = Q37 (99.98% Acc)</span>
+              <span class="p-badge p-low">"!" = Q0 (High Error)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Conversion CTA Overlay Card -->
+      <div class="cta-overlay" id="cta-overlay">
+        <div class="cta-pill">FREE BIOINFORMATICS RESOURCE</div>
+        <h2 class="cta-heading">COMMENT <span class="glow-amber">"FASTQ"</span></h2>
+        <p class="cta-desc">I will DM you my 1-Page FASTQ Read Quality Cheatsheet with quality score decoding formulas!</p>
+        <div class="cta-author">ANGSUMI • The Researcher Who Builds</div>
+      </div>
+
+      <!-- Kinetic Subtitles -->
+      <div class="caption-container">
+        <div class="caption-pill-box">
+          <div class="caption-text" id="caption-box">
+            Sequencing company ne <span class="kw-red">15 GB data</span> bheja...
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = tl;
+
+      // ── 1. Background Cinematic Drift (1.5x Speed: 31.5s) ──
+      tl.to("#bg-photo", {
+        scale: 1.15,
+        x: -25,
+        y: -15,
+        duration: 31.5,
+        ease: "none"
+      }, 0);
+
+      // ── 2. Blinking Terminal Cursor ──
+      tl.to("#cmd-cursor", {
+        opacity: 0,
+        duration: 0.3,
+        repeat: -1,
+        yoyo: true,
+        ease: "steps(1)"
+      }, 0);
+
+      // ── 3. Exact 1.5x Timestamps from Hinglish Voiceover ──
+      // Clip 0 (0.00s - 5.09s): Hook
+      tl.to("#cmd-display", {
+        text: "head -n 4 sample_R1.fastq",
+        duration: 2.1,
+        ease: "none"
+      }, 0.8);
+
+      tl.set("#caption-box", {
+        innerHTML: "Sequencing company ne <span class='kw-red'>15 GB DATA</span> bhej diya..."
+      }, 0);
+
+      tl.set("#caption-box", {
+        innerHTML: "Notepad kholte hi <span class='kw-red'>LAPTOP CRASH</span> ho gaya!"
+      }, 2.67);
+
+      // Clip 1 (5.32s - 9.91s): Don't Panic / 4 Lines Rule
+      tl.set("#status-pill", {
+        innerText: "⚡ THE 4-LINE RULE",
+        style: "background: rgba(56, 189, 248, 0.18); border-color: rgba(56, 189, 248, 0.5); color: #7dd3fc; box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);"
+      }, 5.32);
+
+      tl.set("#hook-title", {
+        innerHTML: "DON’T PANIC. <br><span class='glow-amber'>HAR READ MEIN 4 LINES!</span>"
+      }, 5.32);
+
+      tl.to("#terminal-frame", {
+        scale: 1.02,
+        duration: 0.35,
+        ease: "power2.out"
+      }, 5.32);
+
+      tl.set("#caption-box", {
+        innerHTML: "Par <span class='kw-cyan'>PANIC MAT KARO</span>!"
+      }, 5.32);
+
+      tl.set("#caption-box", {
+        innerHTML: "Har FASTQ read strictly sirf <span class='kw-yellow'>CHAAR LINES</span> ka hota hai."
+      }, 7.20);
+
+      // Clip 2 (10.15s - 14.98s): Line 1 Header ID
+      tl.set("#status-pill", {
+        innerText: "LINE 1: HEADER ID (@)",
+        style: "background: rgba(56, 189, 248, 0.25); border-color: #38bdf8; color: #e0f2fe; box-shadow: 0 0 30px rgba(56, 189, 248, 0.4);"
+      }, 10.15);
+
+      tl.set("#hook-title", {
+        innerHTML: "LINE 1: <br><span class='glow-cyan'>SEQUENCE HEADER (@)</span>"
+      }, 10.15);
+
+      tl.to("#card-1", {
+        className: "line-card card-1 active",
+        duration: 0.2
+      }, 10.15);
+
+      tl.set("#caption-box", {
+        innerHTML: "Line 1: <span class='kw-cyan'>@ SE START</span> hota hai Header ID."
+      }, 10.15);
+
+      tl.set("#caption-box", {
+        innerHTML: "Isme hote hain sequencer ke <span class='kw-cyan'>RUN COORDINATES</span>."
+      }, 12.33);
+
+      // Clip 3 (15.21s - 19.71s): Line 2 Biological Sequence
+      tl.to("#card-1", { className: "line-card card-1", duration: 0.15 }, 15.21);
+      tl.to("#card-2", { className: "line-card card-2 active", duration: 0.2 }, 15.21);
+
+      tl.set("#status-pill", {
+        innerText: "LINE 2: RAW BASES (ATGC)",
+        style: "background: rgba(52, 211, 153, 0.22); border-color: #34d399; color: #a7f3d0; box-shadow: 0 0 30px rgba(52, 211, 153, 0.4);"
+      }, 15.21);
+
+      tl.set("#hook-title", {
+        innerHTML: "LINE 2: <br><span style='color: #34d399; text-shadow: 0 0 35px rgba(52, 211, 153, 0.6)'>BIOLOGICAL SEQUENCE</span>"
+      }, 15.21);
+
+      tl.set("#caption-box", {
+        innerHTML: "Line 2: Tumhara actual <span class='kw-green'>DNA SEQUENCE</span>."
+      }, 15.21);
+
+      tl.set("#caption-box", {
+        innerHTML: "Biological bases: <span class='kw-green'>A, T, G, AUR C</span>."
+      }, 17.20);
+
+      // Clip 4 (19.94s - 22.48s): Line 3 Plus Separator
+      tl.to("#card-2", { className: "line-card card-2", duration: 0.15 }, 19.94);
+      tl.to("#card-3", { className: "line-card card-3 active", duration: 0.2 }, 19.94);
+
+      tl.set("#status-pill", {
+        innerText: "LINE 3: PLUS DELIMITER (+)",
+        style: "background: rgba(255, 255, 255, 0.15); border-color: #f1f5f9; color: #ffffff;"
+      }, 19.94);
+
+      tl.set("#hook-title", {
+        innerHTML: "LINE 3: <br><span style='color: #ffffff; text-shadow: 0 0 30px rgba(255, 255, 255, 0.6)'>PLUS SEPARATOR (+)</span>"
+      }, 19.94);
+
+      tl.set("#caption-box", {
+        innerHTML: "Line 3: Sirf ek simple <span class='kw-yellow'>PLUS SIGN (+)</span> delimiter."
+      }, 19.94);
+
+      // Clip 5 (22.72s - 27.41s): Line 4 Phred Quality Scores
+      tl.to("#card-3", { className: "line-card card-3", duration: 0.15 }, 22.72);
+      tl.to("#card-4", { className: "line-card card-4 active", duration: 0.2 }, 22.72);
+
+      tl.set("#status-pill", {
+        innerText: "LINE 4: PHRED QUALITY SCORE",
+        style: "background: rgba(251, 113, 133, 0.25); border-color: #fb7185; color: #ffe4e6; box-shadow: 0 0 30px rgba(251, 113, 133, 0.4);"
+      }, 22.72);
+
+      tl.set("#hook-title", {
+        innerHTML: "LINE 4: <br><span style='color: #fb7185; text-shadow: 0 0 35px rgba(251, 113, 133, 0.6)'>PHRED QUALITY SCORES</span>"
+      }, 22.72);
+
+      tl.set("#caption-box", {
+        innerHTML: "Line 4: <span class='kw-red'>PHRED QUALITY SCORE</span> in ASCII."
+      }, 22.72);
+
+      tl.set("#caption-box", {
+        innerHTML: "Batata hai ki <span class='kw-red'>BASE ACCURACY</span> kitni high hai!"
+      }, 25.00);
+
+      // Clip 6 (27.64s - 31.50s): CTA & Seamless Conversion
+      tl.to("#card-4", { className: "line-card card-4", duration: 0.15 }, 27.64);
+      tl.to("#cta-overlay", {
+        opacity: 1,
+        scale: 1,
+        duration: 0.4,
+        ease: "back.out(1.5)"
+      }, 27.64);
+
+      tl.set("#caption-box", {
+        innerHTML: "Comment karo <span class='kw-yellow'>\"FASTQ\"</span> for free cheatsheet!"
+      }, 27.64);
+
+      tl.seek(0);
+    </script>
+  </body>
+</html>

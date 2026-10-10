@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1920, initial-scale=1.0">
+  <title>Reel 02: Stop Feeding TPM into DESeq2 (Motion Engine)</title>
+  <style>
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('../../fonts/SpaceGrotesk.ttf') format('truetype');
+      font-weight: 400 700;
+    }
+    @font-face {
+      font-family: 'Inter';
+      src: url('../../fonts/Inter.ttf') format('truetype');
+      font-weight: 400 600 800;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #06080d;
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: #f8fafc;
+      position: relative;
+    }
+
+    /* Handheld Camera Wrapper */
+    #camera-wrapper {
+      width: 1140px;
+      height: 2000px;
+      position: absolute;
+      top: -40px;
+      left: -30px;
+      transform-origin: center center;
+    }
+
+    /* Blurred Cinematic Background */
+    #bg-layer {
+      position: absolute;
+      inset: 0;
+      background-image: url('./bg.jpg');
+      background-size: cover;
+      background-position: center;
+      filter: blur(14px) brightness(0.35) saturate(1.2);
+      z-index: 1;
+    }
+
+    .ambient-glow-1 {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(239, 68, 68, 0.18) 0%, transparent 70%);
+      filter: blur(60px);
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .ambient-glow-2 {
+      position: absolute;
+      bottom: 25%;
+      right: 15%;
+      width: 650px;
+      height: 650px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.16) 0%, transparent 70%);
+      filter: blur(70px);
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    /* Safe Zones Viewport */
+    .viewport {
+      position: absolute;
+      top: 40px;
+      left: 30px;
+      width: 1080px;
+      height: 1920px;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 130px 65px 170px 65px;
+    }
+
+    /* Top HUD */
+    .top-hud {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .hud-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .creator-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(24px);
+      padding: 10px 24px;
+      border-radius: 999px;
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #f1f5f9;
+    }
+
+    .badge-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #00e5a3;
+      box-shadow: 0 0 16px #00e5a3;
+    }
+
+    .hud-episode {
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: 700;
+      color: #94a3b8;
+      letter-spacing: 0.1em;
+    }
+
+    .progress-bar-track {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, #ef4444, #f59e0b, #10b981);
+      border-radius: 999px;
+    }
+
+    /* Hook Title Section */
+    .hook-container {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .crash-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      color: #ef4444;
+      background: rgba(239, 68, 68, 0.16);
+      border: 1px solid rgba(239, 68, 68, 0.55);
+      padding: 8px 26px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+      box-shadow: 0 0 30px rgba(239, 68, 68, 0.3);
+    }
+
+    .hook-heading {
+      font-size: 64px;
+      font-weight: 900;
+      line-height: 1.14;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+      text-shadow: 0 4px 40px rgba(0, 0, 0, 0.95);
+    }
+
+    /* Center Stage Canvas Container */
+    .stage-card {
+      width: 100%;
+      height: 720px;
+      background: rgba(13, 17, 26, 0.82);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(28px);
+      border-radius: 28px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 12px;
+    }
+
+    .mac-dots {
+      display: flex;
+      gap: 8px;
+    }
+
+    .mac-dot {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+    }
+    .dot-red { background: #ff5f56; }
+    .dot-yellow { background: #ffbd2e; }
+    .dot-green { background: #27c93f; }
+
+    .stage-title {
+      font-family: monospace;
+      font-size: 16px;
+      font-weight: 700;
+      color: #94a3b8;
+      letter-spacing: 0.08em;
+    }
+
+    #stage-canvas {
+      width: 100%;
+      height: 610px;
+      border-radius: 16px;
+    }
+
+    /* Bottom Subtitles / Caption Container */
+    .caption-box {
+      background: rgba(10, 14, 23, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(24px);
+      padding: 26px 36px;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .caption-text {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.35;
+      color: #f1f5f9;
+      letter-spacing: -0.01em;
+    }
+
+    .caption-text span.hl-yellow {
+      color: #facc15;
+      text-shadow: 0 0 20px rgba(250, 204, 21, 0.5);
+    }
+    .caption-text span.hl-red {
+      color: #f87171;
+      text-shadow: 0 0 20px rgba(248, 113, 113, 0.5);
+    }
+    .caption-text span.hl-green {
+      color: #34d399;
+      text-shadow: 0 0 20px rgba(52, 211, 153, 0.5);
+    }
+
+    /* Outro CTA Overlay */
+    #cta-modal {
+      position: absolute;
+      inset: 60px 40px;
+      background: rgba(11, 14, 22, 0.95);
+      border: 2px solid rgba(16, 185, 129, 0.5);
+      box-shadow: 0 0 80px rgba(16, 185, 129, 0.3);
+      backdrop-filter: blur(30px);
+      border-radius: 36px;
+      z-index: 100;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px;
+      opacity: 0;
+      pointer-events: none;
+      transform: scale(0.94);
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    #cta-modal.visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: scale(1);
+    }
+
+    .cta-badge {
+      background: rgba(16, 185, 129, 0.2);
+      border: 1px solid #10b981;
+      color: #34d399;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      padding: 10px 30px;
+      border-radius: 999px;
+      margin-bottom: 30px;
+    }
+
+    .cta-heading {
+      font-size: 56px;
+      font-weight: 900;
+      line-height: 1.15;
+      color: #ffffff;
+      margin-bottom: 24px;
+    }
+
+    .cta-subtext {
+      font-size: 28px;
+      color: #cbd5e1;
+      line-height: 1.45;
+      max-width: 760px;
+      margin-bottom: 40px;
+    }
+
+    .cta-button {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #ffffff;
+      font-size: 28px;
+      font-weight: 800;
+      padding: 22px 60px;
+      border-radius: 999px;
+      box-shadow: 0 10px 40px rgba(16, 185, 129, 0.5);
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="camera-wrapper">
+    <div id="bg-layer"></div>
+    <div class="ambient-glow-1"></div>
+    <div class="ambient-glow-2"></div>
+
+    <div class="viewport">
+      <!-- Top Header HUD -->
+      <div class="top-hud">
+        <div class="hud-meta">
+          <div class="creator-badge">
+            <div class="badge-dot"></div>
+            <span>ANGSUMI // THE RESEARCHER WHO BUILDS</span>
+          </div>
+          <div class="hud-episode">EP.02 // SAMPLING DEPTH</div>
+        </div>
+        <div class="progress-bar-track">
+          <div id="progress-fill" class="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <!-- Hook Section -->
+      <div class="hook-container">
+        <div id="crash-pill" class="crash-pill">⚠️ CRITICAL DESEQ2 WARNING</div>
+        <h1 id="hook-heading" class="hook-heading">
+          STOP FEEDING TPM <br><span style="color:#ef4444">INTO DESEQ2!</span>
+        </h1>
+      </div>
+
+      <!-- Center Dynamic Graphic Canvas -->
+      <div class="stage-card">
+        <div class="card-topbar">
+          <div class="mac-dots">
+            <div class="mac-dot dot-red"></div>
+            <div class="mac-dot dot-yellow"></div>
+            <div class="mac-dot dot-green"></div>
+          </div>
+          <div id="stage-title" class="stage-title">SAMPLING_VARIANCE_DIAGNOSTIC</div>
+        </div>
+        <canvas id="stage-canvas" width="900" height="610"></canvas>
+      </div>
+
+      <!-- Bottom Kinetic Captions -->
+      <div class="caption-box">
+        <p id="caption-text" class="caption-text">
+          Stop feeding TPM tables into <span class="hl-red">DESeq2!</span>
+        </p>
+      </div>
+
+      <!-- Outro CTA Modal -->
+      <div id="cta-modal">
+        <div class="cta-badge">BIOINFORMATICS RULE #01</div>
+        <h2 class="cta-heading">RAW COUNTS FOR DE.<br><span style="color:#34d399">TPM FOR VISUALS.</span></h2>
+        <p class="cta-subtext">Never normalize before statistical dispersion modeling. Save this blueprint for your next RNA-seq pipeline!</p>
+        <div class="cta-button">SAVE THIS REEL ↗</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const cameraWrapper = document.getElementById('camera-wrapper');
+    const progressFill = document.getElementById('progress-fill');
+    const crashPill = document.getElementById('crash-pill');
+    const hookHeading = document.getElementById('hook-heading');
+    const captionText = document.getElementById('caption-text');
+    const stageTitle = document.getElementById('stage-title');
+    const ctaModal = document.getElementById('cta-modal');
+
+    const canvas = document.getElementById('stage-canvas');
+    const ctx = canvas.getContext('2d');
+
+    // Speech Transcript Segments with exact timings (Total duration: 29.35s)
+    const transcripts = [
+      { start: 0.0, end: 3.5, text: "Stop feeding TPM tables into <span class='hl-red'>DESeq2!</span>" },
+      { start: 3.5, end: 7.0, text: "DESeq2 throws an error for a reason: <span class='hl-yellow'>It needs raw integers.</span>" },
+      { start: 7.0, end: 11.5, text: "Differential expression models <span class='hl-yellow'>statistical uncertainty.</span>" },
+      { start: 11.5, end: 15.5, text: "<span class='hl-red'>10 reads</span> = huge uncertainty. <span class='hl-green'>1,000 reads</span> = high certainty!" },
+      { start: 15.5, end: 19.5, text: "TPM erases this depth by turning counts into <span class='hl-red'>relative fractions.</span>" },
+      { start: 19.5, end: 23.5, text: "Between conditions? <span class='hl-green'>Always use raw integer counts.</span>" },
+      { start: 23.5, end: 26.5, text: "Within a single sample? <span class='hl-yellow'>Use TPM for visuals!</span>" },
+      { start: 26.5, end: 29.35, text: "Save this rule before your next <span class='hl-green'>RNA-seq run!</span>" }
+    ];
+
+    // Helper: Draw Normal/Gaussian distribution curve on Canvas
+    function drawBellCurve(ctx, mean, stdDev, color, fillRgba, heightScale, label, nReads, alpha = 1) {
+      ctx.save();
+      ctx.globalAlpha = alpha;
+      ctx.beginPath();
+      
+      const width = canvas.width;
+      const height = canvas.height;
+      const baseY = height - 80;
+
+      // Draw baseline axis
+      ctx.strokeStyle = "rgba(255, 255, 255, 0.15)";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(60, baseY);
+      ctx.lineTo(width - 60, baseY);
+      ctx.stroke();
+
+      // Plot curve
+      ctx.beginPath();
+      for (let x = 60; x <= width - 60; x += 3) {
+        const exponent = -0.5 * Math.pow((x - mean) / stdDev, 2);
+        const yVal = (1 / (stdDev * Math.sqrt(2 * Math.PI))) * Math.exp(exponent);
+        const y = baseY - (yVal * heightScale);
+        if (x === 60) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      }
+      ctx.lineTo(width - 60, baseY);
+      ctx.lineTo(60, baseY);
+      ctx.closePath();
+
+      ctx.fillStyle = fillRgba;
+      ctx.fill();
+
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 4;
+      ctx.stroke();
+
+      // Peak label & callout
+      const peakY = baseY - ((1 / (stdDev * Math.sqrt(2 * Math.PI))) * heightScale);
+      ctx.fillStyle = color;
+      ctx.font = "bold 24px 'Inter', sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText(label, mean, peakY - 30);
+
+      ctx.font = "600 18px monospace";
+      ctx.fillStyle = "#cbd5e1";
+      ctx.fillText(`Depth: ${nReads}`, mean, peakY - 8);
+
+      ctx.restore();
+    }
+
+    // Helper: Draw 2x2 Decision Matrix on Canvas
+    function drawDecisionMatrix(ctx, progress) {
+      const w = canvas.width;
+      const h = canvas.height;
+      ctx.clearRect(0, 0, w, h);
+
+      // Card Header
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "bold 26px 'Inter', sans-serif";
+      ctx.textAlign = "center";
+      ctx.fillText("RNA-SEQ NORMALIZATION MATRIX", w / 2, 60);
+
+      // Row 1: Differential Expression
+      ctx.fillStyle = "rgba(16, 185, 129, 0.12)";
+      ctx.strokeStyle = "#10b981";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.roundRect(60, 110, w - 120, 190, 16);
+      ctx.fill();
+      ctx.stroke();
+
+      ctx.textAlign = "left";
+      ctx.fillStyle = "#34d399";
+      ctx.font = "bold 24px 'Inter', sans-serif";
+      ctx.fillText("✔ BETWEEN CONDITIONS (DE Analysis)", 90, 160);
+
+      ctx.fillStyle = "#f8fafc";
+      ctx.font = "20px 'Inter', sans-serif";
+      ctx.fillText("Goal: Detect significant gene expression changes", 90, 195);
+      ctx.fillStyle = "#facc15";
+      ctx.font = "bold 22px monospace";
+      ctx.fillText("→ USE RAW INTEGER COUNTS (DESeq2 / edgeR)", 90, 240);
+
+      // Row 2: Relative Abundance
+      ctx.fillStyle = "rgba(245, 158, 11, 0.12)";
+      ctx.strokeStyle = "#f59e0b";
+      ctx.beginPath();
+      ctx.roundRect(60, 330, w - 120, 190, 16);
+      ctx.fill();
+      ctx.stroke();
+
+      ctx.fillStyle = "#fbbf24";
+      ctx.font = "bold 24px 'Inter', sans-serif";
+      ctx.fillText("✔ WITHIN ONE SAMPLE (Visuals / Relative)", 90, 380);
+
+      ctx.fillStyle = "#f8fafc";
+      ctx.font = "20px 'Inter', sans-serif";
+      ctx.fillText("Goal: Compare Gene A vs Gene B in heatmaps", 90, 415);
+      ctx.fillStyle = "#38bdf8";
+      ctx.font = "bold 22px monospace";
+      ctx.fillText("→ USE TPM (Transcripts Per Million)", 90, 460);
+    }
+
+    // Main Deterministic Frame Renderer
+    window.seekFrame = (frame, totalFrames, timeSec) => {
+      const progress = frame / totalFrames;
+
+      // Update progress bar
+      progressFill.style.width = `${Math.min(progress * 100, 100)}%`;
+
+      // Handheld camera organic micro-drift
+      const driftX = Math.sin(timeSec * 0.9) * 12 + Math.cos(timeSec * 1.4) * 4;
+      const driftY = Math.cos(timeSec * 0.6) * 10 + Math.sin(timeSec * 1.8) * 3;
+      const driftRot = Math.sin(timeSec * 0.35) * 1.2;
+      cameraWrapper.style.transform = `translate(${driftX}px, ${driftY}px) rotate(${driftRot}deg)`;
+
+      // Update kinetic subtitles
+      const currentSub = transcripts.find(t => timeSec >= t.start && timeSec < t.end);
+      if (currentSub) {
+        captionText.innerHTML = currentSub.text;
+      }
+
+      // ACT 1: 0s to 5s -> The Error Alert & Matrix Intro
+      if (timeSec < 7.0) {
+        crashPill.style.display = "inline-flex";
+        crashPill.className = "crash-pill";
+        crashPill.innerHTML = "⚠️ ERROR IN DESEQ2";
+        hookHeading.innerHTML = "STOP FEEDING TPM <br><span style='color:#ef4444'>INTO DESEQ2!</span>";
+        stageTitle.textContent = "DESEQ2_ERROR_TERMINAL";
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Terminal Window
+        ctx.fillStyle = "rgba(0, 0, 0, 0.6)";
+        ctx.beginPath();
+        ctx.roundRect(40, 30, canvas.width - 80, 520, 16);
+        ctx.fill();
+
+        ctx.font = "bold 22px monospace";
+        ctx.fillStyle = "#ef4444";
+        ctx.textAlign = "left";
+        ctx.fillText("> dds <- DESeqDataSetFromMatrix(countData = tpm_matrix)", 70, 90);
+        ctx.fillStyle = "#fca5a5";
+        ctx.fillText("Error: every gene contains at least one non-integer value.", 70, 135);
+        ctx.fillStyle = "#94a3b8";
+        ctx.fillText("DESeq2 strictly requires integer read counts.", 70, 175);
+
+        // Illustrative data table showing floats vs integers
+        ctx.fillStyle = "rgba(255, 255, 255, 0.08)";
+        ctx.beginPath();
+        ctx.roundRect(70, 220, canvas.width - 140, 280, 12);
+        ctx.fill();
+
+        ctx.fillStyle = "#facc15";
+        ctx.font = "bold 20px monospace";
+        ctx.fillText("GENE_ID      SAMPLE_1 (TPM)    SAMPLE_1 (COUNTS)", 100, 260);
+
+        ctx.fillStyle = "#f8fafc";
+        ctx.font = "18px monospace";
+        ctx.fillText("ENSG0001     14.23 [FLOAT]     1,420 [INTEGER] ✔", 100, 310);
+        ctx.fillText("ENSG0002      0.84 [FLOAT]        84 [INTEGER] ✔", 100, 360);
+        ctx.fillText("ENSG0003     42.10 [FLOAT]     4,210 [INTEGER] ✔", 100, 410);
+
+        ctx.fillStyle = "#ef4444";
+        ctx.font = "bold 18px monospace";
+        ctx.fillText("⚠ Floating-point fractions corrupt Poisson dispersion models!", 100, 460);
+      }
+
+      // ACT 2: 7s to 19.5s -> Statistical Variance & Sampling Curve Morphing
+      else if (timeSec >= 7.0 && timeSec < 19.5) {
+        crashPill.className = "crash-pill";
+        crashPill.style.color = "#f59e0b";
+        crashPill.style.borderColor = "rgba(245, 158, 11, 0.5)";
+        crashPill.style.background = "rgba(245, 158, 11, 0.15)";
+        crashPill.innerHTML = "STATISTICAL SAMPLING POWER";
+
+        hookHeading.innerHTML = "UNCERTAINTY VS <br><span style='color:#10b981'>CONFIDENCE</span>";
+        stageTitle.textContent = "STATISTICAL_DISPERSION_CURVE";
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Header formula
+        ctx.fillStyle = "#94a3b8";
+        ctx.font = "20px monospace";
+        ctx.textAlign = "center";
+        ctx.fillText("Dispersion Model: Var(Y) = μ + α·μ²", canvas.width / 2, 45);
+
+        // Curve 1: Low count curve (Flat, wide, red)
+        const redAlpha = Math.min((timeSec - 7.0) / 1.5, 1);
+        drawBellCurve(
+          ctx,
+          300,
+          95,
+          "#ef4444",
+          "rgba(239, 68, 68, 0.22)",
+          18000,
+          "HIGH UNCERTAINTY",
+          "10 reads (Low Power)",
+          redAlpha
+        );
+
+        // Curve 2: High count curve (Sharp, narrow, green) morphing in around 11.5s
+        if (timeSec >= 11.5) {
+          const greenProgress = Math.min((timeSec - 11.5) / 2.0, 1);
+          // Standard deviation shrinks from 70 to 32
+          const currentStd = 70 - (greenProgress * 38);
+          // Height scale expands from 20,000 to 45,000
+          const currentH = 20000 + (greenProgress * 25000);
+
+          drawBellCurve(
+            ctx,
+            600,
+            currentStd,
+            "#10b981",
+            "rgba(16, 185, 129, 0.28)",
+            currentH,
+            "HIGH CONFIDENCE",
+            "1,000 reads (Sharp Certainty)",
+            greenProgress
+          );
+        }
+      }
+
+      // ACT 3: 19.5s to 26.5s -> The 2x2 Decision Matrix
+      else if (timeSec >= 19.5 && timeSec < 26.5) {
+        crashPill.className = "crash-pill";
+        crashPill.style.color = "#10b981";
+        crashPill.style.borderColor = "rgba(16, 185, 129, 0.5)";
+        crashPill.style.background = "rgba(16, 185, 129, 0.15)";
+        crashPill.innerHTML = "THE GOLDEN DECISION RULE";
+
+        hookHeading.innerHTML = "WHICH ONE TO USE? <br><span style='color:#34d399'>THE DECISION GUIDE</span>";
+        stageTitle.textContent = "DECISION_MATRIX";
+
+        drawDecisionMatrix(ctx, (timeSec - 19.5) / 7.0);
+      }
+
+      // ACT 4: 26.5s to 29.35s -> Outro CTA Modal
+      else {
+        ctaModal.classList.add('visible');
+      }
+
+      // Reset modal if looped
+      if (timeSec < 26.5 && ctaModal.classList.contains('visible')) {
+        ctaModal.classList.remove('visible');
+      }
+    };
+
+    // Render initial frame 0
+    window.seekFrame(0, 880, 0);
+  </script>
+</body>
+</html>

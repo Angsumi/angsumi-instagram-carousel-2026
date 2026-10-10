@@ -1,0 +1,54 @@
+{
+  "totalDuration": 47.54599999999999,
+  "clips": [
+    {
+      "id": "hook",
+      "text": "Sequencing company ne 15 GB data bhej diya, aur Notepad kholte hi laptop crash!",
+      "start": 0,
+      "duration": 7.632,
+      "file": "/home/angsuman/extra_spac/Insta_Angsumi/fastq-reel/clips/0_hook.mp3"
+    },
+    {
+      "id": "rule",
+      "text": "Par panic mat karo. Har FASTQ read mein strictly sirf chaar lines hoti hain.",
+      "start": 7.981999999999999,
+      "duration": 6.888,
+      "file": "/home/angsuman/extra_spac/Insta_Angsumi/fastq-reel/clips/1_rule.mp3"
+    },
+    {
+      "id": "line1",
+      "text": "Line 1: Sequence header, starting with @. Instrument aur run details.",
+      "start": 15.219999999999999,
+      "duration": 7.248,
+      "file": "/home/angsuman/extra_spac/Insta_Angsumi/fastq-reel/clips/2_line1.mp3"
+    },
+    {
+      "id": "line2",
+      "text": "Line 2: Raw biological sequence, A, T, G, C nucleotides.",
+      "start": 22.817999999999998,
+      "duration": 6.744,
+      "file": "/home/angsuman/extra_spac/Insta_Angsumi/fastq-reel/clips/3_line2.mp3"
+    },
+    {
+      "id": "line3",
+      "text": "Line 3: Simple plus sign delimiter.",
+      "start": 29.912,
+      "duration": 3.816,
+      "file": "/home/angsuman/extra_spac/Insta_Angsumi/fastq-reel/clips/4_line3.mp3"
+    },
+    {
+      "id": "line4",
+      "text": "Aur Line 4: Phred quality score, jo batata hai har base call kitna accurate hai.",
+      "start": 34.077999999999996,
+      "duration": 7.032,
+      "file": "/home/angsuman/extra_spac/Insta_Angsumi/fastq-reel/clips/5_line4.mp3"
+    },
+    {
+      "id": "cta",
+      "text": "Comment karo FASTQ, aur main bhejungi meri free 1-page cheatsheet!",
+      "start": 41.459999999999994,
+      "duration": 5.736,
+      "file": "/home/angsuman/extra_spac/Insta_Angsumi/fastq-reel/clips/6_cta.mp3"
+    }
+  ]
+}

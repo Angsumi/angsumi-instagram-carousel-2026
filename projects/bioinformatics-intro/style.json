@@ -1,0 +1,33 @@
+{
+  "project_name": "bioinformatics-intro",
+  "visual_style": {
+    "art_style": "cinematic documentary realism, warm 35mm photography aesthetic, authentic textures",
+    "color_palette": "deep maroon (#5B1E31), warm ivory (#FBF7F0), muted earthy greens, charcoal, soft amber",
+    "lighting": "soft natural daylight from side window with gentle warm desk lamp fill, soft ambient shadows",
+    "composition": "medium close-up conversational framing, shallow depth of field, books and research papers in soft background bokeh"
+  },
+  "motion_language": {
+    "movement_quality": "fluid human micro-expressions, gentle conversational head tilts, natural eye contact, expressive hand gestures",
+    "pacing": "thoughtful, engaging, academic storytelling rhythm",
+    "camera_style": "gentle locked-off medium close-up with subtle handheld micro-breathing motion"
+  },
+  "subject_consistency": {
+    "main_subject": "Angsumi: young Northeast Indian woman PhD scholar in life sciences, natural dark hair tied in a loose bun with loose wisps framing face, wearing cozy deep maroon patterned knit sweater",
+    "environment": "academic research study room with wooden bookshelves, potted pothos plant, research papers and botanical diagrams pinned on the wall"
+  },
+  "constraints": {
+    "avoid": [
+      "airbrushed plastic skin",
+      "over-exaggerated theatrical gestures",
+      "robotic lip sync",
+      "sci-fi holograms",
+      "distorted facial anatomy"
+    ],
+    "maintain": [
+      "consistent face structure from reference photo",
+      "deep maroon knit sweater",
+      "warm academic lighting",
+      "grounded Northeast Indian lived context"
+    ]
+  }
+}

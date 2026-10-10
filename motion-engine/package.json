@@ -1,0 +1,19 @@
+{
+  "name": "motion-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Production-grade programmatic motion graphics engine for vertical Reels and Shorts",
+  "scripts": {
+    "preview": "node engine/preview.js --scene templates/dna-storage/index.html --outdir outputs/previews",
+    "render": "node engine/renderer.js --scene templates/dna-storage/index.html --output outputs/dna_explainer_reel.mp4 --fps 30 --duration 25 --width 1080 --height 1920",
+    "render:fast": "node engine/renderer.js --scene templates/dna-storage/index.html --output outputs/dna_explainer_fast.mp4 --fps 15 --duration 10 --width 540 --height 960",
+    "voiceover": "node engine/voiceover.js --text \"Your cells carry a code. Three billion base pairs of DNA. What does it actually do? Let's decode it.\" --output outputs/voiceover.mp3"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "google-tts-api": "^2.0.2",
+    "msedge-tts": "^2.0.9",
+    "puppeteer": "^24.3.0",
+    "three": "^0.174.0"
+  }
+}

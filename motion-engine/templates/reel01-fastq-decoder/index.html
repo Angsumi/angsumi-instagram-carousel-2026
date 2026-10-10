@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1920, initial-scale=1.0">
+  <title>Reel 01: The FASTQ File Shock (Documentary Edition)</title>
+  <style>
+    @font-face {
+      font-family: 'Space Grotesk';
+      src: url('../../fonts/SpaceGrotesk.ttf') format('truetype');
+      font-weight: 400 700;
+    }
+    @font-face {
+      font-family: 'Inter';
+      src: url('../../fonts/Inter.ttf') format('truetype');
+      font-weight: 400 600 800;
+    }
+    @font-face {
+      font-family: 'Fira Code';
+      /* Fallback if not available, we can just use monospace */
+      src: local('Courier New'), monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+
+    body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #000;
+      font-family: 'Inter', -apple-system, sans-serif;
+      color: #f5f0e8;
+      position: relative;
+    }
+
+    /* Handheld Camera Wrapper */
+    #camera-wrapper {
+      width: 1140px; /* Oversized to allow panning */
+      height: 2000px;
+      position: absolute;
+      top: -40px;
+      left: -30px;
+      transform-origin: center center;
+    }
+
+    /* Blurred Background */
+    #bg-layer {
+      position: absolute;
+      inset: 0;
+      background-image: url('./bg.jpg');
+      background-size: cover;
+      background-position: center;
+      filter: blur(12px) brightness(0.4);
+      z-index: 1;
+    }
+
+    /* Main UI Viewport (Respecting 9:16 safe zones) */
+    .viewport {
+      position: absolute;
+      top: 40px;
+      left: 30px;
+      width: 1080px;
+      height: 1920px;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 130px 65px 170px 65px;
+    }
+
+    /* Hook Title Section */
+    .hook-container {
+      margin-top: 15px;
+      text-align: center;
+      transition: all 0.4s ease;
+    }
+
+    .crash-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      color: #ff3b30;
+      background: rgba(255, 59, 48, 0.15);
+      border: 1px solid rgba(255, 59, 48, 0.5);
+      padding: 8px 24px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+
+    .hook-heading {
+      font-family: 'Inter', sans-serif;
+      font-size: 72px;
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+      text-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+    }
+    .hook-heading span {
+      color: #ffd60a;
+    }
+
+    /* Realistic MacOS Terminal */
+    .terminal-container {
+      position: relative;
+      background: rgba(30, 30, 30, 0.95); /* VS Code dark theme */
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      box-shadow: 0 40px 100px rgba(0, 0, 0, 0.8);
+      overflow: hidden;
+      margin-top: 10px;
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .terminal-topbar {
+      background: #323233; /* Mac dark title bar */
+      padding: 12px 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 1px solid #1e1e1e;
+    }
+
+    .window-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .w-dot { width: 14px; height: 14px; border-radius: 50%; }
+    .w-red { background: #ff5f56; }
+    .w-yellow { background: #ffbd2e; }
+    .w-green { background: #27c93f; }
+
+    .window-title {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: #9cdcfe;
+    }
+
+    .terminal-content {
+      padding: 30px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-family: monospace;
+      font-size: 28px;
+      line-height: 1.5;
+      color: #d4d4d4;
+      min-height: 400px;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 12px;
+      height: 30px;
+      background: #007acc;
+      vertical-align: middle;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .t-prompt { color: #569cd6; font-weight: bold; }
+    .t-cmd { color: #ce9178; }
+    .t-header { color: #4ec9b0; }
+    .t-seq { color: #9cdcfe; }
+    .t-sep { color: #d4d4d4; }
+    .t-qual { color: #d16969; }
+
+    .line-comment {
+      color: #6a9955;
+      font-size: 22px;
+      margin-left: 20px;
+      font-style: italic;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .line-comment.visible { opacity: 1; }
+
+    .terminal-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    /* Big Conversion CTA Card */
+    .cta-modal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.9);
+      width: 930px;
+      background: #ffffff;
+      border-radius: 36px;
+      padding: 65px 50px;
+      text-align: center;
+      opacity: 0;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.8);
+      z-index: 25;
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .cta-modal.visible {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    .cta-badge {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      color: #000;
+      background: #ffd60a;
+      padding: 10px 28px;
+      border-radius: 999px;
+      margin-bottom: 24px;
+    }
+    .cta-headline {
+      font-family: 'Inter', sans-serif;
+      font-size: 66px;
+      font-weight: 900;
+      color: #000000;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .cta-headline span { color: #007aff; }
+    .cta-body {
+      font-size: 30px;
+      color: #333333;
+      line-height: 1.4;
+      margin-bottom: 30px;
+    }
+
+    /* Kinetic Subtitles (CapCut Style) */
+    .caption-wrapper {
+      margin-bottom: 90px;
+      text-align: center;
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .caption-text {
+      font-family: 'Inter', sans-serif;
+      font-size: 52px;
+      font-weight: 900;
+      color: #ffffff;
+      line-height: 1.25;
+      text-transform: uppercase;
+      text-shadow: 0 6px 15px rgba(0,0,0,0.8), 0 0 5px rgba(0,0,0,0.5);
+    }
+    .caption-text span {
+      display: inline-block;
+      background: #ffd60a;
+      color: #000;
+      padding: 0 10px;
+      border-radius: 8px;
+      transform: rotate(-2deg);
+      text-shadow: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="camera-wrapper">
+    <!-- Blurred Background -->
+    <div id="bg-layer"></div>
+
+    <!-- Safe-Zone Viewport -->
+    <div class="viewport">
+      <!-- Hook Heading -->
+      <div class="hook-container" id="hook-container">
+        <div class="crash-pill" id="crash-pill">⚠️ 15.4 GB FILE LOADED</div>
+        <h1 class="hook-heading" id="hook-heading">
+          WHAT IS A <br><span>FASTQ FILE?</span>
+        </h1>
+      </div>
+
+      <!-- Terminal Window -->
+      <div class="terminal-container" id="terminal-container">
+        <div class="terminal-topbar">
+          <div class="window-controls">
+            <div class="w-dot w-red"></div>
+            <div class="w-dot w-yellow"></div>
+            <div class="w-dot w-green"></div>
+          </div>
+          <div class="window-title">angsumi@macbook ~ cat sample_R1.fastq</div>
+        </div>
+
+        <div class="terminal-content" id="terminal-lines">
+          <!-- Lines will be injected dynamically to simulate typing -->
+        </div>
+      </div>
+
+      <!-- CTA Modal Card -->
+      <div class="cta-modal" id="cta-modal">
+        <div class="cta-badge">FREE RESEARCH CHEATSHEET</div>
+        <h2 class="cta-headline">COMMENT <span>"FASTQ"</span></h2>
+        <p class="cta-body">I will DM you my 1-Page FASTQ Read-Quality Cheatsheet before your next alignment.</p>
+      </div>
+
+      <!-- Kinetic Subtitles -->
+      <div class="caption-wrapper">
+        <div class="caption-text" id="caption-text">
+          Your sequencing company sent <span>15 GB</span> of raw files...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // DOM Elements
+    const cameraWrapper = document.getElementById('camera-wrapper');
+    const hookHeading = document.getElementById('hook-heading');
+    const crashPill = document.getElementById('crash-pill');
+    const terminalContainer = document.getElementById('terminal-container');
+    const terminalLines = document.getElementById('terminal-lines');
+    const ctaModal = document.getElementById('cta-modal');
+    const captionText = document.getElementById('caption-text');
+
+    // Terminal Data
+    const promptTxt = "angsumi@macbook ~ $ ";
+    const cmdTxt = "head -n 4 sample_R1.fastq";
+    
+    // The 4 lines of FASTQ
+    const l1 = "@A00123:45:H3WVGDSX2:1:1101:1420:1000 1:N:0:ATCACG";
+    const l2 = "GATCGATTCGATCGATAGCTAGCTAGCATCGTAGCTAGCTA";
+    const l3 = "+";
+    const l4 = "FFFFFFFFFFFFFFFFFF:FFFFFFFFF,FFFFF#FFF!!";
+
+    // Deterministic seekFrame runner (Total duration = 28.9s)
+    window.seekFrame = (frame, totalFrames, timeSec) => {
+      const progress = frame / totalFrames; // 0.0 to 1.0
+
+      // Handheld camera drift (Simplex noise simulation via sine waves)
+      const driftX = Math.sin(timeSec * 0.8) * 15 + Math.cos(timeSec * 1.3) * 5;
+      const driftY = Math.cos(timeSec * 0.5) * 12 + Math.sin(timeSec * 1.7) * 4;
+      const driftRot = Math.sin(timeSec * 0.3) * 1.5;
+      cameraWrapper.style.transform = `translate(${driftX}px, ${driftY}px) rotate(${driftRot}deg)`;
+
+      // Terminal content logic - Simulate Typing based on time
+      let tHtml = "";
+      
+      // Stage 1 (0-4.5s): Typing the command
+      if (timeSec < 1.0) {
+        tHtml = `<div class="terminal-row"><span class="t-prompt">${promptTxt}</span><span class="cursor"></span></div>`;
+      } else if (timeSec < 4.0) {
+        // Typing effect for command (duration: 3s)
+        const typedChars = Math.floor((timeSec - 1.0) * 15);
+        const currentCmd = cmdTxt.substring(0, typedChars);
+        tHtml = `<div class="terminal-row"><span class="t-prompt">${promptTxt}</span><span class="t-cmd">${currentCmd}</span><span class="cursor"></span></div>`;
+      } else {
+        // Command typed out
+        tHtml = `<div class="terminal-row"><span class="t-prompt">${promptTxt}</span><span class="t-cmd">${cmdTxt}</span></div>`;
+      }
+
+      // Stage 3 (8.5s - 13.0s): Line 1 appears
+      if (timeSec >= 8.5) {
+        const chars = Math.floor((timeSec - 8.5) * 40);
+        const txt = l1.substring(0, chars);
+        tHtml += `<div class="terminal-row"><span class="t-header">${txt}</span><span class="line-comment ${timeSec > 11 ? 'visible' : ''}">// Header ID</span></div>`;
+      }
+
+      // Stage 4 (13.0s - 17.5s): Line 2 appears
+      if (timeSec >= 13.0) {
+        const chars = Math.floor((timeSec - 13.0) * 40);
+        const txt = l2.substring(0, chars);
+        tHtml += `<div class="terminal-row"><span class="t-seq">${txt}</span><span class="line-comment ${timeSec > 15 ? 'visible' : ''}">// Biological bases</span></div>`;
+      }
+
+      // Stage 5 (17.5s - 21.0s): Line 3 appears
+      if (timeSec >= 17.5) {
+        tHtml += `<div class="terminal-row"><span class="t-sep">${l3}</span><span class="line-comment ${timeSec > 19 ? 'visible' : ''}">// Separator</span></div>`;
+      }
+
+      // Stage 6 (21.0s - 25.0s): Line 4 appears
+      if (timeSec >= 21.0) {
+        const chars = Math.floor((timeSec - 21.0) * 40);
+        const txt = l4.substring(0, chars);
+        tHtml += `<div class="terminal-row"><span class="t-qual">${txt}</span><span class="line-comment ${timeSec > 23 ? 'visible' : ''}">// Phred Quality Scores</span></div>`;
+      }
+      
+      // Cursor at the end
+      if (timeSec >= 4.0) {
+        tHtml += `<div class="terminal-row"><span class="t-prompt">${promptTxt}</span><span class="cursor"></span></div>`;
+      }
+
+      terminalLines.innerHTML = tHtml;
+
+      // Caption and UI logic based on progress
+      // ── Stage 1: Hook (0s - 4.5s)
+      if (timeSec < 4.5) {
+        hookHeading.innerHTML = 'YOUR SEQUENCING DATA <br><span style="color:#ffd60a">JUST LOADED.</span>';
+        ctaModal.classList.remove('visible');
+        terminalContainer.style.transform = 'scale(0.96)';
+        captionText.innerHTML = 'Your sequencing company sent <span>15 GB</span> of raw files...';
+      }
+      // ── Stage 2: Don't panic / 4 Lines (4.5s - 8.5s)
+      else if (timeSec < 8.5) {
+        hookHeading.innerHTML = 'DON’T PANIC. <br><span>EVERY READ IS 4 LINES.</span>';
+        terminalContainer.style.transform = 'scale(1.02)';
+        captionText.innerHTML = 'Every single read is strictly <span>FOUR LINES</span>.';
+      }
+      // ── Stage 3: Line 1 Header (8.5s - 13.0s)
+      else if (timeSec < 13.0) {
+        hookHeading.innerHTML = 'LINE 1: <br><span style="color:#4ec9b0">SEQUENCE HEADER</span>';
+        captionText.innerHTML = 'Line 1 starts with <span>@</span> — instrument coordinates.';
+      }
+      // ── Stage 4: Line 2 Raw Sequence (13.0s - 17.5s)
+      else if (timeSec < 17.5) {
+        hookHeading.innerHTML = 'LINE 2: <br><span style="color:#9cdcfe">BIOLOGICAL BASES</span>';
+        captionText.innerHTML = 'Line 2 is the raw biological sequence: <span>A, T, G, and C</span>.';
+      }
+      // ── Stage 5: Line 3 Separator (17.5s - 21.0s)
+      else if (timeSec < 21.0) {
+        hookHeading.innerHTML = 'LINE 3: <br><span style="color:#d4d4d4">THE SEPARATOR (+)</span>';
+        captionText.innerHTML = 'Line 3 is an unmissable <span>+ delimiter</span>.';
+      }
+      // ── Stage 6: Line 4 Phred Quality (21.0s - 25.0s)
+      else if (timeSec < 25.0) {
+        hookHeading.innerHTML = 'LINE 4: <br><span style="color:#d16969">PHRED QUALITY SCORE</span>';
+        captionText.innerHTML = 'Line 4 gives the <span>Phred accuracy score</span> for every base.';
+      }
+      // ── Stage 7: CTA & Seamless Loop (25.0s - 28.9s)
+      else {
+        const loopFactor = (timeSec - 25.0) / 3.9;
+
+        if (loopFactor < 0.88) {
+          ctaModal.classList.add('visible');
+          captionText.innerHTML = 'Comment <span>"FASTQ"</span> for my free quality cheatsheet!';
+        } else {
+          // Loop seamlessly back to frame 0
+          ctaModal.classList.remove('visible');
+          hookHeading.innerHTML = 'YOUR SEQUENCING DATA <br><span style="color:#ffd60a">JUST LOADED.</span>';
+          captionText.innerHTML = 'Your sequencing company sent <span>15 GB</span> of raw files...';
+        }
+      }
+    };
+
+    // Render frame 0 immediately
+    window.seekFrame(0, 870, 0);
+  </script>
+</body>
+</html>

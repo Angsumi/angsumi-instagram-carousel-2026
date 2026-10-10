@@ -1,0 +1,115 @@
+{
+  "version": "3.0",
+  "project_name": "bioinformatics-intro",
+  "config": {
+    "segment_duration": 8,
+    "model_video": "veo-3.1",
+    "model_image": "nano-banana-pro",
+    "resolution": "1080p"
+  },
+  "metadata": {
+    "created_at": "2026-10-08T09:59:00Z",
+    "philosophy_file": "philosophy.md",
+    "style_file": "style.json",
+    "scene_breakdown_file": "scene-breakdown.md",
+    "reference_image": "assets/characters/angsumi_reference.jpg"
+  },
+  "assets": {
+    "characters": {
+      "angsumi_main": {
+        "prompt": "Authentic medium close-up of a 24-year-old Northeast Indian female PhD researcher (Assamese roots), messy dark brown hair tied in a loose bun with wispy strands framing face, wearing a cozy deep maroon patterned knit sweater. Genuine friendly smile, natural skin texture, soft daylight from window, warm academic study room with wooden bookshelves in background, 35mm film still realism, 8k resolution, highly detailed.",
+        "reference": "assets/characters/angsumi_reference.jpg",
+        "output": "assets/characters/angsumi_main.png",
+        "status": "ready"
+      }
+    },
+    "backgrounds": {
+      "scholar_desk": {
+        "prompt": "Cozy academic PhD scholar study desk, wooden bookshelf filled with biological science textbooks and papers, potted indoor green plant, soft warm desk lamp, window daylight, scientific research atmosphere, cinematic depth of field.",
+        "output": "assets/backgrounds/scholar_desk.png",
+        "status": "pending"
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "scene-01",
+      "title": "The Hook - Biology Beyond the Pipette",
+      "duration_target": 8,
+      "transition_to_next": "cut",
+      "first_keyframe": {
+        "prompt": "Cinematic 35mm portrait photograph of Angsumi, a young Northeast Indian woman with dark hair in a casual loose bun, wearing a deep maroon patterned knit sweater. Sitting at her study desk in front of a wooden bookshelf with green plant leaves, looking directly at the camera with an engaging, inquisitive expression and a subtle smile. Natural soft window lighting, shallow depth of field, authentic film grain, documentary realism.",
+        "reference": "assets/characters/angsumi_reference.jpg",
+        "output": "keyframes/scene-01-start.jpg",
+        "status": "ready"
+      },
+      "segments": [
+        {
+          "id": "seg-A",
+          "index": 1,
+          "duration": 8,
+          "type": "keyframe_driven",
+          "start_frame": "keyframes/scene-01-start.jpg",
+          "motion_prompt": "The young woman talks conversationally directly into the camera with natural, expressive head tilts, subtle eyebrow raises, and realistic blinking. She raises one hand in a gentle conversational gesture as she explains something intriguing, smiling warmly. Natural handheld camera breathing motion, smooth realistic human micro-expressions.",
+          "output_video": "scene-01/seg-A.mp4",
+          "extract_end_frame": false,
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "scene-02",
+      "title": "The Core Wonder - Code Meets the Molecule",
+      "duration_target": 8,
+      "transition_to_next": "dissolve",
+      "first_keyframe": {
+        "prompt": "Three-quarter conversational view of Angsumi, young Northeast Indian woman in a deep maroon patterned sweater, seated at her desk beside an illuminated laptop displaying molecular bioinformatics code and 3D protein structures. She turns her head towards the camera with vibrant intellectual enthusiasm, eyes lit with curiosity, cozy study room background with soft bokeh, cinematic warm lighting.",
+        "reference": "assets/characters/angsumi_reference.jpg",
+        "output": "keyframes/scene-02-start.jpg",
+        "status": "ready"
+      },
+      "segments": [
+        {
+          "id": "seg-A",
+          "index": 1,
+          "duration": 8,
+          "type": "keyframe_driven",
+          "start_frame": "keyframes/scene-02-start.jpg",
+          "motion_prompt": "She speaks passionately, gesturing with both hands towards the laptop screen then back to the viewer. Her facial expressions show intellectual excitement and clarity, natural conversational cadence, gentle head movement, cozy warm ambient lighting, organic human motion.",
+          "output_video": "scene-02/seg-A.mp4",
+          "extract_end_frame": false,
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": "scene-03",
+      "title": "The Researcher Who Builds - Closing Impact",
+      "duration_target": 8,
+      "transition_to_next": "none",
+      "first_keyframe": {
+        "prompt": "Intimate medium close-up of Angsumi, young Northeast Indian female researcher in her deep maroon knit sweater, looking directly at the camera with an inspiring, grounded, and confident smile. Soft afternoon light, warm scholarly room with textbooks softly blurred in the background, 35mm documentary realism, sharp focus on eyes.",
+        "reference": "assets/characters/angsumi_reference.jpg",
+        "output": "keyframes/scene-03-start.jpg",
+        "status": "ready"
+      },
+      "segments": [
+        {
+          "id": "seg-A",
+          "index": 1,
+          "duration": 8,
+          "type": "keyframe_driven",
+          "start_frame": "keyframes/scene-03-start.jpg",
+          "motion_prompt": "She delivers a calm, motivating final sentence directly to the camera, giving an affirming, gentle nod and breaking into a wide, warm, authentic smile. Camera stays locked in an intimate, engaging medium portrait.",
+          "output_video": "scene-03/seg-A.mp4",
+          "extract_end_frame": false,
+          "status": "completed"
+        }
+      ]
+    }
+  ],
+  "final_output": {
+    "path": "bioinformatics_intro_final.mp4",
+    "status": "completed"
+  }
+}
