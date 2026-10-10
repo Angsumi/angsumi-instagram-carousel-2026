@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-16",
+  "day": 9,
+  "topic": "Spatial omics",
+  "searchPhrase": "spatial omics beginner bioinformatics",
+  "sources": [
+    "https://www.ebi.ac.uk/training/online/courses/methods-and-resources-for-omics-studies/introduction/",
+    "https://www.ebi.ac.uk/spatial-transcriptomics/"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "What if your data kept its address? SPATIAL OMICS Molecules with tissue context. Elegant tissue paper mosaic with localized molecular tokens and a restrained map pin.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic spatial-omics. Molecular address atlas: tissue-like paper mosaic, translucent coordinate overlays and specimen map pins; no actual histology dataset. Card 1/6. Headline exact: \"What if your data\nkept its address?\". Body exact: \"SPATIAL OMICS\nMolecules with tissue context.\". Visual: Elegant tissue paper mosaic with localized molecular tokens and a restrained map pin.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "Keep the location. Spatial assays connect molecular measurements with tissue location. An abstract tissue mosaic linked to measurement and location index cards.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic spatial-omics. Molecular address atlas: tissue-like paper mosaic, translucent coordinate overlays and specimen map pins; no actual histology dataset. Card 2/6. Headline exact: \"Keep the\nlocation.\". Body exact: \"Spatial assays connect molecular\nmeasurements with tissue location.\". Visual: An abstract tissue mosaic linked to measurement and location index cards.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "Spot or individual cell? Some methods measure mixed-cell spots. Others resolve individual cells. Two clear separate zoom windows: one spot enclosing several cells and another resolving individual cells. Label conceptual illustration.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic spatial-omics. Molecular address atlas: tissue-like paper mosaic, translucent coordinate overlays and specimen map pins; no actual histology dataset. Card 3/6. Headline exact: \"Spot or\nindividual cell?\". Body exact: \"Some methods measure mixed-cell spots.\nOthers resolve individual cells.\". Visual: Two clear separate zoom windows: one spot enclosing several cells and another resolving individual cells. Label conceptual illustration.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "Nearby does not prove communication. Spatial proximity alone cannot establish cell communication. Two adjacent cells with no communication arrow; an evidence note separating proximity from communication.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic spatial-omics. Molecular address atlas: tissue-like paper mosaic, translucent coordinate overlays and specimen map pins; no actual histology dataset. Card 4/6. Headline exact: \"Nearby does not\nprove communication.\". Body exact: \"Spatial proximity alone cannot\nestablish cell communication.\". Visual: Two adjacent cells with no communication arrow; an evidence note separating proximity from communication.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "Resolution limits your conclusion. Check spatial resolution and how cells or regions were segmented. One tissue mosaic at coarse and fine conceptual views; segmentation outlines; no numeric resolution.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic spatial-omics. Molecular address atlas: tissue-like paper mosaic, translucent coordinate overlays and specimen map pins; no actual histology dataset. Card 5/6. Headline exact: \"Resolution limits\nyour conclusion.\". Body exact: \"Check spatial resolution and\nhow cells or regions were segmented.\". Visual: One tissue mosaic at coarse and fine conceptual views; segmentation outlines; no numeric resolution.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Ask about the measurement unit. One spot? One cell? One segmented region?  Save this spatial-data check. Three labelled specimen windows spot cell region; no assumption all methods provide all units.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic spatial-omics. Molecular address atlas: tissue-like paper mosaic, translucent coordinate overlays and specimen map pins; no actual histology dataset. Card 6/6. Headline exact: \"Ask about the\nmeasurement unit.\". Body exact: \"One spot?\nOne cell?\nOne segmented region?\n\nSave this spatial-data check.\". Visual: Three labelled specimen windows spot cell region; no assumption all methods provide all units.. Footer number \"6/6\"."
+    }
+  ]
+}

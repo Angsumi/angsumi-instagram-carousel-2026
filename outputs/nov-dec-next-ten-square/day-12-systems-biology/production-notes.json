@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-19",
+  "day": 12,
+  "topic": "Systems biology",
+  "searchPhrase": "systems biology beginner bioinformatics",
+  "sources": [
+    "https://www.ebi.ac.uk/training/online/courses/methods-and-resources-for-omics-studies/introduction/",
+    "https://string-db.org/help/scores/"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "A network edge is not always a direct interaction. SYSTEMS BIOLOGY Ask what the connection means. Two paper nodes joined by a thread with a question tag, larger abstract network behind.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic systems-biology. Research constellation: raised paper nodes and taut maroon threads, ivory network cards on forest worktable, no glowing sci-fi effects. Card 1/6. Headline exact: \"A network edge is not always\na direct interaction.\". Body exact: \"SYSTEMS BIOLOGY\nAsk what the connection means.\". Visual: Two paper nodes joined by a thread with a question tag, larger abstract network behind.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "Networks encode different relationships. Physical interaction. Regulation. Statistical association. Three separate network cards with explicit relationship labels and different line styles; no inference one implies another.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic systems-biology. Research constellation: raised paper nodes and taut maroon threads, ivory network cards on forest worktable, no glowing sci-fi effects. Card 2/6. Headline exact: \"Networks encode\ndifferent relationships.\". Body exact: \"Physical interaction.\nRegulation.\nStatistical association.\". Visual: Three separate network cards with explicit relationship labels and different line styles; no inference one implies another.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "Define your nodes and edges. What does each node represent? What evidence supports each edge? Two magnifying paper callouts node and edge, each matching respective object.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic systems-biology. Research constellation: raised paper nodes and taut maroon threads, ivory network cards on forest worktable, no glowing sci-fi effects. Card 3/6. Headline exact: \"Define your\nnodes and edges.\". Body exact: \"What does each node represent?\nWhat evidence supports each edge?\". Visual: Two magnifying paper callouts node and edge, each matching respective object.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "A hub can reflect what was measured. Database coverage and measurement bias can affect apparent connectivity. One highly connected paper node surrounded by documented and unobserved areas; no claim every hub is biased.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic systems-biology. Research constellation: raised paper nodes and taut maroon threads, ivory network cards on forest worktable, no glowing sci-fi effects. Card 4/6. Headline exact: \"A hub can reflect\nwhat was measured.\". Body exact: \"Database coverage and measurement bias\ncan affect apparent connectivity.\". Visual: One highly connected paper node surrounded by documented and unobserved areas; no claim every hub is biased.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "A pathway diagram is a knowledge summary. It is not the same as evidence from your experiment. Separate knowledge-summary and experimental-evidence folders; no actual pathway invented.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic systems-biology. Research constellation: raised paper nodes and taut maroon threads, ivory network cards on forest worktable, no glowing sci-fi effects. Card 5/6. Headline exact: \"A pathway diagram\nis a knowledge summary.\". Body exact: \"It is not the same as evidence\nfrom your experiment.\". Visual: Separate knowledge-summary and experimental-evidence folders; no actual pathway invented.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Give every edge a meaning. Add an edge legend. State the evidence type. Keep uncertainty visible.  Save this network checklist. Small conceptual network beside a clear legend card with relationship types.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic systems-biology. Research constellation: raised paper nodes and taut maroon threads, ivory network cards on forest worktable, no glowing sci-fi effects. Card 6/6. Headline exact: \"Give every edge\na meaning.\". Body exact: \"Add an edge legend.\nState the evidence type.\nKeep uncertainty visible.\n\nSave this network checklist.\". Visual: Small conceptual network beside a clear legend card with relationship types.. Footer number \"6/6\"."
+    }
+  ]
+}

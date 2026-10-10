@@ -1,0 +1,9 @@
+One peak is not automatically one named metabolite.
+
+Metabolomics studies small molecules in biological samples. Measured features can include signals without confident compound identities.
+
+Identification confidence and sample handling affect interpretation.
+
+Save: feature detected ≠ compound confirmed.
+
+#Bioinformatics #ANGSUMI #Metabolomics #LifeScience #ResearchData

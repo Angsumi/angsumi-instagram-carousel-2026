@@ -1,0 +1,9 @@
+A tree is a hypothesis about relationships.
+
+Choose comparable sequences before building an alignment. Alignment choices affect which positions can be compared.
+
+Bootstrap support describes recurrence under resampling, not proof of every biological claim.
+
+Ask what the tree was built from before interpreting it.
+
+#Bioinformatics #ANGSUMI #Phylogenetics #LifeScience #ResearchData

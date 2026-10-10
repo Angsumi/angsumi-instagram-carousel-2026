@@ -1,0 +1,9 @@
+A network edge is not always a direct interaction.
+
+Networks can represent physical interactions, regulation or statistical associations. Nodes and edges must have explicit meanings.
+
+A pathway diagram summarizes knowledge; it is not your experiment.
+
+Label the meaning of every edge in your next figure.
+
+#Bioinformatics #ANGSUMI #Systemsbiology #LifeScience #ResearchData

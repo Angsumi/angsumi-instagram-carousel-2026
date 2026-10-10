@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-18",
+  "day": 11,
+  "topic": "Phylogenetics",
+  "searchPhrase": "phylogenetics beginner bioinformatics",
+  "sources": [
+    "https://www.ebi.ac.uk/jdispatcher/docs/",
+    "https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-a-phylogeny/aspects-of-phylogenies/confidence/"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "A tree is a hypothesis about relationships. PHYLOGENETICS Read the evidence behind the branches. A three-tip conceptual paper branching tree with no support values; small conceptual tree label.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic phylogenetics. Branching archive: precise sculptural tree made of paper branches, sequence folios, maroon and forest on ivory. Trees have three abstract tips A B C, no taxonomy or invented support values. Card 1/6. Headline exact: \"A tree is a hypothesis\nabout relationships.\". Body exact: \"PHYLOGENETICS\nRead the evidence behind the branches.\". Visual: A three-tip conceptual paper branching tree with no support values; small conceptual tree label.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "Start with comparable sequences. Choose sequences suitable for your biological question. Three sequence folios aligned conceptually, abstract coloured blocks no random letters.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic phylogenetics. Branching archive: precise sculptural tree made of paper branches, sequence folios, maroon and forest on ivory. Trees have three abstract tips A B C, no taxonomy or invented support values. Card 2/6. Headline exact: \"Start with\ncomparable sequences.\". Body exact: \"Choose sequences suitable for\nyour biological question.\". Visual: Three sequence folios aligned conceptually, abstract coloured blocks no random letters.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "Alignment choices shape the comparison. Which positions can we meaningfully compare? Short abstract sequence strips with one highlighted comparable column; no computed sequence data.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic phylogenetics. Branching archive: precise sculptural tree made of paper branches, sequence folios, maroon and forest on ivory. Trees have three abstract tips A B C, no taxonomy or invented support values. Card 3/6. Headline exact: \"Alignment choices\nshape the comparison.\". Body exact: \"Which positions can we\nmeaningfully compare?\". Visual: Short abstract sequence strips with one highlighted comparable column; no computed sequence data.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "Models and data shape the tree. Tree inference depends on the model and input supplied. Data folio and model note feeding a conceptual tree; no claimed definitive evolution.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic phylogenetics. Branching archive: precise sculptural tree made of paper branches, sequence folios, maroon and forest on ivory. Trees have three abstract tips A B C, no taxonomy or invented support values. Card 4/6. Headline exact: \"Models and data\nshape the tree.\". Body exact: \"Tree inference depends on the\nmodel and input supplied.\". Visual: Data folio and model note feeding a conceptual tree; no claimed definitive evolution.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "Read branch support for what it measures. Bootstrap support reflects recurrence under resampling\u2014not proof of every biological claim. Repeated conceptual alignment cards and branch motif; no numeric support or probability.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic phylogenetics. Branching archive: precise sculptural tree made of paper branches, sequence folios, maroon and forest on ivory. Trees have three abstract tips A B C, no taxonomy or invented support values. Card 5/6. Headline exact: \"Read branch support\nfor what it measures.\". Body exact: \"Bootstrap support reflects recurrence\nunder resampling\u2014not proof of\nevery biological claim.\". Visual: Repeated conceptual alignment cards and branch motif; no numeric support or probability.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Before interpreting, ask what built it. Which sequences? Which alignment? Which model and support method?  Save this tree checklist. Three labelled index cards sequences alignment model/support around an abstract tree.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic phylogenetics. Branching archive: precise sculptural tree made of paper branches, sequence folios, maroon and forest on ivory. Trees have three abstract tips A B C, no taxonomy or invented support values. Card 6/6. Headline exact: \"Before interpreting,\nask what built it.\". Body exact: \"Which sequences?\nWhich alignment?\nWhich model and support method?\n\nSave this tree checklist.\". Visual: Three labelled index cards sequences alignment model/support around an abstract tree.. Footer number \"6/6\"."
+    }
+  ]
+}

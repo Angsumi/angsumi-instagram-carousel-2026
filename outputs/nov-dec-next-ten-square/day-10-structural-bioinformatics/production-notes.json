@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-17",
+  "day": 10,
+  "topic": "Structural bioinformatics",
+  "searchPhrase": "structural bioinformatics beginner bioinformatics",
+  "sources": [
+    "https://www.alphafold.ebi.ac.uk/faq",
+    "https://www.alphafold.ebi.ac.uk/faq"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "A beautiful protein model is still a model. STRUCTURAL BIOINFORMATICS Separate prediction from evidence. Large elegant ribbon sculpture on charcoal plinth with paper tag model; dramatic lighting.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic structural-bioinformatics. Protein sculpture gallery: dimensional ivory and maroon ribbon model on charcoal cover, cream museum evidence labels, warm directional light. Card 1/6. Headline exact: \"A beautiful protein model\nis still a model.\". Body exact: \"STRUCTURAL BIOINFORMATICS\nSeparate prediction from evidence.\". Visual: Large elegant ribbon sculpture on charcoal plinth with paper tag model; dramatic lighting.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "Sequence. Structure. Function. Structural bioinformatics studies how these layers relate. Three ivory gallery labels sequence structure function beside a ribbon; no unqualified deterministic causal arrows.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic structural-bioinformatics. Protein sculpture gallery: dimensional ivory and maroon ribbon model on charcoal cover, cream museum evidence labels, warm directional light. Card 2/6. Headline exact: \"Sequence.\nStructure. Function.\". Body exact: \"Structural bioinformatics studies\nhow these layers relate.\". Visual: Three ivory gallery labels sequence structure function beside a ribbon; no unqualified deterministic causal arrows.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "Measured or predicted? Experimental structures and predictions have different evidence bases. Two clearly separate framed evidence cards experiment and prediction; no fake coordinates or results.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic structural-bioinformatics. Protein sculpture gallery: dimensional ivory and maroon ribbon model on charcoal cover, cream museum evidence labels, warm directional light. Card 3/6. Headline exact: \"Measured or\npredicted?\". Body exact: \"Experimental structures and predictions\nhave different evidence bases.\". Visual: Two clearly separate framed evidence cards experiment and prediction; no fake coordinates or results.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "Confidence varies within a model. Some protein regions may be predicted more confidently than others. Ribbon with two paper-texture treatments, annotations region A and region B only; no fake confidence scale or values.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic structural-bioinformatics. Protein sculpture gallery: dimensional ivory and maroon ribbon model on charcoal cover, cream museum evidence labels, warm directional light. Card 4/6. Headline exact: \"Confidence varies\nwithin a model.\". Body exact: \"Some protein regions may be\npredicted more confidently than others.\". Visual: Ribbon with two paper-texture treatments, annotations region A and region B only; no fake confidence scale or values.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "A fold does not prove every function. A predicted structure does not prove binding or an experimental phenotype. Ribbon model next to unopened binding and phenotype evidence folders; no ligand shown binding.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic structural-bioinformatics. Protein sculpture gallery: dimensional ivory and maroon ribbon model on charcoal cover, cream museum evidence labels, warm directional light. Card 5/6. Headline exact: \"A fold does not\nprove every function.\". Body exact: \"A predicted structure does not prove\nbinding or an experimental phenotype.\". Visual: Ribbon model next to unopened binding and phenotype evidence folders; no ligand shown binding.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Keep model and evidence separate. What was predicted? How confident is it? What evidence tests the claim?  Save this model checklist. Three cream evidence checklist cards on charcoal with a small maroon ribbon.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic structural-bioinformatics. Protein sculpture gallery: dimensional ivory and maroon ribbon model on charcoal cover, cream museum evidence labels, warm directional light. Card 6/6. Headline exact: \"Keep model and\nevidence separate.\". Body exact: \"What was predicted?\nHow confident is it?\nWhat evidence tests the claim?\n\nSave this model checklist.\". Visual: Three cream evidence checklist cards on charcoal with a small maroon ribbon.. Footer number \"6/6\"."
+    }
+  ]
+}

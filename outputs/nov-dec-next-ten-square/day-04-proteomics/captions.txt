@@ -1,0 +1,9 @@
+More RNA does not guarantee more protein.
+
+Proteomics investigates proteins, their quantities and modifications. Mass spectrometry commonly measures peptides that support protein identification.
+
+Protein abundance depends on processes beyond RNA abundance.
+
+Share with someone planning an RNA-only explanation.
+
+#Bioinformatics #ANGSUMI #Proteomics #LifeScience #ResearchData

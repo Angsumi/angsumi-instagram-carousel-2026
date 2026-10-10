@@ -1,0 +1,9 @@
+A beautiful protein model is still a model.
+
+Structural bioinformatics relates molecular sequence, structure and function. Experimental structures and predictions have different evidence bases.
+
+A predicted fold does not prove binding or an experimental phenotype.
+
+Save the model-versus-evidence distinction.
+
+#Bioinformatics #ANGSUMI #Structuralbioinformatics #LifeScience #ResearchData

@@ -1,0 +1,9 @@
+One average can hide several cell populations.
+
+Single-cell assays measure many individual cells rather than a bulk average. A cell-by-feature matrix is a starting point, not an interpretation.
+
+Clusters need evidence-based annotation; a cluster number is not a cell identity.
+
+Sketch two populations that could produce the same average.
+
+#Bioinformatics #ANGSUMI #Singlecellanalysis #LifeScience #ResearchData

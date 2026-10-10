@@ -1,0 +1,9 @@
+What if your data kept its address?
+
+Spatial assays connect molecular measurements with tissue location. Some methods measure spots containing mixtures; others resolve individual cells.
+
+Resolution and segmentation constrain the conclusions you can draw.
+
+Ask: what is the actual measurement unit?
+
+#Bioinformatics #ANGSUMI #Spatialomics #LifeScience #ResearchData

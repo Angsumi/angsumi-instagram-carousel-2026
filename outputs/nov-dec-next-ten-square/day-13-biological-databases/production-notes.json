@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-20",
+  "day": 13,
+  "topic": "Biological databases",
+  "searchPhrase": "biological databases beginner bioinformatics",
+  "sources": [
+    "https://www.ebi.ac.uk/training/online/courses/bioinformatics-terrified/",
+    "https://mart.ensembl.org/info/genome/stable_ids/index.html"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "Same gene name. Different organism. Big problem. BIOLOGICAL DATABASES Check the record before copying. Two catalog cards with different organism silhouettes and same generic name field; no actual organism accession.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic biological-databases. Biological passport archive: ivory library catalog cards, maroon stamps and forest dividers; identifiers as conceptual placeholders, never fake real accession numbers. Card 1/6. Headline exact: \"Same gene name.\nDifferent organism.\nBig problem.\". Body exact: \"BIOLOGICAL DATABASES\nCheck the record before copying.\". Visual: Two catalog cards with different organism silhouettes and same generic name field; no actual organism accession.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "Check the organism first. Verify species and the database record before using an identifier. Organism field highlighted on a conceptual record, specimen silhouette and evidence folder.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic biological-databases. Biological passport archive: ivory library catalog cards, maroon stamps and forest dividers; identifiers as conceptual placeholders, never fake real accession numbers. Card 2/6. Headline exact: \"Check the\norganism first.\". Body exact: \"Verify species and the database record\nbefore using an identifier.\". Visual: Organism field highlighted on a conceptual record, specimen silhouette and evidence folder.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "Gene, transcript or protein? These are different record types. Choose the identifier your task needs. Three clearly distinct catalog tabs gene transcript protein; no universal one-to-one diagram.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic biological-databases. Biological passport archive: ivory library catalog cards, maroon stamps and forest dividers; identifiers as conceptual placeholders, never fake real accession numbers. Card 3/6. Headline exact: \"Gene, transcript\nor protein?\". Body exact: \"These are different record types.\nChoose the identifier your task needs.\". Visual: Three clearly distinct catalog tabs gene transcript protein; no universal one-to-one diagram.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "Keep the version with the record. Record accession versions and database release when available. Conceptual catalog card with fields accession version release, blanks only no fabricated values.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic biological-databases. Biological passport archive: ivory library catalog cards, maroon stamps and forest dividers; identifiers as conceptual placeholders, never fake real accession numbers. Card 4/6. Headline exact: \"Keep the version\nwith the record.\". Body exact: \"Record accession versions and\ndatabase release when available.\". Visual: Conceptual catalog card with fields accession version release, blanks only no fabricated values.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "A label is not always a unique identifier. Display names and stable identifiers serve different purposes. Two catalogue tags name and stable ID side by side; no real accession.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic biological-databases. Biological passport archive: ivory library catalog cards, maroon stamps and forest dividers; identifiers as conceptual placeholders, never fake real accession numbers. Card 5/6. Headline exact: \"A label is not always\na unique identifier.\". Body exact: \"Display names and stable identifiers\nserve different purposes.\". Visual: Two catalogue tags name and stable ID side by side; no real accession.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Save your identifier checklist. Organism \u2713 Record type \u2713 Identifier and version \u2713 Database release \u2713 Four-line archive checklist on ivory with a maroon bookmark.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic biological-databases. Biological passport archive: ivory library catalog cards, maroon stamps and forest dividers; identifiers as conceptual placeholders, never fake real accession numbers. Card 6/6. Headline exact: \"Save your\nidentifier checklist.\". Body exact: \"Organism \u2713\nRecord type \u2713\nIdentifier and version \u2713\nDatabase release \u2713\". Visual: Four-line archive checklist on ivory with a maroon bookmark.. Footer number \"6/6\"."
+    }
+  ]
+}

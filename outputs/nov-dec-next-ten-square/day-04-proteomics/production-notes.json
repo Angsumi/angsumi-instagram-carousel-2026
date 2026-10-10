@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-11",
+  "day": 4,
+  "topic": "Proteomics",
+  "searchPhrase": "proteomics beginner bioinformatics",
+  "sources": [
+    "https://www.ebi.ac.uk/training/events/proteomics-bioinformatics-2026/",
+    "https://www.ebi.ac.uk/training/online/courses/methods-and-resources-for-omics-studies/proteomics/mass-spectrometry-based-proteomics/"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "More RNA does not guarantee more protein. PROTEOMICS A different layer of evidence. Two distinct evidence folders RNA and protein, separated by an open gap; no causal or proportional diagram.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic proteomics. Peptide evidence cabinet; folded protein ribbon models, ivory specimen cards on forest desk; restrained botanical shadows. Card 1/6. Headline exact: \"More RNA does not\nguarantee more protein.\". Body exact: \"PROTEOMICS\nA different layer of evidence.\". Visual: Two distinct evidence folders RNA and protein, separated by an open gap; no causal or proportional diagram.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "Meet the proteome. Proteomics investigates proteins, their quantities and modifications. Three specimen tabs labelled proteins, quantities, modifications beside a tactile folded ribbon.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic proteomics. Peptide evidence cabinet; folded protein ribbon models, ivory specimen cards on forest desk; restrained botanical shadows. Card 2/6. Headline exact: \"Meet the proteome.\". Body exact: \"Proteomics investigates proteins,\ntheir quantities and modifications.\". Visual: Three specimen tabs labelled proteins, quantities, modifications beside a tactile folded ribbon.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "Peptides leave clues. Mass spectrometry commonly measures peptides that support protein identification. Protein ribbon and separate smaller peptide pieces connected to an evidence folder, not an invented spectrum.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic proteomics. Peptide evidence cabinet; folded protein ribbon models, ivory specimen cards on forest desk; restrained botanical shadows. Card 3/6. Headline exact: \"Peptides leave clues.\". Body exact: \"Mass spectrometry commonly measures\npeptides that support protein identification.\". Visual: Protein ribbon and separate smaller peptide pieces connected to an evidence folder, not an invented spectrum.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "Identity and quantity are different questions. IDENTIFICATION: what was detected? QUANTIFICATION: how much signal? Two elegant ledger pages with the exact two question labels. No invented numbers.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic proteomics. Peptide evidence cabinet; folded protein ribbon models, ivory specimen cards on forest desk; restrained botanical shadows. Card 4/6. Headline exact: \"Identity and quantity\nare different questions.\". Body exact: \"IDENTIFICATION: what was detected?\nQUANTIFICATION: how much signal?\". Visual: Two elegant ledger pages with the exact two question labels. No invented numbers.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "RNA is only part of the story. Protein abundance also depends on translation and protein turnover. Separate conceptual RNA, translation and protein-turnover tiles; no claim that every effect is direct.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic proteomics. Peptide evidence cabinet; folded protein ribbon models, ivory specimen cards on forest desk; restrained botanical shadows. Card 5/6. Headline exact: \"RNA is only\npart of the story.\". Body exact: \"Protein abundance also depends on\ntranslation and protein turnover.\". Visual: Separate conceptual RNA, translation and protein-turnover tiles; no claim that every effect is direct.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Choose your protein question. What was identified? What was quantified? What evidence supports it?  Save this proteomics checklist. Three-line cream checklist beside a protein ribbon.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic proteomics. Peptide evidence cabinet; folded protein ribbon models, ivory specimen cards on forest desk; restrained botanical shadows. Card 6/6. Headline exact: \"Choose your\nprotein question.\". Body exact: \"What was identified?\nWhat was quantified?\nWhat evidence supports it?\n\nSave this proteomics checklist.\". Visual: Three-line cream checklist beside a protein ribbon.. Footer number \"6/6\"."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "day": 4,
+    "date": "2026-11-11",
+    "topic": "Proteomics",
+    "folder": "day-04-proteomics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 5,
+    "date": "2026-11-12",
+    "topic": "Metabolomics",
+    "folder": "day-05-metabolomics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 6,
+    "date": "2026-11-13",
+    "topic": "Epigenomics",
+    "folder": "day-06-epigenomics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 7,
+    "date": "2026-11-14",
+    "topic": "Metagenomics",
+    "folder": "day-07-metagenomics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 8,
+    "date": "2026-11-15",
+    "topic": "Single-cell analysis",
+    "folder": "day-08-single-cell-analysis",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 9,
+    "date": "2026-11-16",
+    "topic": "Spatial omics",
+    "folder": "day-09-spatial-omics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 10,
+    "date": "2026-11-17",
+    "topic": "Structural bioinformatics",
+    "folder": "day-10-structural-bioinformatics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 11,
+    "date": "2026-11-18",
+    "topic": "Phylogenetics",
+    "folder": "day-11-phylogenetics",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 12,
+    "date": "2026-11-19",
+    "topic": "Systems biology",
+    "folder": "day-12-systems-biology",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  },
+  {
+    "day": 13,
+    "date": "2026-11-20",
+    "topic": "Biological databases",
+    "folder": "day-13-biological-databases",
+    "cards": 6,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "status": "Created; not published"
+  }
+]

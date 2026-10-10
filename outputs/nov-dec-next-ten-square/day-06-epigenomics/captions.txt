@@ -1,0 +1,9 @@
+Same DNA sequence. Different regulatory landscape.
+
+Epigenomics investigates features such as chromatin accessibility and DNA methylation. Accessibility and methylation assays measure different properties.
+
+An association with expression does not by itself prove regulation.
+
+Pick the assay before picking the software.
+
+#Bioinformatics #ANGSUMI #Epigenomics #LifeScience #ResearchData

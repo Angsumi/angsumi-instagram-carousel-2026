@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-13",
+  "day": 6,
+  "topic": "Epigenomics",
+  "searchPhrase": "epigenomics beginner bioinformatics",
+  "sources": [
+    "https://www.ebi.ac.uk/training/online/courses/functional-genomics-i-introduction-and-design/common-study-types-in-functional-genomics/epigenetic-profiling/",
+    "https://www.ebi.ac.uk/training/online/courses/functional-genomics-i-introduction-and-design/common-study-types-in-functional-genomics/epigenetic-profiling/"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "Same DNA sequence. Different regulatory landscape. EPIGENOMICS Look beyond sequence alone. A single conceptual DNA thread passing through two different folded chromatin-paper landscapes; no gene on/off assertion.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic epigenomics. Tactile chromatin landscape: ivory folded topographic maps, maroon DNA thread, sage paper layers; scientific editorial. Card 1/6. Headline exact: \"Same DNA sequence.\nDifferent regulatory landscape.\". Body exact: \"EPIGENOMICS\nLook beyond sequence alone.\". Visual: A single conceptual DNA thread passing through two different folded chromatin-paper landscapes; no gene on/off assertion.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "What are we investigating? Chromatin accessibility, DNA methylation and related features. DNA thread with distinct accessibility window and tiny methylation tag represented conceptually; label only approved terms.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic epigenomics. Tactile chromatin landscape: ivory folded topographic maps, maroon DNA thread, sage paper layers; scientific editorial. Card 2/6. Headline exact: \"What are we\ninvestigating?\". Body exact: \"Chromatin accessibility,\nDNA methylation and related features.\". Visual: DNA thread with distinct accessibility window and tiny methylation tag represented conceptually; label only approved terms.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "Different assays. Different properties. Accessibility and methylation assays do not measure the same thing. Two separate evidence windows labelled accessibility and methylation; no causal arrow between them.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic epigenomics. Tactile chromatin landscape: ivory folded topographic maps, maroon DNA thread, sage paper layers; scientific editorial. Card 3/6. Headline exact: \"Different assays.\nDifferent properties.\". Body exact: \"Accessibility and methylation assays\ndo not measure the same thing.\". Visual: Two separate evidence windows labelled accessibility and methylation; no causal arrow between them.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "Context changes the interpretation. Read regulatory signals in their tissue and experimental context. Specimen notebook with tissue and experiment context tabs.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic epigenomics. Tactile chromatin landscape: ivory folded topographic maps, maroon DNA thread, sage paper layers; scientific editorial. Card 4/6. Headline exact: \"Context changes\nthe interpretation.\". Body exact: \"Read regulatory signals in their\ntissue and experimental context.\". Visual: Specimen notebook with tissue and experiment context tabs.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "Association does not prove regulation. An expression association alone cannot establish a regulatory mechanism. Separate regulatory-feature and RNA evidence cards, linked by dotted association line only; tiny label association.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic epigenomics. Tactile chromatin landscape: ivory folded topographic maps, maroon DNA thread, sage paper layers; scientific editorial. Card 5/6. Headline exact: \"Association does not\nprove regulation.\". Body exact: \"An expression association alone\ncannot establish a regulatory mechanism.\". Visual: Separate regulatory-feature and RNA evidence cards, linked by dotted association line only; tiny label association.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Pick the assay before the software. Which property do I need to measure? Which assay measures it?  Save this question pair. Two large paper question cards and restrained DNA thread.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic epigenomics. Tactile chromatin landscape: ivory folded topographic maps, maroon DNA thread, sage paper layers; scientific editorial. Card 6/6. Headline exact: \"Pick the assay\nbefore the software.\". Body exact: \"Which property do I need to measure?\nWhich assay measures it?\n\nSave this question pair.\". Visual: Two large paper question cards and restrained DNA thread.. Footer number \"6/6\"."
+    }
+  ]
+}

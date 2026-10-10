@@ -1,0 +1,9 @@
+Same gene name. Different organism. Big problem.
+
+Check the organism before copying a database record. Distinguish gene, transcript and protein identifiers.
+
+A display label is not always a stable unique identifier.
+
+Save an identifier checklist for your next analysis.
+
+#Bioinformatics #ANGSUMI #Biologicaldatabases #LifeScience #ResearchData

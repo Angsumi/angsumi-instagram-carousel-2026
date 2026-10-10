@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "day": 8,
+  "topic": "Single-cell analysis",
+  "searchPhrase": "single-cell analysis beginner bioinformatics",
+  "sources": [
+    "https://training.galaxyproject.org/training-material/topics/single-cell/",
+    "https://training.galaxyproject.org/training-material/topics/single-cell/"
+  ],
+  "generator": "built-in image_gen",
+  "dimensions": {
+    "originals": [
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ],
+      [
+        1254,
+        1254
+      ]
+    ],
+    "delivery": [
+      1080,
+      1080
+    ]
+  },
+  "cards": [
+    {
+      "altText": "One average can hide several cell populations. SINGLE-CELL ANALYSIS Look beyond the bulk view. A single cream envelope hiding multiple visibly different cell mosaics; no numerical plot.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic single-cell-analysis. Cell mosaic archive: translucent paper cells on sage and ivory, maroon cells for highlights; compare bulk envelope with individual specimen windows. Card 1/6. Headline exact: \"One average can hide\nseveral cell populations.\". Body exact: \"SINGLE-CELL ANALYSIS\nLook beyond the bulk view.\". Visual: A single cream envelope hiding multiple visibly different cell mosaics; no numerical plot.. Footer number \"1/6\"."
+    },
+    {
+      "altText": "Measure individual cells. Single-cell assays capture information from many individual cells, rather than only a bulk average. Several separate cell specimen windows versus one mixed envelope; conceptual illustration.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic single-cell-analysis. Cell mosaic archive: translucent paper cells on sage and ivory, maroon cells for highlights; compare bulk envelope with individual specimen windows. Card 2/6. Headline exact: \"Measure individual\ncells.\". Body exact: \"Single-cell assays capture information\nfrom many individual cells,\nrather than only a bulk average.\". Visual: Several separate cell specimen windows versus one mixed envelope; conceptual illustration.. Footer number \"2/6\"."
+    },
+    {
+      "altText": "A matrix is a starting point. A cell-by-feature matrix needs quality checks and interpretation. Empty conceptual matrix labelled cells and features; no numbers or heatmap values; small conceptual layout label.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic single-cell-analysis. Cell mosaic archive: translucent paper cells on sage and ivory, maroon cells for highlights; compare bulk envelope with individual specimen windows. Card 3/6. Headline exact: \"A matrix is\na starting point.\". Body exact: \"A cell-by-feature matrix needs\nquality checks and interpretation.\". Visual: Empty conceptual matrix labelled cells and features; no numbers or heatmap values; small conceptual layout label.. Footer number \"3/6\"."
+    },
+    {
+      "altText": "Check what entered the analysis. Quality, doublets and technical variation can influence downstream results. Three distinct checklist tiles quality, doublets, technical variation; doublet shown as two captured cells conceptually.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic single-cell-analysis. Cell mosaic archive: translucent paper cells on sage and ivory, maroon cells for highlights; compare bulk envelope with individual specimen windows. Card 4/6. Headline exact: \"Check what entered\nthe analysis.\". Body exact: \"Quality, doublets and technical variation\ncan influence downstream results.\". Visual: Three distinct checklist tiles quality, doublets, technical variation; doublet shown as two captured cells conceptually.. Footer number \"4/6\"."
+    },
+    {
+      "altText": "A cluster number is not a cell identity. Cell annotation needs evidence, not just a coloured group. A grouped mosaic with blank identity tag and separate evidence notebook; no real cell-type label.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic single-cell-analysis. Cell mosaic archive: translucent paper cells on sage and ivory, maroon cells for highlights; compare bulk envelope with individual specimen windows. Card 5/6. Headline exact: \"A cluster number\nis not a cell identity.\". Body exact: \"Cell annotation needs evidence,\nnot just a coloured group.\". Visual: A grouped mosaic with blank identity tag and separate evidence notebook; no real cell-type label.. Footer number \"5/6\"."
+    },
+    {
+      "altText": "Ask what the average hides. Could different cell populations produce a similar bulk summary?  Sketch your explanation. Two conceptual mixed-cell trays and blank sketch notebook; no quantities or claimed equivalent computed values.",
+      "prompt": "Use case: scientific-educational. Make ONE finished Instagram carousel card, SQUARE 1:1 aspect ratio requested 1080x1080. Full bleed with 80px safe margins. ANGSUMI premium editorial identity: ivory #F7F2E8, maroon #6F2437, forest #304939, sage #94A58B, charcoal. Oversized expressive serif headline; clean readable sans-serif supporting text; generous space, compelling tactile three-dimensional paper scientific metaphor. Brand top ANGSUMI; footer @angsumi.online and supplied card number. Use only EXACT supplied headline and body and explicitly requested tiny conceptual label. No extra handwritten notes, slogans, equations, percentages, fake data, graph values, invented accession IDs or watermarks. Conceptual teaching illustrations, never pretend these are actual analysis results. No collage of several cards: one square card only. Topic single-cell-analysis. Cell mosaic archive: translucent paper cells on sage and ivory, maroon cells for highlights; compare bulk envelope with individual specimen windows. Card 6/6. Headline exact: \"Ask what the\naverage hides.\". Body exact: \"Could different cell populations\nproduce a similar bulk summary?\n\nSketch your explanation.\". Visual: Two conceptual mixed-cell trays and blank sketch notebook; no quantities or claimed equivalent computed values.. Footer number \"6/6\"."
+    }
+  ]
+}
